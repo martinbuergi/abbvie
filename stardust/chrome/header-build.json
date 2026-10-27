@@ -1,0 +1,5361 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--4b3558cc--aemcoder.aem.page/who-we-are/brand-partnerships/pga-tour",
+ "at": "2026-10-26T15:09:46.429Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "390": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(1)>a",
+     "href": "https://www.abbvie.com/",
+     "expanded": null,
+     "rect": [
+      35,
+      28,
+      88,
+      16
+     ],
+     "actions": {}
+    },
+    {
+     "name": "search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      282,
+      1,
+      34,
+      69
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Open navigation",
+     "key": "open navigation",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#nav>div:nth-of-type(4)>button",
+     "expanded": null,
+     "rect": [
+      332,
+      30,
+      24,
+      13
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Who We Are",
+         "Science",
+         "Patients",
+         "Join Us",
+         "Sustainability",
+         "Quick Links",
+         "GLOBAL"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         72,
+         390,
+         772
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span"
+        }
+       ],
+       "shot": "390-001-Open-navigation-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Who We Are",
+         "Science",
+         "Patients",
+         "Join Us",
+         "Sustainability",
+         "Quick Links",
+         "GLOBAL"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         72,
+         390,
+         772
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span"
+        }
+       ],
+       "shot": "390-002-Open-navigation-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Who We Are",
+       "key": "who we are",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        35,
+        72,
+        320,
+        88
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           0,
+           69,
+           72
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-003-Who-We-Are-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           0,
+           69,
+           72
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-004-Who-We-Are-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "BACK",
+         "key": "back",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          35,
+          24,
+          69,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-005-BACK-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-006-BACK-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "name": "Science",
+       "key": "science",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        35,
+        161,
+        320,
+        88
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           0,
+           69,
+           72
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-007-Science-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           0,
+           69,
+           72
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-008-Science-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "BACK",
+         "key": "back",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          35,
+          24,
+          69,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-009-BACK-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-010-BACK-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "name": "Patients",
+       "key": "patients",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(4)>button",
+       "expanded": "false",
+       "rect": [
+        35,
+        250,
+        320,
+        88
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           0,
+           69,
+           72
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-011-Patients-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           0,
+           69,
+           72
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-012-Patients-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "BACK",
+         "key": "back",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          35,
+          24,
+          69,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-013-BACK-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-014-BACK-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "name": "Join Us",
+       "key": "join us",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(5)>button",
+       "expanded": "false",
+       "rect": [
+        35,
+        339,
+        320,
+        88
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           0,
+           69,
+           72
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-015-Join-Us-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           0,
+           69,
+           72
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-016-Join-Us-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "BACK",
+         "key": "back",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          35,
+          24,
+          69,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-017-BACK-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-018-BACK-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "name": "Sustainability",
+       "key": "sustainability",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(6)>button",
+       "expanded": "false",
+       "rect": [
+        35,
+        428,
+        320,
+        88
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           0,
+           69,
+           72
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-019-Sustainability-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           0,
+           69,
+           72
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-020-Sustainability-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "BACK",
+         "key": "back",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          35,
+          24,
+          69,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-021-BACK-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-022-BACK-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "name": "Quick Links",
+       "key": "quick links",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(7)>button",
+       "expanded": "false",
+       "rect": [
+        35,
+        517,
+        320,
+        88
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [
+           {
+            "text": "Pipeline",
+            "href": "https://www.abbvie.com/science/pipeline.html"
+           },
+           {
+            "text": "Products",
+            "href": "https://www.abbvie.com/patients/products.html"
+           },
+           {
+            "text": "Partner with Us",
+            "href": "https://www.abbvie.com/science/partner-with-us.html"
+           },
+           {
+            "text": "Patient Support",
+            "href": "https://www.abbvie.com/patients/patient-support.html"
+           },
+           {
+            "text": "Contact Center",
+            "href": "https://www.abbvie.com/contact-center.html"
+           },
+           {
+            "text": "Latest News",
+            "href": "https://news.abbvie.com/"
+           },
+           {
+            "text": "Media Contacts",
+            "href": "https://news.abbvie.com/pr-contacts/"
+           },
+           {
+            "text": "Investors Home",
+            "href": "https://investors.abbvie.com/"
+           },
+           {
+            "text": "Events and Presentations",
+            "href": "https://investors.abbvie.com/events-and-presentations/upcoming-events"
+           },
+           {
+            "text": "Investors Resources",
+            "href": "https://investors.abbvie.com/investor-resources"
+           },
+           {
+            "text": "Contract Manufacturing",
+            "href": "https://www.abbviecontractmfg.com/"
+           },
+           {
+            "text": "Medical Information",
+            "href": "https://www.abbviemedinfo.com/"
+           },
+           {
+            "text": "Facebook",
+            "href": "https://www.facebook.com/AbbVieGlobal"
+           },
+           {
+            "text": "Twitter",
+            "href": "https://twitter.com/abbvie"
+           },
+           {
+            "text": "Instagram",
+            "href": "https://www.instagram.com/abbvie/?hl=en"
+           },
+           {
+            "text": "LinkedIn",
+            "href": "https://www.linkedin.com/company/abbvie"
+           },
+           {
+            "text": "YouTube",
+            "href": "https://www.youtube.com/user/AbbVie"
+           },
+           {
+            "text": "TikTok",
+            "href": "https://www.tiktok.com/@abbvie"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           24,
+           320,
+           820
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-023-Quick-Links-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [
+           {
+            "text": "Pipeline",
+            "href": "https://www.abbvie.com/science/pipeline.html"
+           },
+           {
+            "text": "Products",
+            "href": "https://www.abbvie.com/patients/products.html"
+           },
+           {
+            "text": "Partner with Us",
+            "href": "https://www.abbvie.com/science/partner-with-us.html"
+           },
+           {
+            "text": "Patient Support",
+            "href": "https://www.abbvie.com/patients/patient-support.html"
+           },
+           {
+            "text": "Contact Center",
+            "href": "https://www.abbvie.com/contact-center.html"
+           },
+           {
+            "text": "Latest News",
+            "href": "https://news.abbvie.com/"
+           },
+           {
+            "text": "Media Contacts",
+            "href": "https://news.abbvie.com/pr-contacts/"
+           },
+           {
+            "text": "Investors Home",
+            "href": "https://investors.abbvie.com/"
+           },
+           {
+            "text": "Events and Presentations",
+            "href": "https://investors.abbvie.com/events-and-presentations/upcoming-events"
+           },
+           {
+            "text": "Investors Resources",
+            "href": "https://investors.abbvie.com/investor-resources"
+           },
+           {
+            "text": "Contract Manufacturing",
+            "href": "https://www.abbviecontractmfg.com/"
+           },
+           {
+            "text": "Medical Information",
+            "href": "https://www.abbviemedinfo.com/"
+           },
+           {
+            "text": "Facebook",
+            "href": "https://www.facebook.com/AbbVieGlobal"
+           },
+           {
+            "text": "Twitter",
+            "href": "https://twitter.com/abbvie"
+           },
+           {
+            "text": "Instagram",
+            "href": "https://www.instagram.com/abbvie/?hl=en"
+           },
+           {
+            "text": "LinkedIn",
+            "href": "https://www.linkedin.com/company/abbvie"
+           },
+           {
+            "text": "YouTube",
+            "href": "https://www.youtube.com/user/AbbVie"
+           },
+           {
+            "text": "TikTok",
+            "href": "https://www.tiktok.com/@abbvie"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           24,
+           320,
+           820
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-024-Quick-Links-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "BACK",
+         "key": "back",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          35,
+          24,
+          69,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 19,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-025-BACK-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 19,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-026-BACK-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "name": "GLOBAL",
+       "key": "global",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(8)>button",
+       "expanded": "false",
+       "rect": [
+        35,
+        606,
+        320,
+        88
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [
+           {
+            "text": "Algeria",
+            "href": "https://www.abbvie.com/contact-center/locations/algeria.html"
+           },
+           {
+            "text": "South Africa and Sub-Saharan Africa",
+            "href": "https://www.abbvie.com/contact-center/locations/south-africa-and-sub-saharan-africa.html"
+           },
+           {
+            "text": "Tunisia",
+            "href": "https://www.abbvie.com/contact-center/locations/tunisia.html"
+           },
+           {
+            "text": "Australia",
+            "href": "https://www.abbvie.com.au/"
+           },
+           {
+            "text": "China",
+            "href": "https://www.abbvie.com.cn/"
+           },
+           {
+            "text": "Hong Kong",
+            "href": "https://www.abbvie.com.hk/"
+           },
+           {
+            "text": "India",
+            "href": "https://www.abbvie.in/"
+           },
+           {
+            "text": "Japan",
+            "href": "https://www.abbvie.co.jp/"
+           },
+           {
+            "text": "Korea",
+            "href": "https://www.abbvie.co.kr/"
+           },
+           {
+            "text": "Malaysia",
+            "href": "https://www.abbvie.com.my/"
+           },
+           {
+            "text": "New Zealand",
+            "href": "https://www.abbvie.co.nz/"
+           },
+           {
+            "text": "Singapore",
+            "href": "https://www.abbvie.com.sg/"
+           },
+           {
+            "text": "Taiwan",
+            "href": "https://www.abbvie.com.tw/"
+           },
+           {
+            "text": "Austria",
+            "href": "https://www.abbvie.at/"
+           },
+           {
+            "text": "Belgium (French)",
+            "href": "https://www.abbvie.be/"
+           },
+           {
+            "text": "Belgium (Dutch)",
+            "href": "https://www.abbvie.be/nl.html"
+           },
+           {
+            "text": "Bosnia & Herzegovina",
+            "href": "https://www.abbvie.com/contact-center/locations/bosnia-and-herzegovina.html"
+           },
+           {
+            "text": "Bulgaria",
+            "href": "https://www.abbvie.bg/"
+           },
+           {
+            "text": "Croatia",
+            "href": "https://www.abbvie.com/contact-center/locations/croatia.html"
+           },
+           {
+            "text": "Czech Republic",
+            "href": "https://www.abbvie.cz/"
+           },
+           {
+            "text": "Denmark",
+            "href": "https://www.abbvie.dk/"
+           },
+           {
+            "text": "Estonia",
+            "href": "https://www.abbvie.com/contact-center/locations/estonia.html"
+           },
+           {
+            "text": "Finland",
+            "href": "https://www.abbvie.fi/"
+           },
+           {
+            "text": "France",
+            "href": "https://www.abbvie.fr/"
+           },
+           {
+            "text": "Germany",
+            "href": "https://www.abbvie.de/"
+           },
+           {
+            "text": "Greece",
+            "href": "https://www.abbvie.gr/"
+           },
+           {
+            "text": "Hungary",
+            "href": "https://www.abbvie.hu/"
+           },
+           {
+            "text": "Ireland",
+            "href": "https://www.abbvie.ie/"
+           },
+           {
+            "text": "Italy",
+            "href": "https://www.abbvie.it/"
+           },
+           {
+            "text": "Latvia",
+            "href": "https://www.abbvie.com/contact-center/locations/latvia.html"
+           },
+           {
+            "text": "Lithuania",
+            "href": "https://www.abbvie.com/contact-center/locations/lithuania.html"
+           },
+           {
+            "text": "Netherlands",
+            "href": "https://www.abbvie.nl/"
+           },
+           {
+            "text": "Norway",
+            "href": "https://www.abbvie.no/"
+           },
+           {
+            "text": "Poland",
+            "href": "https://www.abbvie.pl/"
+           },
+           {
+            "text": "Portugal",
+            "href": "https://www.abbvie.pt/"
+           },
+           {
+            "text": "Romania",
+            "href": "https://www.abbvie.com/contact-center/locations/romania.html"
+           },
+           {
+            "text": "Russia",
+            "href": "https://www.abbvie.ru/"
+           },
+           {
+            "text": "Serbia",
+            "href": "https://www.abbvie.com/contact-center/locations/serbia.html"
+           },
+           {
+            "text": "Slovakia",
+            "href": "https://www.abbvie.sk/"
+           },
+           {
+            "text": "Slovenia",
+            "href": "https://www.abbvie.com/contact-center/locations/slovenia.html"
+           },
+           {
+            "text": "Spain",
+            "href": "https://www.abbvie.es/"
+           },
+           {
+            "text": "Sweden",
+            "href": "https://www.abbvie.se/"
+           },
+           {
+            "text": "Switzerland (German)",
+            "href": "https://www.abbvie.ch/"
+           },
+           {
+            "text": "Switzerland (French)",
+            "href": "https://www.abbvie.ch/fr.html"
+           },
+           {
+            "text": "Turkey",
+            "href": "https://www.abbvie.com.tr/"
+           },
+           {
+            "text": "Ukraine",
+            "href": "https://www.abbvie.ua/"
+           },
+           {
+            "text": "United Kingdom",
+            "href": "https://www.abbvie.co.uk/"
+           },
+           {
+            "text": "Mexico",
+            "href": "https://www.abbvie.com.mx/"
+           },
+           {
+            "text": "Puerto Rico",
+            "href": "https://www.abbvie.pr/"
+           },
+           {
+            "text": "Israel",
+            "href": "https://www.abbvie.co.il/"
+           },
+           {
+            "text": "Lebanon",
+            "href": "https://www.abbvie.com/contact-center/locations/lebanon.html"
+           },
+           {
+            "text": "Saudi Arabia",
+            "href": "https://www.abbvie.com/contact-center/locations/saudi-arabia.html"
+           },
+           {
+            "text": "United Arab Emirates",
+            "href": "https://www.abbvie.com/contact-center/locations/united-arab-emirates.html"
+           },
+           {
+            "text": "Canada (English)",
+            "href": "https://www.abbvie.ca/"
+           },
+           {
+            "text": "Canada (French)",
+            "href": "https://www.abbvie.ca/fr.html"
+           },
+           {
+            "text": "United States",
+            "href": "https://www.abbvie.com/contact-center/locations/united-states.html"
+           },
+           {
+            "text": "Argentina",
+            "href": "https://www.abbvie.com.ar/"
+           },
+           {
+            "text": "Brazil",
+            "href": "https://www.abbvie.com.br/"
+           },
+           {
+            "text": "Chile",
+            "href": "https://www.abbvie.cl/"
+           },
+           {
+            "text": "Colombia",
+            "href": "https://www.abbvie.com.co/"
+           },
+           {
+            "text": "Uruguay",
+            "href": "https://www.abbvie.com.uy/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           24,
+           320,
+           820
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-027-GLOBAL-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [
+           {
+            "text": "Algeria",
+            "href": "https://www.abbvie.com/contact-center/locations/algeria.html"
+           },
+           {
+            "text": "South Africa and Sub-Saharan Africa",
+            "href": "https://www.abbvie.com/contact-center/locations/south-africa-and-sub-saharan-africa.html"
+           },
+           {
+            "text": "Tunisia",
+            "href": "https://www.abbvie.com/contact-center/locations/tunisia.html"
+           },
+           {
+            "text": "Australia",
+            "href": "https://www.abbvie.com.au/"
+           },
+           {
+            "text": "China",
+            "href": "https://www.abbvie.com.cn/"
+           },
+           {
+            "text": "Hong Kong",
+            "href": "https://www.abbvie.com.hk/"
+           },
+           {
+            "text": "India",
+            "href": "https://www.abbvie.in/"
+           },
+           {
+            "text": "Japan",
+            "href": "https://www.abbvie.co.jp/"
+           },
+           {
+            "text": "Korea",
+            "href": "https://www.abbvie.co.kr/"
+           },
+           {
+            "text": "Malaysia",
+            "href": "https://www.abbvie.com.my/"
+           },
+           {
+            "text": "New Zealand",
+            "href": "https://www.abbvie.co.nz/"
+           },
+           {
+            "text": "Singapore",
+            "href": "https://www.abbvie.com.sg/"
+           },
+           {
+            "text": "Taiwan",
+            "href": "https://www.abbvie.com.tw/"
+           },
+           {
+            "text": "Austria",
+            "href": "https://www.abbvie.at/"
+           },
+           {
+            "text": "Belgium (French)",
+            "href": "https://www.abbvie.be/"
+           },
+           {
+            "text": "Belgium (Dutch)",
+            "href": "https://www.abbvie.be/nl.html"
+           },
+           {
+            "text": "Bosnia & Herzegovina",
+            "href": "https://www.abbvie.com/contact-center/locations/bosnia-and-herzegovina.html"
+           },
+           {
+            "text": "Bulgaria",
+            "href": "https://www.abbvie.bg/"
+           },
+           {
+            "text": "Croatia",
+            "href": "https://www.abbvie.com/contact-center/locations/croatia.html"
+           },
+           {
+            "text": "Czech Republic",
+            "href": "https://www.abbvie.cz/"
+           },
+           {
+            "text": "Denmark",
+            "href": "https://www.abbvie.dk/"
+           },
+           {
+            "text": "Estonia",
+            "href": "https://www.abbvie.com/contact-center/locations/estonia.html"
+           },
+           {
+            "text": "Finland",
+            "href": "https://www.abbvie.fi/"
+           },
+           {
+            "text": "France",
+            "href": "https://www.abbvie.fr/"
+           },
+           {
+            "text": "Germany",
+            "href": "https://www.abbvie.de/"
+           },
+           {
+            "text": "Greece",
+            "href": "https://www.abbvie.gr/"
+           },
+           {
+            "text": "Hungary",
+            "href": "https://www.abbvie.hu/"
+           },
+           {
+            "text": "Ireland",
+            "href": "https://www.abbvie.ie/"
+           },
+           {
+            "text": "Italy",
+            "href": "https://www.abbvie.it/"
+           },
+           {
+            "text": "Latvia",
+            "href": "https://www.abbvie.com/contact-center/locations/latvia.html"
+           },
+           {
+            "text": "Lithuania",
+            "href": "https://www.abbvie.com/contact-center/locations/lithuania.html"
+           },
+           {
+            "text": "Netherlands",
+            "href": "https://www.abbvie.nl/"
+           },
+           {
+            "text": "Norway",
+            "href": "https://www.abbvie.no/"
+           },
+           {
+            "text": "Poland",
+            "href": "https://www.abbvie.pl/"
+           },
+           {
+            "text": "Portugal",
+            "href": "https://www.abbvie.pt/"
+           },
+           {
+            "text": "Romania",
+            "href": "https://www.abbvie.com/contact-center/locations/romania.html"
+           },
+           {
+            "text": "Russia",
+            "href": "https://www.abbvie.ru/"
+           },
+           {
+            "text": "Serbia",
+            "href": "https://www.abbvie.com/contact-center/locations/serbia.html"
+           },
+           {
+            "text": "Slovakia",
+            "href": "https://www.abbvie.sk/"
+           },
+           {
+            "text": "Slovenia",
+            "href": "https://www.abbvie.com/contact-center/locations/slovenia.html"
+           },
+           {
+            "text": "Spain",
+            "href": "https://www.abbvie.es/"
+           },
+           {
+            "text": "Sweden",
+            "href": "https://www.abbvie.se/"
+           },
+           {
+            "text": "Switzerland (German)",
+            "href": "https://www.abbvie.ch/"
+           },
+           {
+            "text": "Switzerland (French)",
+            "href": "https://www.abbvie.ch/fr.html"
+           },
+           {
+            "text": "Turkey",
+            "href": "https://www.abbvie.com.tr/"
+           },
+           {
+            "text": "Ukraine",
+            "href": "https://www.abbvie.ua/"
+           },
+           {
+            "text": "United Kingdom",
+            "href": "https://www.abbvie.co.uk/"
+           },
+           {
+            "text": "Mexico",
+            "href": "https://www.abbvie.com.mx/"
+           },
+           {
+            "text": "Puerto Rico",
+            "href": "https://www.abbvie.pr/"
+           },
+           {
+            "text": "Israel",
+            "href": "https://www.abbvie.co.il/"
+           },
+           {
+            "text": "Lebanon",
+            "href": "https://www.abbvie.com/contact-center/locations/lebanon.html"
+           },
+           {
+            "text": "Saudi Arabia",
+            "href": "https://www.abbvie.com/contact-center/locations/saudi-arabia.html"
+           },
+           {
+            "text": "United Arab Emirates",
+            "href": "https://www.abbvie.com/contact-center/locations/united-arab-emirates.html"
+           },
+           {
+            "text": "Canada (English)",
+            "href": "https://www.abbvie.ca/"
+           },
+           {
+            "text": "Canada (French)",
+            "href": "https://www.abbvie.ca/fr.html"
+           },
+           {
+            "text": "United States",
+            "href": "https://www.abbvie.com/contact-center/locations/united-states.html"
+           },
+           {
+            "text": "Argentina",
+            "href": "https://www.abbvie.com.ar/"
+           },
+           {
+            "text": "Brazil",
+            "href": "https://www.abbvie.com.br/"
+           },
+           {
+            "text": "Chile",
+            "href": "https://www.abbvie.cl/"
+           },
+           {
+            "text": "Colombia",
+            "href": "https://www.abbvie.com.co/"
+           },
+           {
+            "text": "Uruguay",
+            "href": "https://www.abbvie.com.uy/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "BACK"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           24,
+           320,
+           820
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 350,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.nav-panel"
+          }
+         ],
+         "shot": "390-028-GLOBAL-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "BACK",
+         "key": "back",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          35,
+          24,
+          69,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 62,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-029-BACK-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 62,
+           "panel": {
+            "links": [
+             {
+              "text": "",
+              "href": "https://www.abbvie.com/"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             35,
+             28,
+             247,
+             16
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "visibility",
+             "ms": 500,
+             "delay": 500,
+             "easing": "linear",
+             "target": "div.nav-panel"
+            },
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": 500,
+             "delay": 0,
+             "easing": "ease",
+             "target": "div.nav-panel"
+            }
+           ],
+           "shot": "390-030-BACK-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 30,
+   "truncated": null,
+   "loads": 90
+  },
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(1)>a",
+     "href": "https://www.abbvie.com/",
+     "expanded": null,
+     "rect": [
+      55,
+      34,
+      110,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Who We Are",
+     "key": "who we are",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      273,
+      -1,
+      98,
+      89
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        }
+       ],
+       "shot": "1440-001-Who-We-Are-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 389,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        }
+       ],
+       "shot": "1440-002-Who-We-Are-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(2)>div>div>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Science",
+     "key": "science",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      419,
+      -1,
+      63,
+      89
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        }
+       ],
+       "shot": "1440-003-Science-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 389,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        }
+       ],
+       "shot": "1440-004-Science-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(3)>div>div>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Patients",
+     "key": "patients",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(4)>button",
+     "expanded": "false",
+     "rect": [
+      530,
+      -1,
+      66,
+      89
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        }
+       ],
+       "shot": "1440-005-Patients-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 378,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 299,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 299,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        }
+       ],
+       "shot": "1440-006-Patients-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(4)>div>div>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Join Us",
+     "key": "join us",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(5)>button",
+     "expanded": "false",
+     "rect": [
+      644,
+      -1,
+      60,
+      89
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        }
+       ],
+       "shot": "1440-007-Join-Us-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 378,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 299,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 299,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        }
+       ],
+       "shot": "1440-008-Join-Us-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(5)>div>div>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Sustainability",
+     "key": "sustainability",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(6)>button",
+     "expanded": "false",
+     "rect": [
+      752,
+      -1,
+      107,
+      89
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        }
+       ],
+       "shot": "1440-009-Sustainability-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 384,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        }
+       ],
+       "shot": "1440-010-Sustainability-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(2)>ul>li:nth-of-type(6)>div>div>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "MORE",
+     "key": "more",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      1119,
+      1,
+      91,
+      85
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Pipeline",
+          "href": "https://www.abbvie.com/science/pipeline.html"
+         },
+         {
+          "text": "Products",
+          "href": "https://www.abbvie.com/patients/products.html"
+         },
+         {
+          "text": "Partner with Us",
+          "href": "https://www.abbvie.com/science/partner-with-us.html"
+         },
+         {
+          "text": "Patient Support",
+          "href": "https://www.abbvie.com/patients/patient-support.html"
+         },
+         {
+          "text": "Contact Center",
+          "href": "https://www.abbvie.com/contact-center.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE",
+         "Popular Pages",
+         "News Center",
+         "Investors",
+         "External Links",
+         "Social Links"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         610
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-body"
+        }
+       ],
+       "shot": "1440-011-MORE-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Pipeline",
+          "href": "https://www.abbvie.com/science/pipeline.html"
+         },
+         {
+          "text": "Products",
+          "href": "https://www.abbvie.com/patients/products.html"
+         },
+         {
+          "text": "Partner with Us",
+          "href": "https://www.abbvie.com/science/partner-with-us.html"
+         },
+         {
+          "text": "Patient Support",
+          "href": "https://www.abbvie.com/patients/patient-support.html"
+         },
+         {
+          "text": "Contact Center",
+          "href": "https://www.abbvie.com/contact-center.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE",
+         "Popular Pages",
+         "News Center",
+         "Investors",
+         "External Links",
+         "Social Links"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         610
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-body"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        }
+       ],
+       "shot": "1440-012-MORE-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(1)>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 11
+        },
+        "key": {
+         "opened": false,
+         "hides": 11
+        }
+       }
+      },
+      {
+       "name": "Popular Pages",
+       "key": "popular pages",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(1)>div>div:nth-of-type(2)>ul>li:nth-of-type(1)>span",
+       "expanded": null,
+       "rect": [
+        168,
+        133,
+        430,
+        97
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "News Center",
+       "key": "news center",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(1)>div>div:nth-of-type(2)>ul>li:nth-of-type(2)>span",
+       "expanded": null,
+       "rect": [
+        168,
+        230,
+        430,
+        97
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Latest News",
+            "href": "https://news.abbvie.com/"
+           },
+           {
+            "text": "Media Contacts",
+            "href": "https://news.abbvie.com/pr-contacts/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           126,
+           104
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-013-News-Center-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Latest News",
+            "href": "https://news.abbvie.com/"
+           },
+           {
+            "text": "Media Contacts",
+            "href": "https://news.abbvie.com/pr-contacts/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           126,
+           104
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-014-News-Center-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Investors",
+       "key": "investors",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(1)>div>div:nth-of-type(2)>ul>li:nth-of-type(3)>span",
+       "expanded": null,
+       "rect": [
+        168,
+        327,
+        430,
+        97
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Investors Home",
+            "href": "https://investors.abbvie.com/"
+           },
+           {
+            "text": "Events and Presentations",
+            "href": "https://investors.abbvie.com/events-and-presentations/upcoming-events"
+           },
+           {
+            "text": "Investors Resources",
+            "href": "https://investors.abbvie.com/investor-resources"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           203,
+           144
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-015-Investors-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Investors Home",
+            "href": "https://investors.abbvie.com/"
+           },
+           {
+            "text": "Events and Presentations",
+            "href": "https://investors.abbvie.com/events-and-presentations/upcoming-events"
+           },
+           {
+            "text": "Investors Resources",
+            "href": "https://investors.abbvie.com/investor-resources"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           203,
+           144
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-016-Investors-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "External Links",
+       "key": "external links",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(1)>div>div:nth-of-type(2)>ul>li:nth-of-type(4)>span",
+       "expanded": null,
+       "rect": [
+        168,
+        424,
+        430,
+        97
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Contract Manufacturing",
+            "href": "https://www.abbviecontractmfg.com/"
+           },
+           {
+            "text": "Medical Information",
+            "href": "https://www.abbviemedinfo.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           190,
+           104
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-017-External-Links-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Contract Manufacturing",
+            "href": "https://www.abbviecontractmfg.com/"
+           },
+           {
+            "text": "Medical Information",
+            "href": "https://www.abbviemedinfo.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           190,
+           104
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-018-External-Links-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Social Links",
+       "key": "social links",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(1)>div>div:nth-of-type(2)>ul>li:nth-of-type(5)>span",
+       "expanded": null,
+       "rect": [
+        168,
+        521,
+        430,
+        97
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Facebook",
+            "href": "https://www.facebook.com/AbbVieGlobal"
+           },
+           {
+            "text": "Twitter",
+            "href": "https://twitter.com/abbvie"
+           },
+           {
+            "text": "Instagram",
+            "href": "https://www.instagram.com/abbvie/?hl=en"
+           },
+           {
+            "text": "LinkedIn",
+            "href": "https://www.linkedin.com/company/abbvie"
+           },
+           {
+            "text": "YouTube",
+            "href": "https://www.youtube.com/user/AbbVie"
+           },
+           {
+            "text": "TikTok",
+            "href": "https://www.tiktok.com/@abbvie"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           81,
+           264
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-019-Social-Links-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Facebook",
+            "href": "https://www.facebook.com/AbbVieGlobal"
+           },
+           {
+            "text": "Twitter",
+            "href": "https://twitter.com/abbvie"
+           },
+           {
+            "text": "Instagram",
+            "href": "https://www.instagram.com/abbvie/?hl=en"
+           },
+           {
+            "text": "LinkedIn",
+            "href": "https://www.linkedin.com/company/abbvie"
+           },
+           {
+            "text": "YouTube",
+            "href": "https://www.youtube.com/user/AbbVie"
+           },
+           {
+            "text": "TikTok",
+            "href": "https://www.tiktok.com/@abbvie"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           81,
+           264
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-020-Social-Links-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": true
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "GLOBAL",
+     "key": "global",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      1220,
+      1,
+      105,
+      85
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Algeria",
+          "href": "https://www.abbvie.com/contact-center/locations/algeria.html"
+         },
+         {
+          "text": "South Africa and Sub-Saharan Africa",
+          "href": "https://www.abbvie.com/contact-center/locations/south-africa-and-sub-saharan-africa.html"
+         },
+         {
+          "text": "Tunisia",
+          "href": "https://www.abbvie.com/contact-center/locations/tunisia.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE",
+         "Africa",
+         "Asia Pacific",
+         "Europe",
+         "Latin America / Caribbean",
+         "Middle East",
+         "North America",
+         "South America"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         804
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-body"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        }
+       ],
+       "shot": "1440-021-GLOBAL-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Algeria",
+          "href": "https://www.abbvie.com/contact-center/locations/algeria.html"
+         },
+         {
+          "text": "South Africa and Sub-Saharan Africa",
+          "href": "https://www.abbvie.com/contact-center/locations/south-africa-and-sub-saharan-africa.html"
+         },
+         {
+          "text": "Tunisia",
+          "href": "https://www.abbvie.com/contact-center/locations/tunisia.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE",
+         "Africa",
+         "Asia Pacific",
+         "Europe",
+         "Latin America / Caribbean",
+         "Middle East",
+         "North America",
+         "South America"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         804
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-body"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        }
+       ],
+       "shot": "1440-022-GLOBAL-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(2)>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 11
+        },
+        "key": {
+         "opened": false,
+         "hides": 11
+        }
+       }
+      },
+      {
+       "name": "Africa",
+       "key": "africa",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(2)>div>div:nth-of-type(2)>ul>li:nth-of-type(1)>span",
+       "expanded": null,
+       "rect": [
+        168,
+        133,
+        430,
+        97
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Asia Pacific",
+       "key": "asia pacific",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(2)>div>div:nth-of-type(2)>ul>li:nth-of-type(2)>span",
+       "expanded": null,
+       "rect": [
+        168,
+        230,
+        430,
+        97
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Australia",
+            "href": "https://www.abbvie.com.au/"
+           },
+           {
+            "text": "China",
+            "href": "https://www.abbvie.com.cn/"
+           },
+           {
+            "text": "Hong Kong",
+            "href": "https://www.abbvie.com.hk/"
+           },
+           {
+            "text": "India",
+            "href": "https://www.abbvie.in/"
+           },
+           {
+            "text": "Japan",
+            "href": "https://www.abbvie.co.jp/"
+           },
+           {
+            "text": "Korea",
+            "href": "https://www.abbvie.co.kr/"
+           },
+           {
+            "text": "Malaysia",
+            "href": "https://www.abbvie.com.my/"
+           },
+           {
+            "text": "New Zealand",
+            "href": "https://www.abbvie.co.nz/"
+           },
+           {
+            "text": "Singapore",
+            "href": "https://www.abbvie.com.sg/"
+           },
+           {
+            "text": "Taiwan",
+            "href": "https://www.abbvie.com.tw/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           105,
+           424
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-023-Asia-Pacific-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Australia",
+            "href": "https://www.abbvie.com.au/"
+           },
+           {
+            "text": "China",
+            "href": "https://www.abbvie.com.cn/"
+           },
+           {
+            "text": "Hong Kong",
+            "href": "https://www.abbvie.com.hk/"
+           },
+           {
+            "text": "India",
+            "href": "https://www.abbvie.in/"
+           },
+           {
+            "text": "Japan",
+            "href": "https://www.abbvie.co.jp/"
+           },
+           {
+            "text": "Korea",
+            "href": "https://www.abbvie.co.kr/"
+           },
+           {
+            "text": "Malaysia",
+            "href": "https://www.abbvie.com.my/"
+           },
+           {
+            "text": "New Zealand",
+            "href": "https://www.abbvie.co.nz/"
+           },
+           {
+            "text": "Singapore",
+            "href": "https://www.abbvie.com.sg/"
+           },
+           {
+            "text": "Taiwan",
+            "href": "https://www.abbvie.com.tw/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           105,
+           424
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-024-Asia-Pacific-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": []
+      },
+      {
+       "name": "Europe",
+       "key": "europe",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(2)>div>div:nth-of-type(2)>ul>li:nth-of-type(3)>span",
+       "expanded": null,
+       "rect": [
+        168,
+        327,
+        430,
+        97
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Austria",
+            "href": "https://www.abbvie.at/"
+           },
+           {
+            "text": "Belgium (French)",
+            "href": "https://www.abbvie.be/"
+           },
+           {
+            "text": "Belgium (Dutch)",
+            "href": "https://www.abbvie.be/nl.html"
+           },
+           {
+            "text": "Bosnia & Herzegovina",
+            "href": "https://www.abbvie.com/contact-center/locations/bosnia-and-herzegovina.html"
+           },
+           {
+            "text": "Bulgaria",
+            "href": "https://www.abbvie.bg/"
+           },
+           {
+            "text": "Croatia",
+            "href": "https://www.abbvie.com/contact-center/locations/croatia.html"
+           },
+           {
+            "text": "Czech Republic",
+            "href": "https://www.abbvie.cz/"
+           },
+           {
+            "text": "Denmark",
+            "href": "https://www.abbvie.dk/"
+           },
+           {
+            "text": "Estonia",
+            "href": "https://www.abbvie.com/contact-center/locations/estonia.html"
+           },
+           {
+            "text": "Finland",
+            "href": "https://www.abbvie.fi/"
+           },
+           {
+            "text": "France",
+            "href": "https://www.abbvie.fr/"
+           },
+           {
+            "text": "Germany",
+            "href": "https://www.abbvie.de/"
+           },
+           {
+            "text": "Greece",
+            "href": "https://www.abbvie.gr/"
+           },
+           {
+            "text": "Hungary",
+            "href": "https://www.abbvie.hu/"
+           },
+           {
+            "text": "Ireland",
+            "href": "https://www.abbvie.ie/"
+           },
+           {
+            "text": "Italy",
+            "href": "https://www.abbvie.it/"
+           },
+           {
+            "text": "Latvia",
+            "href": "https://www.abbvie.com/contact-center/locations/latvia.html"
+           },
+           {
+            "text": "Lithuania",
+            "href": "https://www.abbvie.com/contact-center/locations/lithuania.html"
+           },
+           {
+            "text": "Netherlands",
+            "href": "https://www.abbvie.nl/"
+           },
+           {
+            "text": "Norway",
+            "href": "https://www.abbvie.no/"
+           },
+           {
+            "text": "Poland",
+            "href": "https://www.abbvie.pl/"
+           },
+           {
+            "text": "Portugal",
+            "href": "https://www.abbvie.pt/"
+           },
+           {
+            "text": "Romania",
+            "href": "https://www.abbvie.com/contact-center/locations/romania.html"
+           },
+           {
+            "text": "Russia",
+            "href": "https://www.abbvie.ru/"
+           },
+           {
+            "text": "Serbia",
+            "href": "https://www.abbvie.com/contact-center/locations/serbia.html"
+           },
+           {
+            "text": "Slovakia",
+            "href": "https://www.abbvie.sk/"
+           },
+           {
+            "text": "Slovenia",
+            "href": "https://www.abbvie.com/contact-center/locations/slovenia.html"
+           },
+           {
+            "text": "Spain",
+            "href": "https://www.abbvie.es/"
+           },
+           {
+            "text": "Sweden",
+            "href": "https://www.abbvie.se/"
+           },
+           {
+            "text": "Switzerland (German)",
+            "href": "https://www.abbvie.ch/"
+           },
+           {
+            "text": "Switzerland (French)",
+            "href": "https://www.abbvie.ch/fr.html"
+           },
+           {
+            "text": "Turkey",
+            "href": "https://www.abbvie.com.tr/"
+           },
+           {
+            "text": "Ukraine",
+            "href": "https://www.abbvie.ua/"
+           },
+           {
+            "text": "United Kingdom",
+            "href": "https://www.abbvie.co.uk/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           370,
+           704
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-025-Europe-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Austria",
+            "href": "https://www.abbvie.at/"
+           },
+           {
+            "text": "Belgium (French)",
+            "href": "https://www.abbvie.be/"
+           },
+           {
+            "text": "Belgium (Dutch)",
+            "href": "https://www.abbvie.be/nl.html"
+           },
+           {
+            "text": "Bosnia & Herzegovina",
+            "href": "https://www.abbvie.com/contact-center/locations/bosnia-and-herzegovina.html"
+           },
+           {
+            "text": "Bulgaria",
+            "href": "https://www.abbvie.bg/"
+           },
+           {
+            "text": "Croatia",
+            "href": "https://www.abbvie.com/contact-center/locations/croatia.html"
+           },
+           {
+            "text": "Czech Republic",
+            "href": "https://www.abbvie.cz/"
+           },
+           {
+            "text": "Denmark",
+            "href": "https://www.abbvie.dk/"
+           },
+           {
+            "text": "Estonia",
+            "href": "https://www.abbvie.com/contact-center/locations/estonia.html"
+           },
+           {
+            "text": "Finland",
+            "href": "https://www.abbvie.fi/"
+           },
+           {
+            "text": "France",
+            "href": "https://www.abbvie.fr/"
+           },
+           {
+            "text": "Germany",
+            "href": "https://www.abbvie.de/"
+           },
+           {
+            "text": "Greece",
+            "href": "https://www.abbvie.gr/"
+           },
+           {
+            "text": "Hungary",
+            "href": "https://www.abbvie.hu/"
+           },
+           {
+            "text": "Ireland",
+            "href": "https://www.abbvie.ie/"
+           },
+           {
+            "text": "Italy",
+            "href": "https://www.abbvie.it/"
+           },
+           {
+            "text": "Latvia",
+            "href": "https://www.abbvie.com/contact-center/locations/latvia.html"
+           },
+           {
+            "text": "Lithuania",
+            "href": "https://www.abbvie.com/contact-center/locations/lithuania.html"
+           },
+           {
+            "text": "Netherlands",
+            "href": "https://www.abbvie.nl/"
+           },
+           {
+            "text": "Norway",
+            "href": "https://www.abbvie.no/"
+           },
+           {
+            "text": "Poland",
+            "href": "https://www.abbvie.pl/"
+           },
+           {
+            "text": "Portugal",
+            "href": "https://www.abbvie.pt/"
+           },
+           {
+            "text": "Romania",
+            "href": "https://www.abbvie.com/contact-center/locations/romania.html"
+           },
+           {
+            "text": "Russia",
+            "href": "https://www.abbvie.ru/"
+           },
+           {
+            "text": "Serbia",
+            "href": "https://www.abbvie.com/contact-center/locations/serbia.html"
+           },
+           {
+            "text": "Slovakia",
+            "href": "https://www.abbvie.sk/"
+           },
+           {
+            "text": "Slovenia",
+            "href": "https://www.abbvie.com/contact-center/locations/slovenia.html"
+           },
+           {
+            "text": "Spain",
+            "href": "https://www.abbvie.es/"
+           },
+           {
+            "text": "Sweden",
+            "href": "https://www.abbvie.se/"
+           },
+           {
+            "text": "Switzerland (German)",
+            "href": "https://www.abbvie.ch/"
+           },
+           {
+            "text": "Switzerland (French)",
+            "href": "https://www.abbvie.ch/fr.html"
+           },
+           {
+            "text": "Turkey",
+            "href": "https://www.abbvie.com.tr/"
+           },
+           {
+            "text": "Ukraine",
+            "href": "https://www.abbvie.ua/"
+           },
+           {
+            "text": "United Kingdom",
+            "href": "https://www.abbvie.co.uk/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           370,
+           704
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-026-Europe-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": []
+      },
+      {
+       "name": "Latin America / Caribbean",
+       "key": "latin america caribbean",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(2)>div>div:nth-of-type(2)>ul>li:nth-of-type(4)>span",
+       "expanded": null,
+       "rect": [
+        168,
+        424,
+        430,
+        97
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Mexico",
+            "href": "https://www.abbvie.com.mx/"
+           },
+           {
+            "text": "Puerto Rico",
+            "href": "https://www.abbvie.pr/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           93,
+           104
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-027-Latin-America-Caribbean-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Mexico",
+            "href": "https://www.abbvie.com.mx/"
+           },
+           {
+            "text": "Puerto Rico",
+            "href": "https://www.abbvie.pr/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           93,
+           104
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-028-Latin-America-Caribbean-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": []
+      },
+      {
+       "name": "Middle East",
+       "key": "middle east",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(2)>div>div:nth-of-type(2)>ul>li:nth-of-type(5)>span",
+       "expanded": null,
+       "rect": [
+        168,
+        521,
+        430,
+        97
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Israel",
+            "href": "https://www.abbvie.co.il/"
+           },
+           {
+            "text": "Lebanon",
+            "href": "https://www.abbvie.com/contact-center/locations/lebanon.html"
+           },
+           {
+            "text": "Saudi Arabia",
+            "href": "https://www.abbvie.com/contact-center/locations/saudi-arabia.html"
+           },
+           {
+            "text": "United Arab Emirates",
+            "href": "https://www.abbvie.com/contact-center/locations/united-arab-emirates.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           168,
+           184
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-029-Middle-East-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Israel",
+            "href": "https://www.abbvie.co.il/"
+           },
+           {
+            "text": "Lebanon",
+            "href": "https://www.abbvie.com/contact-center/locations/lebanon.html"
+           },
+           {
+            "text": "Saudi Arabia",
+            "href": "https://www.abbvie.com/contact-center/locations/saudi-arabia.html"
+           },
+           {
+            "text": "United Arab Emirates",
+            "href": "https://www.abbvie.com/contact-center/locations/united-arab-emirates.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           168,
+           184
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-030-Middle-East-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": []
+      },
+      {
+       "name": "North America",
+       "key": "north america",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(2)>div>div:nth-of-type(2)>ul>li:nth-of-type(6)>span",
+       "expanded": null,
+       "rect": [
+        168,
+        618,
+        430,
+        97
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Canada (English)",
+            "href": "https://www.abbvie.ca/"
+           },
+           {
+            "text": "Canada (French)",
+            "href": "https://www.abbvie.ca/fr.html"
+           },
+           {
+            "text": "United States",
+            "href": "https://www.abbvie.com/contact-center/locations/united-states.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           136,
+           144
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-031-North-America-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Canada (English)",
+            "href": "https://www.abbvie.ca/"
+           },
+           {
+            "text": "Canada (French)",
+            "href": "https://www.abbvie.ca/fr.html"
+           },
+           {
+            "text": "United States",
+            "href": "https://www.abbvie.com/contact-center/locations/united-states.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           136,
+           144
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-032-North-America-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": []
+      },
+      {
+       "name": "South America",
+       "key": "south america",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(2)>div>div:nth-of-type(2)>ul>li:nth-of-type(7)>span",
+       "expanded": null,
+       "rect": [
+        168,
+        715,
+        430,
+        97
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Argentina",
+            "href": "https://www.abbvie.com.ar/"
+           },
+           {
+            "text": "Brazil",
+            "href": "https://www.abbvie.com.br/"
+           },
+           {
+            "text": "Chile",
+            "href": "https://www.abbvie.cl/"
+           },
+           {
+            "text": "Colombia",
+            "href": "https://www.abbvie.com.co/"
+           },
+           {
+            "text": "Uruguay",
+            "href": "https://www.abbvie.com.uy/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           77,
+           224
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-033-South-America-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 3,
+         "panel": {
+          "links": [
+           {
+            "text": "Argentina",
+            "href": "https://www.abbvie.com.ar/"
+           },
+           {
+            "text": "Brazil",
+            "href": "https://www.abbvie.com.br/"
+           },
+           {
+            "text": "Chile",
+            "href": "https://www.abbvie.cl/"
+           },
+           {
+            "text": "Colombia",
+            "href": "https://www.abbvie.com.co/"
+           },
+           {
+            "text": "Uruguay",
+            "href": "https://www.abbvie.com.uy/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           710,
+           89,
+           77,
+           224
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "1440-034-South-America-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      1335,
+      1,
+      40,
+      85
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         226
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-search"
+        }
+       ],
+       "shot": "1440-035-search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         226
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel-close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        }
+       ],
+       "shot": "1440-036-search-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(3)>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 3
+        },
+        "key": {
+         "opened": false,
+         "hides": 3
+        }
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "input",
+       "kind": "search",
+       "sel": "#site-search",
+       "expanded": null,
+       "rect": [
+        280,
+        189,
+        880,
+        45
+       ],
+       "actions": {},
+       "search": {
+        "probe": "skip",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://www.abbvie.com/search-results.html?q={q}"
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#nav>div:nth-of-type(3)>ul>li:nth-of-type(3)>div>div:nth-of-type(2)>form>div>label",
+       "expanded": null,
+       "rect": [
+        280,
+        197,
+        74,
+        24
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 36,
+   "truncated": null,
+   "loads": 80
+  }
+ },
+ "probe": "skip"
+}

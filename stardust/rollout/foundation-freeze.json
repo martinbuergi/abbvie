@@ -1,0 +1,34 @@
+{
+  "frozenAt": "2026-10-26T15:38:52.762Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "d6618c6cc7f904eb7cf09f5cc43283d7f4f5fe13595a7490b853983970fae2b3",
+    "blocks/footer/footer.js": "0223afb8d53024243a4d1e6d7a5b6a0301c46f58c1648ed659751b3c91db3016",
+    "blocks/header/header.css": "c40ed9d4e1734339f2a7d71165f2c4ac26c853fbbd82a3a0fa68a521ed6b63e8",
+    "blocks/header/header.js": "bfea2026685e258e905d8e53d281365192022e11b484dc1218a70ea8e8198c2e",
+    "fonts/LICENSING.md": "42f3b07d4bf8dfbec7ed2195c99619c6447ee87b211c1c9adeab99a0203d0f99",
+    "fonts/abbvie-icon.woff2": "26e3d07b168f8abc0e4548880d122accf2c03fcf5723422b6143011a59fd99e3",
+    "fonts/roboto-bold.woff2": "195a79c3a4ad21e1b897dd21799f8432e4431a719b8cdc6931f92a6a7ab4c167",
+    "fonts/roboto-light.woff2": "aea70f4f9f8a6baabcdd94ad2769b1414ebd02425c459344d608d2b4f6bfcf39",
+    "fonts/roboto-regular.woff2": "56de0d03455d412c89d88c63da6037845d9d2e726e6fdc7adcd3e9aed0d2150a",
+    "fonts/wix-madefor-display-latin.woff2": "19bf2f2f1eaa10b2a047a8a1e624a1e12008ab5e3c50ad199ac968f8324f5f4d",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/delayed.js": "bc90fac54763aa45d07fe42ac2aacd42523a7c9738c35ae6b8f0a127b1a92ab9",
+    "scripts/scripts.js": "6da475be1fd30f137f38e5feccb43d7c8108a0ec6d8381a1f73c05e4f2f4465c",
+    "styles/departure-modal.css": "6dd58fa457062faee84874e05a5e05be57b6fe96131e8d9fbc644139afae1854",
+    "styles/fonts.css": "90ab098b2d6717b601edca398742f160d12487924e6c22f04792ea37fcbcca2b",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "f68157f1ac4984a2d1e5f604b3b4574622693e57906ecbc1473169cf1ba77381"
+  }
+}

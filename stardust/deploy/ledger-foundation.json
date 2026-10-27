@@ -1,0 +1,20 @@
+{
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-26T14:42:48.057Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-26T14:42:48.058Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

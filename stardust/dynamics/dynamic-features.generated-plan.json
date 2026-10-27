@@ -1,0 +1,942 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-10-26T14:27:03.694Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--4b3558cc--aemcoder.aem.page",
+  "migrated": null,
+  "knowledge": null,
+  "chrome": "stardust/chrome/header-contract.json"
+ },
+ "rows": [
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.google.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-pixel-config-reddit-com",
+   "class": "A",
+   "feature": "unknown third-party host pixel-config.reddit.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "pixel-config.reddit.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-alb-reddit-com",
+   "class": "A",
+   "feature": "unknown third-party host alb.reddit.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "alb.reddit.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-t-co",
+   "class": "A",
+   "feature": "unknown third-party host t.co",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "t.co"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "cr-client-rendered-slot-video-js-hero-bc-player-vjs-play-but",
+   "class": "CR",
+   "feature": "client-rendered slot video-js hero-bc-player vjs-play-button-position-top-right",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "Video Player is loading.Play VideoPauseUnmuteCurrent Time 0:"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-loading-spinner",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-loading-spinner",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "Video Player is loading."
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-control-bar",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-control-bar",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "PauseUnmuteCurrent Time 0:00/Duration 0:03Loaded: 100.00%0:0"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-seek-to-live-control-vjs-control",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-seek-to-live-control vjs-control",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "Seek to live, currently behind liveLIVE"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-descriptions-button-vjs-menu-but",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-descriptions-button vjs-menu-button vjs-menu-button-popup",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "Descriptionsdescriptions off, selected"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-menu",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-menu",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "descriptions off, selected",
+    "1080p1, selectedHD900p900pHD720p720pHD540p540p288p288pAutoAu"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-menu-content",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-menu-content",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "descriptions off, selected",
+    "1080p1, selectedHD900p900pHD720p720pHD540p540p288p288pAutoAu"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-menu-item-vjs-selected",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-menu-item vjs-selected",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "descriptions off, selected"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-quality-menu-wrapper-vjs-menu-bu",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-quality-menu-wrapper vjs-menu-button vjs-menu-button-popup",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "Quality Levels1080p1, selectedHD900p900pHD720p720pHD540p540p"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-subs-caps-button-vjs-menu-button",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-subs-caps-button vjs-menu-button vjs-menu-button-popup",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "Subtitlessubtitles settings, opens subtitles settings dialog"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-main-empty-at-load-filled-after-client-rendered-page",
+   "class": "CR",
+   "feature": "main empty at load, filled after (client-rendered page)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "text at load 0 → settled 2718"
+   ],
+   "pattern": "client-rendered-page",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "human-browser capture; never migrate blank"
+  },
+  {
+   "id": "d-first-party-data-file-get-placeholders-json",
+   "class": "D",
+   "feature": "first-party data file GET /placeholders.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /placeholders.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-ab-config-json",
+   "class": "D",
+   "feature": "first-party data file GET /ab-config.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /ab-config.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-query-index-en-json",
+   "class": "D",
+   "feature": "first-party data file GET /query-index-en.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /query-index-en.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-redirects-json",
+   "class": "D",
+   "feature": "first-party data file GET /redirects.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /redirects.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-tags-json",
+   "class": "D",
+   "feature": "first-party data file GET /tags.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /tags.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-div-form-button-co",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → div:form/button:content",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 11,
+    "of": 1
+   },
+   "evidence": [
+    "Who We Are",
+    "Science",
+    "Patients",
+    "Join Us"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "m-modal-trigger-data-warn-departure-modal-path-chrome-only-t",
+   "class": "M",
+   "feature": "modal trigger data-warn-departure-modal-path (chrome only) → target outside DOM at capture",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 10,
+    "of": 1
+   },
+   "evidence": [
+    "https://www.facebook.com/AbbVieGlobal",
+    "https://twitter.com/abbvie",
+    "https://www.instagram.com/abbvie/?hl=en",
+    "https://www.linkedin.com/company/abbvie/"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "s-site-search-form-search-results",
+   "class": "S",
+   "feature": "site search form → /search-results",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 0,
+    "of": 1
+   },
+   "evidence": [
+    "search:q"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "t-unknown-third-party-host-static-cloudflareinsights-com",
+   "class": "T",
+   "feature": "unknown third-party host static.cloudflareinsights.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "static.cloudflareinsights.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-vjs-zencdn-net",
+   "class": "T",
+   "feature": "unknown third-party host vjs.zencdn.net",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "vjs.zencdn.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-delivery-p157365-e1666014-adobeae",
+   "class": "T",
+   "feature": "unknown third-party host delivery-p157365-e1666014.adobeaemcloud.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "delivery-p157365-e1666014.adobeaemcloud.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "CMP domain script reuse on the new host"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "ad.doubleclick.net",
+    "js.adsrvr.org",
+    "connect.facebook.net",
+    "analytics.tiktok.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-redditstatic-com",
+   "class": "T",
+   "feature": "unknown third-party host www.redditstatic.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.redditstatic.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-siteimproveanalytics-com",
+   "class": "T",
+   "feature": "unknown third-party host siteimproveanalytics.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "siteimproveanalytics.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-static-ads-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host static.ads-twitter.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "static.ads-twitter.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.clarity.ms",
+    "c.clarity.ms",
+    "scripts.clarity.ms",
+    "u.clarity.ms"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-7-groupoperation-com",
+   "class": "T",
+   "feature": "unknown third-party host www.7-groupoperation.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.7-groupoperation.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-analytics-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host analytics.twitter.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "analytics.twitter.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-3407-global-siteimproveanalytics-",
+   "class": "T",
+   "feature": "unknown third-party host 3407.global.siteimproveanalytics.io",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "3407.global.siteimproveanalytics.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "analytics.google.com",
+    "www.google-analytics.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-c-bing-com",
+   "class": "T",
+   "feature": "unknown third-party host c.bing.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "c.bing.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-analytics-ipv6-tiktokw-us",
+   "class": "T",
+   "feature": "unknown third-party host analytics-ipv6.tiktokw.us",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "analytics-ipv6.tiktokw.us"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-capi-automation-s3-us-east-2-amaz",
+   "class": "T",
+   "feature": "unknown third-party host capi-automation.s3.us-east-2.amazonaws.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "capi-automation.s3.us-east-2.amazonaws.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-app-bowencraggs-com",
+   "class": "T",
+   "feature": "unknown third-party host app.bowencraggs.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "app.bowencraggs.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "v-video-brightcove",
+   "class": "V",
+   "feature": "video: Brightcove",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "players.brightcove.net",
+    "edge.api.brightcove.com",
+    "metrics.brightcove.com",
+    "cf-images.us-east-1.prod.boltdns.net"
+   ],
+   "pattern": "media-as-url",
+   "disposition": "embed-passthrough",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "media",
+   "decision": "none (player ids are public)"
+  },
+  {
+   "id": "v-video-youtube",
+   "class": "V",
+   "feature": "video: YouTube",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.youtube.com"
+   ],
+   "pattern": "media-as-url",
+   "disposition": "embed-passthrough",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "media",
+   "decision": "none (player ids are public)"
+  },
+  {
+   "id": "v-player-element-div",
+   "class": "V",
+   "feature": "player element <div>",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "?/default/6406773145112"
+   ],
+   "pattern": "media-as-url",
+   "disposition": "embed-passthrough",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "media",
+   "decision": "none (player ids are public)"
+  },
+  {
+   "id": "v-player-element-video-js",
+   "class": "V",
+   "feature": "player element <video-js>",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "2157889328001/pydM0AMeC/6406773145112"
+   ],
+   "pattern": "media-as-url",
+   "disposition": "embed-passthrough",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "media",
+   "decision": "none (player ids are public)"
+  },
+  {
+   "id": "v-player-element-video",
+   "class": "V",
+   "feature": "player element <video>",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "2157889328001/pydM0AMeC/6406773145112"
+   ],
+   "pattern": "media-as-url",
+   "disposition": "embed-passthrough",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "media",
+   "decision": "none (player ids are public)"
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "onetrust-text-resize",
+    "0×0"
+   ],
+   "pattern": "embed-passthrough",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "embeds",
+   "decision": "resolve the runtime src from a rendered capture"
+  }
+ ]
+}

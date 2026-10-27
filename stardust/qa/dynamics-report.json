@@ -1,0 +1,70 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-26T15:46:14.268Z",
+  "origin": "https://main--4b3558cc--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json"
+ },
+ "results": [
+  {
+   "feature": "v-video-brightcove",
+   "id": "v-video-brightcove",
+   "class": "V",
+   "status": "verified",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: false · video playing (Δt 0.80s) · playback requests 28 (ok)",
+   "thirdParty": "players.brightcove.net:200×2 vjs.zencdn.net:200×1 metrics.brightcove.com:200×14 edge.api.brightcove.com:200×2 cf-images.us-east-1.prod.boltdns.net:200×2 :200×7 manifest.prod.boltdns.net:200×11 fastly-signed-us-east-1-prod.brightcovecdn.com:200×10",
+   "ms": 8891,
+   "environmentLimit": null
+  },
+  {
+   "feature": "m-modal-trigger-data-warn-departure-modal-path",
+   "id": "m-modal-trigger-data-warn-departure-modal-path",
+   "class": "M",
+   "status": "verified",
+   "type": "click-dialog",
+   "pass": true,
+   "detail": "dialog 880px · heading \"You are about to leave the AbbVie website\" · 0 fields · Escape closes: true",
+   "thirdParty": "players.brightcove.net:200×1 vjs.zencdn.net:200×1 edge.api.brightcove.com:200×1 metrics.brightcove.com:200×7 cf-images.us-east-1.prod.boltdns.net:200×1 :200×3 manifest.prod.boltdns.net:200×5 fastly-signed-us-east-1-prod.brightcovecdn.com:200×3",
+   "ms": 4393,
+   "environmentLimit": null
+  },
+  {
+   "feature": "m-modal-trigger-aria-haspopup",
+   "id": "m-modal-trigger-aria-haspopup",
+   "class": "M",
+   "status": "verified",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "7 × header .nav-section (min 1)",
+   "thirdParty": "players.brightcove.net:200×1 vjs.zencdn.net:200×1 edge.api.brightcove.com:200×1 metrics.brightcove.com:200×7 cf-images.us-east-1.prod.boltdns.net:200×1 :200×3 manifest.prod.boltdns.net:200×5 fastly-signed-us-east-1-prod.brightcovecdn.com:200×2",
+   "ms": 2258,
+   "environmentLimit": null
+  },
+  {
+   "feature": "d-first-party-data-file-get-redirects",
+   "id": "d-first-party-data-file-get-redirects",
+   "class": "D",
+   "status": "verified",
+   "type": "fetch-json",
+   "pass": true,
+   "detail": "200 · 3 rows · keys :type,total,limit,offset,columns,data",
+   "thirdParty": "",
+   "ms": 2292,
+   "environmentLimit": null
+  },
+  {
+   "feature": "page-errors",
+   "id": "page-errors",
+   "class": "CR",
+   "status": "verified",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 1 page(s)",
+   "thirdParty": "",
+   "ms": 2316,
+   "environmentLimit": null
+  }
+ ]
+}

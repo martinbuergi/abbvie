@@ -1,37 +1,328 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
+/* hero — lifted from the gated prototype (source hero-container.css + breadcrumb) */
+main > .section.hero-container {
+  margin: 0 0 80px;
 }
 
 .hero {
+  min-height: 256px;
+  border-top-left-radius: var(--radius-xl);
+  overflow: hidden;
+}
+
+.hero .hero-media {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  height: 256px;
+  overflow: hidden;
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
-}
-
-.hero picture {
+.hero .hero-poster,
+.hero .hero-poster picture,
+.hero .hero-poster img,
+.hero .hero-ambient,
+.hero .hero-ambient video-js {
   position: absolute;
-  z-index: -1;
   inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-
-.hero img {
-  object-fit: cover;
+  display: block;
   width: 100%;
+  max-width: none;
   height: 100%;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
+.hero .hero-poster img {
+  object-fit: cover;
+  object-position: top;
+}
+
+.hero .hero-ambient {
+  z-index: 0;
+  overflow: hidden;
+}
+
+.hero .hero-ambient video-js {
+  background: transparent;
+}
+
+.hero .hero-ambient video {
+  object-fit: cover;
+  object-position: top;
+}
+
+.hero .hero-ambient .vjs-control-bar,
+.hero .hero-ambient .vjs-big-play-button,
+.hero .hero-ambient .vjs-loading-spinner,
+.hero .hero-ambient .vjs-text-track-display {
+  display: none;
+}
+
+.hero .hero-ambient .vjs-poster {
+  background-size: cover;
+  background-position: top;
+}
+
+.hero .hero-toggle {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 3px solid var(--white);
+  border-radius: 50%;
+  background: transparent;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.hero .hero-toggle::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 12px;
+  border-left: 3px solid var(--white);
+  border-right: 3px solid var(--white);
+}
+
+.hero .hero-toggle[aria-pressed="true"]::after {
+  content: "\e90b";
+  width: auto;
+  height: auto;
+  border: 0;
+  font-family: var(--ff-icon);
+  color: var(--white);
+  font-size: 20px;
+  transform: scale(0.8);
+}
+
+.hero .hero-outer {
+  position: relative;
+  margin: -48px 20px 0;
+  width: calc(100% - 40px);
+}
+
+.hero .hero-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 216px;
+  padding: 32px 20px 0;
+  background-color: var(--white);
+  border-top-left-radius: 24px;
+}
+
+.hero .hero-inner {
+  width: 100%;
+  min-height: 120px;
+}
+
+/* breadcrumb — below 744 the source shows a toggle naming the current page */
+.hero .breadcrumb {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.hero .breadcrumb-toggle {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  max-width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  overflow: hidden;
+  font-family: var(--ff-bold);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+}
+
+.hero .breadcrumb-toggle::after {
+  content: "\e901";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-left: 6px;
+  font-family: var(--ff-icon);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  transform: rotate(90deg);
+}
+
+.hero .breadcrumb-nav {
+  display: none;
+}
+
+.hero .breadcrumb.is-open .breadcrumb-nav {
+  display: block;
+  margin-top: 8px;
+}
+
+.hero .breadcrumb ol,
+.hero .breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero .breadcrumb li {
+  display: flex;
+  align-items: flex-end;
+  font-family: var(--ff-bold);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.84px;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+
+.hero .breadcrumb li:last-child {
+  color: var(--gray-dark);
+}
+
+.hero .breadcrumb a:any-link {
+  display: flex;
+  color: var(--navy);
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.hero .breadcrumb a:any-link::after {
+  content: "\e901";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin: 0 5px;
+  padding-left: 8px;
+  font-family: var(--ff-icon);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--navy);
+}
+
+.hero .hero-headline :is(h1, h2, h3) {
+  margin-bottom: 16px;
+}
+
+.hero .hero-lede p {
+  font-family: var(--ff-light);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--navy);
+}
+
+@media (width >= 744px) {
+  .hero .hero-media {
+    height: 416px;
+  }
+
+  .hero .hero-outer {
+    width: calc(100% - 140px);
+    margin: -64px 70px 0;
+  }
+
+  .hero .hero-card {
+    min-height: 368px;
+    padding: 56px 70px 0;
+    border-top-left-radius: 40px;
+  }
+
+  .hero .hero-inner {
+    min-height: 260px;
+  }
+
+  .hero .breadcrumb {
+    flex-direction: row;
+    margin-bottom: 32px;
+  }
+
+  .hero .breadcrumb-toggle {
+    display: none;
+  }
+
+  .hero .breadcrumb-nav {
+    display: block;
+  }
+
+  .hero .hero-lede p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (width >= 1024px) {
+  .hero .hero-media {
+    height: 608px;
+  }
+
+  .hero .hero-outer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    max-width: 1330px;
+    width: 100%;
+    margin: -112px auto 0;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+
+  .hero .hero-card {
+    grid-column: 1 / -1;
+    width: calc(100% * 11 / 12);
+    min-height: 448px;
+    margin-inline: auto;
+    padding: 80px 55px 0;
+  }
+
+  .hero .hero-inner {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0 20px;
+    min-height: 288px;
+  }
+
+  .hero .hero-content {
+    grid-column: 2 / 12;
+  }
+
+  .hero .hero-headline :is(h1, h2, h3) {
+    margin-bottom: 24px;
+  }
+
+  .hero .hero-lede p {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media (width >= 1440px) {
+  main > .section.hero-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero .hero-outer {
+    padding-left: 0;
+    padding-right: 0;
   }
 }

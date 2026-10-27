@@ -1,0 +1,853 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 1,
+    "concurrency": 1
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.abbvie.com/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 1,
+    "pagesWithSameSiteData": 1,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "www.abbvie.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.abbvie.com/cdn-cgi/rum",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.abbvie.com",
+        "path": "/placeholders.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.abbvie.com/placeholders.json",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "edge.api.brightcove.com",
+        "path": "/playback/v1/accounts/{n}/videos/{n}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://edge.api.brightcove.com/playback/v1/accounts/2157889328001/videos/6406773145112",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.abbvie.com",
+        "path": "/ab-config.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.abbvie.com/ab-config.json",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.abbvie.com",
+        "path": "/query-index-en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.abbvie.com/query-index-en.json",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "manifest.prod.boltdns.net",
+        "path": "/manifest/v1/hls/v4/clear/{n}/{uuid}/10s/master.m3u8",
+        "query": [
+          "fastly_token"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/2157889328001/d3a82201-c781-426c-9fb2-dcbd4461d78d/10s/master.m3u8",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.abbvie.com",
+        "path": "/redirects.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.abbvie.com/redirects.json",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "manifest.prod.boltdns.net",
+        "path": "/manifest/v1/hls/v4/clear/{n}/{uuid}/{uuid}/10s/rendition.m3u8",
+        "query": [
+          "fastly_token"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/2157889328001/d3a82201-c781-426c-9fb2-dcbd4461d78d/01514e97-e9e6-4a70-9c7b-a16ff5089042/10s/rendition.m3u8",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fastly-signed-us-east-1-prod.brightcovecdn.com",
+        "path": "/media/v1/hls/v4/clear/{n}/{uuid}/{uuid}/6x/segment0.ts",
+        "query": [
+          "fastly_token"
+        ],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://fastly-signed-us-east-1-prod.brightcovecdn.com/media/v1/hls/v4/clear/2157889328001/d3a82201-c781-426c-9fb2-dcbd4461d78d/01514e97-e9e6-4a70-9c7b-a16ff5089042/6x/segment0.ts",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.abbvie.com",
+        "path": "/nav.plain.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.abbvie.com/nav.plain.html",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.abbvie.com",
+        "path": "/footer.plain.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.abbvie.com/footer.plain.html",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.abbvie.com",
+        "path": "/tags.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.abbvie.com/tags.json",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/f982bb1e-466d-46d0-8a52-e7df5ab1d6f1/f982bb1e-466d-46d0-8a52-e7df5ab1d6f1.json",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/f982bb1e-466d-46d0-8a52-e7df5ab1d6f1/cc02823b-b5e8-409e-a751-d430d7251360/en.json",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202401.1.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/v2/otPcCenter.json",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202401.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otFlat.json",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202401.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otCommonStyles.css",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "pixel-config.reddit.com",
+        "path": "/pixels/t2_k2khsn2u/config",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://pixel-config.reddit.com/pixels/t2_k2khsn2u/config",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [
+          "event",
+          "id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://alb.reddit.com/rp",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.article_tag",
+          "ep.article_title",
+          "ep.brand",
+          "ep.business_unit",
+          "ep.environment",
+          "ep.hit_time_stamp",
+          "ep.page_url",
+          "ep.site_name",
+          "ep.site_type",
+          "frm",
+          "gcd",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://analytics.google.com/g/collect",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_fv",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.brand",
+          "ep.business_unit",
+          "ep.environment",
+          "ep.hit_time_stamp",
+          "ep.site_category",
+          "ep.site_name",
+          "ep.site_type",
+          "ep.technology",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/g/collect",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "corpgcp.abbvie.com",
+        "path": "/g/collect",
+        "query": [
+          "_fplc",
+          "_fv",
+          "_p",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dr",
+          "dt",
+          "ecid",
+          "en",
+          "evnid",
+          "frm",
+          "gap.sstd",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://corpgcp.abbvie.com/g/collect",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "i.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://i.clarity.ms/collect",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "dma",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/775459973/",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/measurement/conversion",
+        "query": [
+          "auid",
+          "cv",
+          "dma",
+          "en",
+          "fmt",
+          "frm",
+          "fst",
+          "gacid",
+          "gcd",
+          "gtm",
+          "hn",
+          "ibt",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "tid",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/measurement/conversion",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "analytics.tiktok.com",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "www.youtube.com",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "js.adsrvr.org",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "www.7-groupoperation.com",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "players.brightcove.net",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "vjs.zencdn.net",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "www.redditstatic.com",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "siteimproveanalytics.com",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "www.clarity.ms",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "capi-automation.s3.us-east-2.amazonaws.com",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "app.bowencraggs.com",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 1,
+        "examples": [
+          "who-we-are-brand-partnerships-pga-tour"
+        ]
+      }
+    ],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "who-we-are-brand-partnerships-pga-tour",
+      "verdict": "ok",
+      "notes": "hero, partnership logos, ambassador, quote, partner logo row, related stories and footer all present; OneTrust cookie notice (close-only, .onetrust-close-btn-handler) visible in the full-page shot — dismiss it in gate captures"
+    }
+  ],
+  "fonts": {
+    "licensed": [
+      "F37Lineca-Book.woff2",
+      "F37Lineca-Medium.woff2"
+    ],
+    "open": [
+      "Roboto-Light.woff2",
+      "roboto-regular.woff2",
+      "roboto-bold.woff2"
+    ],
+    "brandIcon": [
+      "abbvie-icon.ttf"
+    ],
+    "note": "captured via browser network intercept to stardust/current/assets/fonts; plain HTTP fetch of the origin answers 403"
+  }
+}

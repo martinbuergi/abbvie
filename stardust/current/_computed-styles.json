@@ -1,0 +1,5266 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-26T13:48:01.573Z",
+    "script": "style-census.mjs",
+    "readArtifacts": [
+      "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "synthesizedInputs": [],
+    "failed": []
+  },
+  "pages": {
+    "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html": {
+      "360": {
+        "title": "AbbVie and PGA TOUR | Birdies for Brain Health | AbbVie",
+        "viewport": {
+          "width": 360,
+          "height": 900
+        },
+        "elements": {
+          "total": 1999,
+          "visible": 440
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Turning birdies into real impact on and…",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div > h1",
+            "fontFamily": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "fontSize": "30px",
+            "fontWeight": "800",
+            "lineHeight": "34px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h2",
+            "text": "About Birdies for Brain Health",
+            "selector": "#about-birdies-for-brain-health",
+            "fontFamily": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "800",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h2",
+            "text": "AbbVie Birdies for Brain Health Ambassa…",
+            "selector": "#abbviebirdies-for-brain-health-ambassador",
+            "fontFamily": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "800",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h4",
+            "text": "Partnerships For Impact",
+            "selector": "#partnerships-for-impact",
+            "fontFamily": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "800",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h3",
+            "text": "The Power of Partnership",
+            "selector": "#the-power-of-partnership",
+            "fontFamily": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "fontSize": "26px",
+            "fontWeight": "800",
+            "lineHeight": "30px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h5",
+            "text": "Related Content",
+            "selector": "#related-content",
+            "fontFamily": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "800",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h4",
+            "text": "More than “Just a Headache”: Living wit…",
+            "selector": "div > div > div > a > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > h4",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h4",
+            "text": "Real people. Real inspiration.",
+            "selector": "div > div > div > a > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > h4",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "As the Official Pharmaceutical Sponsor …",
+            "selector": "div:nth-of-type(3) > div > div > div > div:nth-of-type(3) > div > div > p",
+            "fontFamily": "\"Roboto Light\", Helvetica, Arial, sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "400",
+            "lineHeight": "26px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "As Official Pharmaceutical Sponsor of t…",
+            "selector": "#main-content > div:nth-of-type(2) > div > div:nth-of-type(2) > div > p:nth-of-type(1)",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "Throughout the season, compelling stori…",
+            "selector": "#main-content > div:nth-of-type(2) > div > div:nth-of-type(2) > div > p:nth-of-type(2)",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "1. World Health Organization. “Global s…",
+            "selector": "#main-content > div:nth-of-type(2) > div > div:nth-of-type(2) > div > p:nth-of-type(3)",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "Gary Woodland, one of the U.S. captain’…",
+            "selector": "#main-content > div:nth-of-type(4) > div > div:nth-of-type(3) > div > p",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "My experience has shown me how importan…",
+            "selector": "#section-bg-9 > div > div > div > blockquote > div:nth-of-type(1) > p",
+            "fontFamily": "\"F37 Lineca Book\", Helvetica, Arial, sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "650",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "Learn more about the six patient advoca…",
+            "selector": "#main-content > div:nth-of-type(6) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div > p",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "Learn about our other purposeful brand …",
+            "selector": "#main-content > div:nth-of-type(7) > div > div:nth-of-type(1) > div > p",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "POWER OF PARTNERSHIPS",
+            "selector": "div:nth-of-type(7) > div > div:nth-of-type(3) > div > div > div > div > p",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch 0:30",
+            "selector": "div:nth-of-type(3) > div > div > div > div > div > div:nth-of-type(2) > button",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "0px",
+            "padding": "12px 32px",
+            "border": "1px solid rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "\"Roboto Bold\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "uppercase",
+            "letterSpacing": "0.96px",
+            "hover": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(7, 29, 73)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "POWER OF PARTNERSHIPS",
+            "selector": "div > div:nth-of-type(3) > div > div > div > div > p > a",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 102, 245)",
+            "borderRadius": "0px",
+            "padding": "12px 32px",
+            "border": "1px solid rgb(0, 102, 245)",
+            "borderColor": "rgb(0, 102, 245)",
+            "boxShadow": "none",
+            "fontFamily": "\"Roboto Bold\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "uppercase",
+            "letterSpacing": "0.96px",
+            "hover": {
+              "backgroundColor": "rgb(0, 102, 245)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(0, 102, 245)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Cookies Settings",
+            "selector": "#onetrust-pc-btn-handler",
+            "count": 1,
+            "backgroundColor": "rgb(33, 33, 33)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "2px",
+            "padding": "12px 10px",
+            "border": "2px solid rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "13.008px",
+            "fontWeight": "600",
+            "textTransform": "none",
+            "letterSpacing": "0.13008px",
+            "hover": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(45, 41, 38)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "Who We Are",
+            "selector": "nav > ol > li:nth-of-type(1) > a",
+            "count": 2,
+            "color": "rgb(7, 29, 73)",
+            "textDecoration": "none",
+            "fontWeight": "700",
+            "hover": null
+          },
+          {
+            "text": "SEPTEMBER 15, 2026NEUROSCIENCEMore than…",
+            "selector": "#main-content > div:nth-of-type(9) > div > div:nth-of-type(1) > div > div > div > a",
+            "count": 2,
+            "color": "rgb(7, 29, 73)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(7, 29, 73)",
+              "borderColor": "rgb(7, 29, 73)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 360,
+              "h": 72
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "sticky",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "nav",
+            "selector": "#nav",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 360,
+              "h": 72
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px 35px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 35,
+              "y": 6254,
+              "w": 290,
+              "h": 300
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "100%",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 35,
+              "y": 6570,
+              "w": 290,
+              "h": 88
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "100%",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 35,
+              "y": 6726,
+              "w": 290,
+              "h": 128
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "100%",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main",
+            "selector": "#main-content",
+            "rect": {
+              "x": 0,
+              "y": 72,
+              "w": 360,
+              "h": 6124
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 0,
+              "y": 6156,
+              "w": 360,
+              "h": 1562
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#main-content > div:nth-of-type(1)",
+            "rect": {
+              "x": 0,
+              "y": 72,
+              "w": 360,
+              "h": 666
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "1440px",
+            "borderRadius": "32px 0px 0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#main-content > div:nth-of-type(2)",
+            "rect": {
+              "x": 20,
+              "y": 818,
+              "w": 320,
+              "h": 1066
+            },
+            "backgroundColor": "rgb(241, 243, 255)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "1440px",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#main-content > div:nth-of-type(3)",
+            "rect": {
+              "x": 20,
+              "y": 1916,
+              "w": 320,
+              "h": 236
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "1440px",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#main-content > div:nth-of-type(4)",
+            "rect": {
+              "x": 20,
+              "y": 2184,
+              "w": 320,
+              "h": 689
+            },
+            "backgroundColor": "rgb(244, 244, 244)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "1440px",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "32px 0px 0px",
+            "count": 3,
+            "area": 864360,
+            "sources": [
+              "#main-content > div:nth-of-type(1)",
+              "#section-bg-9",
+              "footer > div > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 3,
+            "area": 10788,
+            "sources": [
+              "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > button",
+              "#section-bg-9 > div > div > div > blockquote > div:nth-of-type(2) > div:nth-of-type(1)",
+              "footer > div > button"
+            ]
+          },
+          {
+            "value": "2px",
+            "count": 2,
+            "area": 15891,
+            "sources": [
+              "#onetrust-pc-btn-handler",
+              "#onetrust-close-btn-container > button"
+            ]
+          },
+          {
+            "value": "24px 0px 0px",
+            "count": 1,
+            "area": 146560,
+            "sources": [
+              "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(3) > div"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.2) 0px 0px 18px 0px",
+            "count": 1,
+            "sources": [
+              "#onetrust-banner-sdk"
+            ]
+          }
+        ],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 4,
+            "area": 2951192,
+            "sources": [
+              "body",
+              "#false > div:nth-of-type(2)",
+              "#nav > div:nth-of-type(4) > button"
+            ]
+          },
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 4,
+            "area": 528620,
+            "sources": [
+              "#main-content > div:nth-of-type(4)",
+              "#main-content > div:nth-of-type(8)",
+              "#main-content > div:nth-of-type(9)"
+            ]
+          },
+          {
+            "value": "rgb(250, 250, 250)",
+            "count": 2,
+            "area": 562320,
+            "sources": [
+              "footer > div > div:nth-of-type(1)",
+              "footer > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(241, 243, 255)",
+            "count": 2,
+            "area": 439675,
+            "sources": [
+              "#main-content > div:nth-of-type(2)",
+              "#main-content > div:nth-of-type(7)"
+            ]
+          },
+          {
+            "value": "rgb(33, 33, 33)",
+            "count": 2,
+            "area": 83491,
+            "sources": [
+              "#onetrust-banner-sdk",
+              "#onetrust-pc-btn-handler"
+            ]
+          },
+          {
+            "value": "rgb(21, 27, 23)",
+            "count": 1,
+            "area": 92160,
+            "sources": [
+              "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > div > video-js"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 1,
+            "area": 57600,
+            "sources": [
+              "#main-content > div:nth-of-type(3) > div > div > div > div"
+            ]
+          },
+          {
+            "value": "rgb(166, 181, 224)",
+            "count": 1,
+            "area": 7744,
+            "sources": [
+              "footer > div > button"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(7, 29, 73)",
+            "count": 44,
+            "sources": [
+              "nav > ol > li:nth-of-type(1) > a > span",
+              "nav > ol > li:nth-of-type(2) > a > span",
+              "div > div > div > div:nth-of-type(2) > div > div > div > h1"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 9,
+            "sources": [
+              "div:nth-of-type(3) > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(1)",
+              "div > div > div > div > div > div:nth-of-type(2) > button > span:nth-of-type(2)",
+              "#section-bg-9 > div > div > div > blockquote > div:nth-of-type(1) > p"
+            ]
+          },
+          {
+            "value": "rgb(102, 107, 122)",
+            "count": 5,
+            "sources": [
+              "nav > ol > li:nth-of-type(3) > span",
+              "div > div > div > a > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > time",
+              "div > div > div > a > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > time"
+            ]
+          },
+          {
+            "value": "rgb(0, 102, 245)",
+            "count": 3,
+            "sources": [
+              "div > div:nth-of-type(3) > div > div > div > div > p > a",
+              "div:nth-of-type(1) > div > div > div > a > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+              "div:nth-of-type(2) > div > div > div > a > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 1,
+            "sources": [
+              "div > div:nth-of-type(3) > div > div > div > div:nth-of-type(1) > div > button"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 3,
+            "sources": [
+              "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > button",
+              "div:nth-of-type(3) > div > div > div > div > div > div:nth-of-type(2) > button",
+              "#onetrust-pc-btn-handler"
+            ]
+          },
+          {
+            "value": "rgb(0, 102, 245)",
+            "count": 1,
+            "sources": [
+              "div > div:nth-of-type(3) > div > div > div > div > p > a"
+            ]
+          },
+          {
+            "value": "rgb(185, 180, 180)",
+            "count": 1,
+            "sources": [
+              "footer > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div"
+            ]
+          }
+        ],
+        "customProps": {
+          "--base-size": {
+            "declared": "10",
+            "computed": "10"
+          },
+          "--px-to-rem": {
+            "declared": "calc(1rem / var(--base-size))",
+            "computed": "calc(1rem / 10)"
+          },
+          "--corp-layout-multiplier-direction-value": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--direction-multiplier": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--corp-grid-cols-mobile": {
+            "declared": "6",
+            "computed": "6"
+          },
+          "--corp-grid-cols-tablet": {
+            "declared": "8",
+            "computed": "8"
+          },
+          "--corp-grid-cols-desktop": {
+            "declared": "12",
+            "computed": "12"
+          },
+          "--corp-color-link-default": {
+            "declared": "#035fe6",
+            "computed": "#035fe6"
+          },
+          "--corp-color-link-hover": {
+            "declared": "#136ff6",
+            "computed": "#136ff6"
+          },
+          "--corp-color-link-secondary": {
+            "declared": "#0662bb",
+            "computed": "#0662bb"
+          },
+          "--color-surface-default": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--color-surface-highlight": {
+            "declared": "#f1f3ff",
+            "computed": "#f1f3ff"
+          },
+          "--color-surface-highlight-inverse": {
+            "declared": "#0066f5",
+            "computed": "#0066f5"
+          },
+          "--color-border-container": {
+            "declared": "#a6b5e0",
+            "computed": "#a6b5e0"
+          },
+          "--corp-color-text-default": {
+            "declared": "#071d49",
+            "computed": "#071d49"
+          },
+          "--corp-color-text-label": {
+            "declared": "#061e47",
+            "computed": "#061e47"
+          },
+          "--color-blue-medium": {
+            "declared": "#6f89cd",
+            "computed": "#6f89cd"
+          },
+          "--corp-color-text-muted": {
+            "declared": "#808080",
+            "computed": "#808080"
+          },
+          "--corp-color-text-accent": {
+            "declared": "#0066f5",
+            "computed": "#0066f5"
+          },
+          "--corp-color-text-subtle": {
+            "declared": "#555",
+            "computed": "#555"
+          },
+          "--color-blue-grey-500": {
+            "declared": "#607d8b",
+            "computed": "#607d8b"
+          },
+          "--color-gray-600": {
+            "declared": "#6c7280",
+            "computed": "#6c7280"
+          },
+          "--corp-color-surface-subtle": {
+            "declared": "#f8f8f8",
+            "computed": "#f8f8f8"
+          },
+          "--corp-color-text-strong": {
+            "declared": "#505050",
+            "computed": "#505050"
+          },
+          "--corp-color-surface-overlay": {
+            "declared": "lightgrey",
+            "computed": "lightgrey"
+          },
+          "--color-accent-blue": {
+            "declared": "#0066f5",
+            "computed": "#0066f5"
+          },
+          "--color-accent-blue-light": {
+            "declared": "#479ff8",
+            "computed": "#479ff8"
+          },
+          "--color-accent-blue-bright": {
+            "declared": "#007aff",
+            "computed": "#007aff"
+          },
+          "--color-accent-green": {
+            "declared": "#338700",
+            "computed": "#338700"
+          },
+          "--color-overlay-navy": {
+            "declared": "rgb(7 29 73 / 70%)",
+            "computed": "rgb(7 29 73 / 70%)"
+          },
+          "--color-overlay-navy-medium": {
+            "declared": "rgb(7 29 73 / 55%)",
+            "computed": "rgb(7 29 73 / 55%)"
+          },
+          "--color-overlay-navy-light": {
+            "declared": "rgb(7 29 73 / 50%)",
+            "computed": "rgb(7 29 73 / 50%)"
+          },
+          "--color-overlay-gray": {
+            "declared": "rgb(80 80 80 / 68%)",
+            "computed": "rgb(80 80 80 / 68%)"
+          },
+          "--color-overlay-purple": {
+            "declared": "rgb(138 46 204 / 66%)",
+            "computed": "rgb(138 46 204 / 66%)"
+          },
+          "--color-purple-pink": {
+            "declared": "#e642f5",
+            "computed": "#e642f5"
+          },
+          "--color-white": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-black": {
+            "declared": "#000",
+            "computed": "#000"
+          },
+          "--color-navy-dark": {
+            "declared": "var(--corp-color-text-default)",
+            "computed": "#071d49"
+          },
+          "--color-blue-light": {
+            "declared": "#a6b5e0",
+            "computed": "#a6b5e0"
+          },
+          "--color-blue-gray": {
+            "declared": "#526180",
+            "computed": "#526180"
+          },
+          "--color-blue-very-light": {
+            "declared": "#f1f3ff",
+            "computed": "#f1f3ff"
+          },
+          "--color-blue-ultra-light": {
+            "declared": "#fafbff",
+            "computed": "#fafbff"
+          },
+          "--color-gray-dark": {
+            "declared": "#666b7a",
+            "computed": "#666b7a"
+          },
+          "--color-gray-medium": {
+            "declared": "#b9b4b4",
+            "computed": "#b9b4b4"
+          },
+          "--color-gray-light": {
+            "declared": "#f4f4f4",
+            "computed": "#f4f4f4"
+          },
+          "--color-gray-medium-light": {
+            "declared": "#e4e4e4",
+            "computed": "#e4e4e4"
+          },
+          "--color-gray-extra-light": {
+            "declared": "#fafafa",
+            "computed": "#fafafa"
+          },
+          "--color-purple-primary": {
+            "declared": "#8a2ecc",
+            "computed": "#8a2ecc"
+          },
+          "--color-purple-light": {
+            "declared": "#a86bde",
+            "computed": "#a86bde"
+          },
+          "--color-orange-dark": {
+            "declared": "#cf451c",
+            "computed": "#cf451c"
+          },
+          "--color-orange-light": {
+            "declared": "#f7634f",
+            "computed": "#f7634f"
+          },
+          "--color-green-primary": {
+            "declared": "#338700",
+            "computed": "#338700"
+          },
+          "--color-border-subtle": {
+            "declared": "#dadada",
+            "computed": "#dadada"
+          },
+          "--color-warning-bg": {
+            "declared": "#fff4c2",
+            "computed": "#fff4c2"
+          },
+          "--color-warning-border": {
+            "declared": "#fc3",
+            "computed": "#fc3"
+          },
+          "--color-outline-focus": {
+            "declared": "#0bf",
+            "computed": "#0bf"
+          },
+          "--color-error": {
+            "declared": "var(--color-orange-dark)",
+            "computed": "#cf451c"
+          },
+          "--color-warning": {
+            "declared": "#f2dede",
+            "computed": "#f2dede"
+          },
+          "--color-success": {
+            "declared": "#2f9ece",
+            "computed": "#2f9ece"
+          },
+          "--body-font-family": {
+            "declared": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "computed": "\"Roboto Regular\", Helvetica, Arial, sans-serif"
+          },
+          "--heading-font-family": {
+            "declared": "\"F37 Lineca Book\", Helvetica, Arial, sans-serif",
+            "computed": "\"F37 Lineca Book\", Helvetica, Arial, sans-serif"
+          },
+          "--heading-font-family-bold": {
+            "declared": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "computed": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif"
+          },
+          "--corp-icon-font-family": {
+            "declared": "\"Abbvie Icon\"",
+            "computed": "\"Abbvie Icon\""
+          },
+          "--roboto-small-font-family": {
+            "declared": "\"Roboto Small\", Helvetica, Arial, sans-serif",
+            "computed": "\"Roboto Small\", Helvetica, Arial, sans-serif"
+          },
+          "--roboto-bold-font-family": {
+            "declared": "\"Roboto Bold\", Helvetica, Arial, sans-serif",
+            "computed": "\"Roboto Bold\", Helvetica, Arial, sans-serif"
+          },
+          "--roboto-medium-font-family": {
+            "declared": "\"Roboto Medium\", Helvetica, Arial, sans-serif",
+            "computed": "\"Roboto Medium\", Helvetica, Arial, sans-serif"
+          },
+          "--roboto-light-font-family": {
+            "declared": "\"Roboto Light\", Helvetica, Arial, sans-serif",
+            "computed": "\"Roboto Light\", Helvetica, Arial, sans-serif"
+          },
+          "--roboto-italic-font-family": {
+            "declared": "\"Roboto Italic\", Helvetica, Arial, sans-serif",
+            "computed": "\"Roboto Italic\", Helvetica, Arial, sans-serif"
+          },
+          "--form-font-family": {
+            "declared": "\"Open Sans\", sans-serif",
+            "computed": "\"Open Sans\", sans-serif"
+          },
+          "--f37-lineca-medium": {
+            "declared": "\"F37 Lineca Medium\"",
+            "computed": "\"F37 Lineca Medium\""
+          },
+          "--body-font-size-m": {
+            "declared": "1.8rem",
+            "computed": "1.8rem"
+          },
+          "--body-font-size-s": {
+            "declared": "1.6rem",
+            "computed": "1.6rem"
+          },
+          "--body-font-size-xs": {
+            "declared": "1.4rem",
+            "computed": "1.4rem"
+          },
+          "--corp-font-size-6": {
+            "declared": "0.6rem",
+            "computed": "0.6rem"
+          },
+          "--corp-font-size-7": {
+            "declared": "0.7rem",
+            "computed": "0.7rem"
+          },
+          "--corp-font-size-8": {
+            "declared": "0.8rem",
+            "computed": "0.8rem"
+          },
+          "--corp-font-size-10": {
+            "declared": "1rem",
+            "computed": "1rem"
+          },
+          "--corp-font-size-11": {
+            "declared": "1.1rem",
+            "computed": "1.1rem"
+          },
+          "--corp-font-size-12": {
+            "declared": "1.2rem",
+            "computed": "1.2rem"
+          },
+          "--corp-font-size-125": {
+            "declared": "1.25rem",
+            "computed": "1.25rem"
+          },
+          "--corp-font-size-13": {
+            "declared": "1.3rem",
+            "computed": "1.3rem"
+          },
+          "--corp-font-size-14": {
+            "declared": "1.4rem",
+            "computed": "1.4rem"
+          },
+          "--corp-font-size-16": {
+            "declared": "1.6rem",
+            "computed": "1.6rem"
+          },
+          "--corp-font-size-18": {
+            "declared": "1.8rem",
+            "computed": "1.8rem"
+          },
+          "--corp-font-size-19": {
+            "declared": "1.9rem",
+            "computed": "1.9rem"
+          },
+          "--corp-font-size-20": {
+            "declared": "2rem",
+            "computed": "2rem"
+          },
+          "--corp-font-size-22": {
+            "declared": "2.2rem",
+            "computed": "2.2rem"
+          },
+          "--corp-font-size-24": {
+            "declared": "2.4rem",
+            "computed": "2.4rem"
+          },
+          "--corp-font-size-26": {
+            "declared": "2.6rem",
+            "computed": "2.6rem"
+          },
+          "--corp-font-size-28": {
+            "declared": "2.8rem",
+            "computed": "2.8rem"
+          },
+          "--corp-font-size-30": {
+            "declared": "3rem",
+            "computed": "3rem"
+          },
+          "--corp-font-size-3125": {
+            "declared": "3.125rem",
+            "computed": "3.125rem"
+          },
+          "--corp-font-size-32": {
+            "declared": "3.2rem",
+            "computed": "3.2rem"
+          },
+          "--corp-font-size-33": {
+            "declared": "3.3rem",
+            "computed": "3.3rem"
+          },
+          "--corp-font-size-34": {
+            "declared": "3.4rem",
+            "computed": "3.4rem"
+          },
+          "--corp-font-size-36": {
+            "declared": "3.6rem",
+            "computed": "3.6rem"
+          },
+          "--corp-font-size-38": {
+            "declared": "3.8rem",
+            "computed": "3.8rem"
+          },
+          "--corp-font-size-40": {
+            "declared": "4rem",
+            "computed": "4rem"
+          },
+          "--corp-font-size-42": {
+            "declared": "4.2rem",
+            "computed": "4.2rem"
+          },
+          "--corp-font-size-48": {
+            "declared": "4.8rem",
+            "computed": "4.8rem"
+          },
+          "--corp-font-size-50": {
+            "declared": "5rem",
+            "computed": "5rem"
+          },
+          "--corp-font-size-56": {
+            "declared": "5.6rem",
+            "computed": "5.6rem"
+          },
+          "--corp-font-size-64": {
+            "declared": "6.4rem",
+            "computed": "6.4rem"
+          },
+          "--corp-font-size-80": {
+            "declared": "8rem",
+            "computed": "8rem"
+          },
+          "--heading-font-size-xxl": {
+            "declared": "6.4rem",
+            "computed": "6.4rem"
+          },
+          "--heading-font-size-xl": {
+            "declared": "5.6rem",
+            "computed": "5.6rem"
+          },
+          "--heading-font-size-l": {
+            "declared": "4.8rem",
+            "computed": "4.8rem"
+          },
+          "--heading-font-size-m": {
+            "declared": "4rem",
+            "computed": "4rem"
+          },
+          "--heading-font-size-s": {
+            "declared": "3.2rem",
+            "computed": "3.2rem"
+          },
+          "--heading-font-size-xs": {
+            "declared": "2.4rem",
+            "computed": "2.4rem"
+          },
+          "--nav-height": {
+            "declared": "var(--corp-spacing-88)",
+            "computed": "7.2rem"
+          },
+          "--nav-height-mobile": {
+            "declared": "7.2rem",
+            "computed": "7.2rem"
+          },
+          "--header-height": {
+            "declared": "var(--nav-height)",
+            "computed": "7.2rem"
+          },
+          "--header-height-mobile": {
+            "declared": "var(--nav-height-mobile)",
+            "computed": "7.2rem"
+          },
+          "--corp-section-float-top": {
+            "declared": "18.8rem",
+            "computed": "18.8rem"
+          },
+          "--corp-section-height-sm": {
+            "declared": "26rem",
+            "computed": "26rem"
+          },
+          "--corp-section-height-md": {
+            "declared": "44.8rem",
+            "computed": "21.6rem"
+          },
+          "--corp-section-height-lg": {
+            "declared": "40rem",
+            "computed": "40rem"
+          },
+          "--corp-section-height-xl": {
+            "declared": "60rem",
+            "computed": "60rem"
+          },
+          "--corp-section-height-2xl": {
+            "declared": "80rem",
+            "computed": "80rem"
+          },
+          "--corp-font-weight-light": {
+            "declared": "300",
+            "computed": "300"
+          },
+          "--corp-font-weight-lighter": {
+            "declared": "350",
+            "computed": "350"
+          },
+          "--corp-font-weight-regular": {
+            "declared": "400",
+            "computed": "400"
+          },
+          "--corp-font-weight-medium": {
+            "declared": "500",
+            "computed": "500"
+          },
+          "--corp-font-weight-semibold": {
+            "declared": "600",
+            "computed": "600"
+          },
+          "--corp-font-weight-semibold-alt": {
+            "declared": "650",
+            "computed": "650"
+          },
+          "--corp-font-weight-bold": {
+            "declared": "700",
+            "computed": "700"
+          },
+          "--corp-font-weight-extrabold": {
+            "declared": "800",
+            "computed": "800"
+          },
+          "--corp-space-token-xxs": {
+            "declared": "calc(8 * var(--px-to-rem))",
+            "computed": "calc(8 * calc(1rem / 10))"
+          },
+          "--corp-space-token-xs": {
+            "declared": "calc(16 * var(--px-to-rem))",
+            "computed": "calc(16 * calc(1rem / 10))"
+          },
+          "--corp-space-token-s": {
+            "declared": "calc(24 * var(--px-to-rem))",
+            "computed": "calc(24 * calc(1rem / 10))"
+          },
+          "--corp-space-token-m": {
+            "declared": "calc(32 * var(--px-to-rem))",
+            "computed": "calc(32 * calc(1rem / 10))"
+          },
+          "--corp-space-token-l": {
+            "declared": "calc(40 * var(--px-to-rem))",
+            "computed": "calc(40 * calc(1rem / 10))"
+          },
+          "--corp-space-token-xl": {
+            "declared": "calc(56 * var(--px-to-rem))",
+            "computed": "calc(56 * calc(1rem / 10))"
+          },
+          "--corp-space-token-xxl": {
+            "declared": "calc(80 * var(--px-to-rem))",
+            "computed": "calc(80 * calc(1rem / 10))"
+          },
+          "--corp-space-token-xxxl": {
+            "declared": "calc(104 * var(--px-to-rem))",
+            "computed": "calc(104 * calc(1rem / 10))"
+          },
+          "--corp-spacing-05": {
+            "declared": "0.05rem",
+            "computed": "0.05rem"
+          },
+          "--corp-spacing-1": {
+            "declared": "0.1rem",
+            "computed": "0.1rem"
+          },
+          "--corp-spacing-2": {
+            "declared": "0.2rem",
+            "computed": "0.2rem"
+          },
+          "--corp-spacing-3": {
+            "declared": "0.3rem",
+            "computed": "0.3rem"
+          },
+          "--corp-spacing-4": {
+            "declared": "0.4rem",
+            "computed": "0.4rem"
+          },
+          "--corp-spacing-5": {
+            "declared": "0.5rem",
+            "computed": "0.5rem"
+          },
+          "--corp-spacing-055": {
+            "declared": "0.55rem",
+            "computed": "0.55rem"
+          },
+          "--corp-spacing-6": {
+            "declared": "0.6rem",
+            "computed": "0.6rem"
+          },
+          "--corp-spacing-7": {
+            "declared": "0.7rem",
+            "computed": "0.7rem"
+          },
+          "--corp-spacing-75": {
+            "declared": "0.75rem",
+            "computed": "0.75rem"
+          },
+          "--corp-spacing-8": {
+            "declared": "0.8rem",
+            "computed": "0.8rem"
+          },
+          "--corp-spacing-9": {
+            "declared": "0.9rem",
+            "computed": "0.9rem"
+          },
+          "--corp-spacing-10": {
+            "declared": "1rem",
+            "computed": "1rem"
+          },
+          "--corp-spacing-11": {
+            "declared": "1.1rem",
+            "computed": "1.1rem"
+          },
+          "--corp-spacing-12": {
+            "declared": "1.2rem",
+            "computed": "1.2rem"
+          },
+          "--corp-spacing-125": {
+            "declared": "1.25rem",
+            "computed": "1.25rem"
+          },
+          "--corp-spacing-13": {
+            "declared": "1.3rem",
+            "computed": "1.3rem"
+          },
+          "--corp-spacing-14": {
+            "declared": "1.4rem",
+            "computed": "1.4rem"
+          },
+          "--corp-spacing-15": {
+            "declared": "1.5rem",
+            "computed": "1.5rem"
+          },
+          "--corp-spacing-16": {
+            "declared": "1.6rem",
+            "computed": "1.6rem"
+          },
+          "--corp-spacing-17": {
+            "declared": "1.7rem",
+            "computed": "1.7rem"
+          },
+          "--corp-spacing-18": {
+            "declared": "1.8rem",
+            "computed": "1.8rem"
+          },
+          "--corp-spacing-20": {
+            "declared": "2rem",
+            "computed": "2rem"
+          },
+          "--corp-spacing-21": {
+            "declared": "2.1rem",
+            "computed": "2.1rem"
+          },
+          "--corp-spacing-22": {
+            "declared": "2.2rem",
+            "computed": "2.2rem"
+          },
+          "--corp-spacing-24": {
+            "declared": "2.4rem",
+            "computed": "2.4rem"
+          },
+          "--corp-spacing-25": {
+            "declared": "2.5rem",
+            "computed": "2.5rem"
+          },
+          "--corp-spacing-26": {
+            "declared": "2.6rem",
+            "computed": "2.6rem"
+          },
+          "--corp-spacing-27": {
+            "declared": "2.7rem",
+            "computed": "2.7rem"
+          },
+          "--corp-spacing-275": {
+            "declared": "2.75rem",
+            "computed": "2.75rem"
+          },
+          "--corp-spacing-28": {
+            "declared": "2.8rem",
+            "computed": "2.8rem"
+          },
+          "--corp-spacing-30": {
+            "declared": "3rem",
+            "computed": "3rem"
+          },
+          "--corp-spacing-31": {
+            "declared": "3.1rem",
+            "computed": "3.1rem"
+          },
+          "--corp-spacing-32": {
+            "declared": "3.2rem",
+            "computed": "3.2rem"
+          },
+          "--corp-spacing-33": {
+            "declared": "3.3rem",
+            "computed": "3.3rem"
+          },
+          "--corp-spacing-34": {
+            "declared": "3.4rem",
+            "computed": "3.4rem"
+          },
+          "--corp-spacing-35": {
+            "declared": "3.5rem",
+            "computed": "3.5rem"
+          },
+          "--corp-spacing-36": {
+            "declared": "3.6rem",
+            "computed": "3.6rem"
+          },
+          "--corp-spacing-38": {
+            "declared": "3.8rem",
+            "computed": "3.8rem"
+          },
+          "--corp-spacing-40": {
+            "declared": "4rem",
+            "computed": "4rem"
+          },
+          "--corp-spacing-41": {
+            "declared": "4.1rem",
+            "computed": "4.1rem"
+          },
+          "--corp-spacing-42": {
+            "declared": "4.2rem",
+            "computed": "4.2rem"
+          },
+          "--corp-spacing-44": {
+            "declared": "4.4rem",
+            "computed": "4.4rem"
+          },
+          "--corp-spacing-45": {
+            "declared": "4.5rem",
+            "computed": "4.5rem"
+          },
+          "--corp-spacing-46": {
+            "declared": "4.6rem",
+            "computed": "4.6rem"
+          },
+          "--corp-spacing-48": {
+            "declared": "4.8rem",
+            "computed": "4.8rem"
+          },
+          "--corp-spacing-50": {
+            "declared": "5rem",
+            "computed": "5rem"
+          },
+          "--corp-spacing-52": {
+            "declared": "5.2rem",
+            "computed": "5.2rem"
+          },
+          "--corp-spacing-53": {
+            "declared": "5.3rem",
+            "computed": "5.3rem"
+          },
+          "--corp-spacing-55": {
+            "declared": "5.5rem",
+            "computed": "5.5rem"
+          },
+          "--corp-spacing-56": {
+            "declared": "5.6rem",
+            "computed": "5.6rem"
+          },
+          "--corp-spacing-60": {
+            "declared": "6rem",
+            "computed": "6rem"
+          },
+          "--corp-spacing-64": {
+            "declared": "6.4rem",
+            "computed": "6.4rem"
+          },
+          "--corp-spacing-66": {
+            "declared": "6.6rem",
+            "computed": "6.6rem"
+          },
+          "--corp-spacing-67": {
+            "declared": "6.7rem",
+            "computed": "6.7rem"
+          },
+          "--corp-spacing-70": {
+            "declared": "7rem",
+            "computed": "7rem"
+          },
+          "--corp-spacing-72": {
+            "declared": "7.2rem",
+            "computed": "7.2rem"
+          },
+          "--corp-spacing-74": {
+            "declared": "7.4rem",
+            "computed": "7.4rem"
+          },
+          "--corp-spacing-76": {
+            "declared": "7.6rem",
+            "computed": "7.6rem"
+          },
+          "--corp-spacing-80": {
+            "declared": "8rem",
+            "computed": "8rem"
+          },
+          "--corp-spacing-81": {
+            "declared": "8.1rem",
+            "computed": "8.1rem"
+          },
+          "--corp-spacing-82": {
+            "declared": "8.2rem",
+            "computed": "8.2rem"
+          },
+          "--corp-spacing-85": {
+            "declared": "8.5rem",
+            "computed": "8.5rem"
+          },
+          "--corp-spacing-86": {
+            "declared": "8.6rem",
+            "computed": "8.6rem"
+          },
+          "--corp-spacing-88": {
+            "declared": "8.8rem",
+            "computed": "8.8rem"
+          },
+          "--corp-spacing-90": {
+            "declared": "9rem",
+            "computed": "9rem"
+          },
+          "--corp-spacing-100": {
+            "declared": "10rem",
+            "computed": "10rem"
+          },
+          "--corp-spacing-104": {
+            "declared": "10.4rem",
+            "computed": "10.4rem"
+          },
+          "--corp-spacing-108": {
+            "declared": "10.8rem",
+            "computed": "10.8rem"
+          },
+          "--corp-spacing-110": {
+            "declared": "11rem",
+            "computed": "11rem"
+          },
+          "--corp-spacing-112": {
+            "declared": "11.2rem",
+            "computed": "11.2rem"
+          },
+          "--corp-spacing-118": {
+            "declared": "11.8rem",
+            "computed": "11.8rem"
+          },
+          "--corp-spacing-120": {
+            "declared": "12rem",
+            "computed": "12rem"
+          },
+          "--corp-spacing-130": {
+            "declared": "13rem",
+            "computed": "13rem"
+          },
+          "--corp-spacing-140": {
+            "declared": "14rem",
+            "computed": "14rem"
+          },
+          "--corp-spacing-150": {
+            "declared": "15rem",
+            "computed": "15rem"
+          },
+          "--corp-spacing-160": {
+            "declared": "16rem",
+            "computed": "16rem"
+          },
+          "--corp-spacing-152": {
+            "declared": "15.2rem",
+            "computed": "15.2rem"
+          },
+          "--corp-spacing-124": {
+            "declared": "12.4rem",
+            "computed": "12.4rem"
+          },
+          "--corp-spacing-161": {
+            "declared": "16.1rem",
+            "computed": "16.1rem"
+          },
+          "--corp-spacing-168": {
+            "declared": "16.8rem",
+            "computed": "16.8rem"
+          },
+          "--corp-spacing-180": {
+            "declared": "18rem",
+            "computed": "18rem"
+          },
+          "--corp-spacing-190": {
+            "declared": "19rem",
+            "computed": "19rem"
+          },
+          "--corp-spacing-192": {
+            "declared": "19.2rem",
+            "computed": "19.2rem"
+          },
+          "--corp-spacing-200": {
+            "declared": "20rem",
+            "computed": "20rem"
+          },
+          "--corp-spacing-250": {
+            "declared": "25rem",
+            "computed": "25rem"
+          },
+          "--corp-spacing-254": {
+            "declared": "25.4rem",
+            "computed": "25.4rem"
+          },
+          "--corp-spacing-270": {
+            "declared": "27rem",
+            "computed": "27rem"
+          },
+          "--corp-spacing-288": {
+            "declared": "28.8rem",
+            "computed": "28.8rem"
+          },
+          "--corp-spacing-300": {
+            "declared": "30rem",
+            "computed": "30rem"
+          },
+          "--corp-spacing-312": {
+            "declared": "31.2rem",
+            "computed": "31.2rem"
+          },
+          "--corp-spacing-320": {
+            "declared": "32rem",
+            "computed": "32rem"
+          },
+          "--corp-spacing-368": {
+            "declared": "36.8rem",
+            "computed": "36.8rem"
+          },
+          "--corp-spacing-375": {
+            "declared": "37.5rem",
+            "computed": "37.5rem"
+          },
+          "--corp-spacing-380": {
+            "declared": "38rem",
+            "computed": "38rem"
+          },
+          "--corp-spacing-400": {
+            "declared": "40rem",
+            "computed": "40rem"
+          },
+          "--corp-spacing-480": {
+            "declared": "48rem",
+            "computed": "48rem"
+          },
+          "--corp-spacing-500": {
+            "declared": "50rem",
+            "computed": "50rem"
+          },
+          "--corp-spacing-528": {
+            "declared": "52.8rem",
+            "computed": "52.8rem"
+          },
+          "--corp-spacing-530": {
+            "declared": "53rem",
+            "computed": "53rem"
+          },
+          "--corp-spacing-560": {
+            "declared": "56rem",
+            "computed": "56rem"
+          },
+          "--corp-spacing-585": {
+            "declared": "58.5rem",
+            "computed": "58.5rem"
+          },
+          "--corp-spacing-710": {
+            "declared": "71rem",
+            "computed": "71rem"
+          },
+          "--corp-spacing-810": {
+            "declared": "81rem",
+            "computed": "81rem"
+          },
+          "--corp-spacing-1110": {
+            "declared": "111rem",
+            "computed": "111rem"
+          },
+          "--corp-spacing-1000": {
+            "declared": "100rem",
+            "computed": "100rem"
+          },
+          "--corp-spacing-1200": {
+            "declared": "120rem",
+            "computed": "120rem"
+          },
+          "--corp-separator-hairline": {
+            "declared": "var(--corp-spacing-1)",
+            "computed": "0.1rem"
+          },
+          "--corp-separator-xs": {
+            "declared": "var(--corp-spacing-8)",
+            "computed": "0.8rem"
+          },
+          "--corp-separator-sm": {
+            "declared": "var(--corp-spacing-16)",
+            "computed": "1.6rem"
+          },
+          "--corp-separator-md": {
+            "declared": "var(--corp-spacing-24)",
+            "computed": "2.4rem"
+          },
+          "--corp-separator-lg": {
+            "declared": "var(--corp-spacing-32)",
+            "computed": "3.2rem"
+          },
+          "--corp-section-gap-xs": {
+            "declared": "var(--corp-spacing-48)",
+            "computed": "4.8rem"
+          },
+          "--corp-section-gap-sm": {
+            "declared": "var(--corp-spacing-64)",
+            "computed": "6.4rem"
+          },
+          "--corp-section-gap-md": {
+            "declared": "var(--corp-spacing-80)",
+            "computed": "8rem"
+          },
+          "--corp-section-gap-lg": {
+            "declared": "9.6rem",
+            "computed": "9.6rem"
+          },
+          "--corp-section-gap-xl": {
+            "declared": "11.2rem",
+            "computed": "11.2rem"
+          },
+          "--corp-section-gap-2xl": {
+            "declared": "12.8rem",
+            "computed": "12.8rem"
+          },
+          "--corp-section-gap-3xl": {
+            "declared": "14.4rem",
+            "computed": "14.4rem"
+          },
+          "--text-transform-uppercase": {
+            "declared": "uppercase",
+            "computed": "uppercase"
+          },
+          "--text-transform-lowercase": {
+            "declared": "lowercase",
+            "computed": "lowercase"
+          },
+          "--text-transform-none": {
+            "declared": "normal",
+            "computed": "normal"
+          },
+          "--border-radius-s": {
+            "declared": "0.2rem",
+            "computed": "0.2rem"
+          },
+          "--border-radius-base": {
+            "declared": "0.4rem",
+            "computed": "0.4rem"
+          },
+          "--border-radius-m": {
+            "declared": "0.8rem",
+            "computed": "0.8rem"
+          },
+          "--border-radius-ml": {
+            "declared": "1.2rem",
+            "computed": "1.2rem"
+          },
+          "--border-radius-md": {
+            "declared": "4rem",
+            "computed": "4rem"
+          },
+          "--border-radius-l": {
+            "declared": "8rem",
+            "computed": "8rem"
+          },
+          "--border-width-hairline": {
+            "declared": "0.05rem",
+            "computed": "0.05rem"
+          },
+          "--border-width-thin": {
+            "declared": "0.1rem",
+            "computed": "0.1rem"
+          },
+          "--border-width-thick": {
+            "declared": "0.2rem",
+            "computed": "0.2rem"
+          },
+          "--border-width-medium": {
+            "declared": "0.3rem",
+            "computed": "0.3rem"
+          },
+          "--border-width-accent": {
+            "declared": "0.5rem",
+            "computed": "0.5rem"
+          },
+          "--border-radius-xl": {
+            "declared": "8rem",
+            "computed": "3.2rem"
+          },
+          "--border-radius-subtle": {
+            "declared": "4rem",
+            "computed": "2.4rem"
+          },
+          "--corp-z-index-negative": {
+            "declared": "-1",
+            "computed": "-1"
+          },
+          "--corp-z-index-base": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--corp-z-index-raised": {
+            "declared": "2",
+            "computed": "2"
+          },
+          "--corp-z-index-dropdown": {
+            "declared": "3",
+            "computed": "3"
+          },
+          "--corp-z-index-sticky": {
+            "declared": "4",
+            "computed": "4"
+          },
+          "--corp-z-index-overlay": {
+            "declared": "10",
+            "computed": "10"
+          },
+          "--order-first": {
+            "declared": "-1",
+            "computed": "-1"
+          },
+          "--order-default": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--order-last": {
+            "declared": "2",
+            "computed": "2"
+          },
+          "--opacity-full": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--opacity-high": {
+            "declared": "0.9",
+            "computed": "0.9"
+          },
+          "--opacity-muted": {
+            "declared": "0.7",
+            "computed": "0.7"
+          },
+          "--opacity-medium": {
+            "declared": "0.5",
+            "computed": "0.5"
+          },
+          "--opacity-low": {
+            "declared": "0.3",
+            "computed": "0.3"
+          },
+          "--corp-layout-container-max-width-xxs": {
+            "declared": "60rem",
+            "computed": "60rem"
+          },
+          "--corp-layout-container-max-width-xs": {
+            "declared": "90rem",
+            "computed": "90rem"
+          },
+          "--corp-layout-container-max-width-sm": {
+            "declared": "110rem",
+            "computed": "110rem"
+          },
+          "--corp-layout-container-max-width-md": {
+            "declared": "133rem",
+            "computed": "133rem"
+          },
+          "--corp-layout-container-max-width-lg": {
+            "declared": "144rem",
+            "computed": "144rem"
+          },
+          "--corp-gap-xs": {
+            "declared": "0.4rem",
+            "computed": "0.4rem"
+          },
+          "--corp-gap-sm": {
+            "declared": "1rem",
+            "computed": "1rem"
+          },
+          "--corp-gap-sm1": {
+            "declared": "1.5rem",
+            "computed": "1.5rem"
+          },
+          "--corp-gap-md": {
+            "declared": "1.6rem",
+            "computed": "1.6rem"
+          },
+          "--corp-gap-lg": {
+            "declared": "2rem",
+            "computed": "2rem"
+          },
+          "--corp-gap-xl": {
+            "declared": "2.4rem",
+            "computed": "2.4rem"
+          },
+          "--corp-gap-2xl": {
+            "declared": "3.2rem",
+            "computed": "3.2rem"
+          },
+          "--corp-gap-3xl": {
+            "declared": "4rem",
+            "computed": "4rem"
+          },
+          "--corp-gap-4xl": {
+            "declared": "4.2rem",
+            "computed": "4.2rem"
+          },
+          "--corp-gap-5xl": {
+            "declared": "4.8rem",
+            "computed": "4.8rem"
+          }
+        },
+        "fonts": [
+          {
+            "family": "VideoJS",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "roboto-fallback",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "F37 Lineca Book",
+            "weight": "650",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "F37 Lineca Medium",
+            "weight": "800",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Roboto Regular",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Roboto Bold",
+            "weight": "700",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Roboto Medium",
+            "weight": "500",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto Small",
+            "weight": "300",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto Light",
+            "weight": "300",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Roboto Italic",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Abbvie Icon",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          }
+        ],
+        "logoCandidates": [
+          {
+            "tag": "img",
+            "selector": "#nav > div:nth-of-type(3) > div > ul > li:nth-of-type(3) > button > span:nth-of-type(1) > img",
+            "src": "https://www.abbvie.com/icons/icon-search.svg",
+            "inlineSvg": false,
+            "alt": "",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": null,
+            "inHomeLink": false,
+            "rect": {
+              "x": 252,
+              "y": 27,
+              "w": 18,
+              "h": 20
+            }
+          }
+        ],
+        "iconFont": {
+          "families": [
+            "Abbvie Icon"
+          ],
+          "glyphs": [
+            {
+              "class": "back-btn",
+              "pseudo": "::before",
+              "codepoint": "U+E903",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "selected",
+              "pseudo": "::before",
+              "codepoint": "U+E902",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "external-link",
+              "pseudo": "::after",
+              "codepoint": "U+E900",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F101",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F103",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F104",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-volume-level",
+              "pseudo": "::before",
+              "codepoint": "U+F111",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-play-progress vjs-slider-bar",
+              "pseudo": "::before",
+              "codepoint": "U+F111",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F111",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F10E",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F11D",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F110",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F10C",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F11E",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F115",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "breadcrumb-drop-title",
+              "pseudo": "::after",
+              "codepoint": "U+E901",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "icon-abbvie-play bcvideo-icon bcvideo-icon-font",
+              "pseudo": "::before",
+              "codepoint": "U+E90B",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "story-card-read-time story-card-read-time-inline",
+              "pseudo": "::before",
+              "codepoint": "U+E904",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "back-to-top",
+              "pseudo": "::before",
+              "codepoint": "U+E90A",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "icon-abbvie-external-link",
+              "pseudo": "::before",
+              "codepoint": "U+E900",
+              "fontFamily": "\"Abbvie Icon\""
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+      },
+      "1440": {
+        "title": "AbbVie and PGA TOUR | Birdies for Brain Health | AbbVie",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 1999,
+          "visible": 468
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Turning birdies into real impact on and…",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div > h1",
+            "fontFamily": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "fontSize": "64px",
+            "fontWeight": "800",
+            "lineHeight": "68px",
+            "letterSpacing": "-1.28px",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h2",
+            "text": "About Birdies for Brain Health",
+            "selector": "#about-birdies-for-brain-health",
+            "fontFamily": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "fontSize": "56px",
+            "fontWeight": "800",
+            "lineHeight": "68px",
+            "letterSpacing": "-1.12px",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h2",
+            "text": "AbbVie Birdies for Brain Health Ambassa…",
+            "selector": "#abbviebirdies-for-brain-health-ambassador",
+            "fontFamily": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "fontSize": "56px",
+            "fontWeight": "800",
+            "lineHeight": "68px",
+            "letterSpacing": "-1.12px",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h4",
+            "text": "Partnerships For Impact",
+            "selector": "#partnerships-for-impact",
+            "fontFamily": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "fontSize": "40px",
+            "fontWeight": "800",
+            "lineHeight": "44px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h3",
+            "text": "The Power of Partnership",
+            "selector": "#the-power-of-partnership",
+            "fontFamily": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "fontSize": "48px",
+            "fontWeight": "800",
+            "lineHeight": "52px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h5",
+            "text": "Related Content",
+            "selector": "#related-content",
+            "fontFamily": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "800",
+            "lineHeight": "36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h4",
+            "text": "More than “Just a Headache”: Living wit…",
+            "selector": "div > div > div > a > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > h4",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "h4",
+            "text": "Real people. Real inspiration.",
+            "selector": "div > div > div > a > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > h4",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "As the Official Pharmaceutical Sponsor …",
+            "selector": "div:nth-of-type(3) > div > div > div > div:nth-of-type(3) > div > div > p",
+            "fontFamily": "\"Roboto Light\", Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "lineHeight": "40px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "As Official Pharmaceutical Sponsor of t…",
+            "selector": "#main-content > div:nth-of-type(2) > div > div:nth-of-type(2) > div > p:nth-of-type(1)",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "Throughout the season, compelling stori…",
+            "selector": "#main-content > div:nth-of-type(2) > div > div:nth-of-type(2) > div > p:nth-of-type(2)",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "1. World Health Organization. “Global s…",
+            "selector": "#main-content > div:nth-of-type(2) > div > div:nth-of-type(2) > div > p:nth-of-type(3)",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "Making an impact on and off the course",
+            "selector": "div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "Gary Woodland, one of the U.S. captain’…",
+            "selector": "#main-content > div:nth-of-type(4) > div > div:nth-of-type(3) > div > p",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "My experience has shown me how importan…",
+            "selector": "#section-bg-9 > div > div > div > blockquote > div:nth-of-type(1) > p",
+            "fontFamily": "\"F37 Lineca Book\", Helvetica, Arial, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "650",
+            "lineHeight": "36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "Learn more about the six patient advoca…",
+            "selector": "#main-content > div:nth-of-type(6) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div > p",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "Learn about our other purposeful brand …",
+            "selector": "#main-content > div:nth-of-type(7) > div > div:nth-of-type(1) > div > p",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          },
+          {
+            "tag": "p",
+            "text": "POWER OF PARTNERSHIPS",
+            "selector": "div:nth-of-type(7) > div > div:nth-of-type(3) > div > div > div > div > p",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 29, 73)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Watch 0:30",
+            "selector": "div:nth-of-type(3) > div > div > div > div > div > div:nth-of-type(2) > button",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "0px",
+            "padding": "16px 40px",
+            "border": "1px solid rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "\"Roboto Bold\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "textTransform": "uppercase",
+            "letterSpacing": "0.84px",
+            "hover": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(7, 29, 73)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "POWER OF PARTNERSHIPS",
+            "selector": "div > div:nth-of-type(3) > div > div > div > div > p > a",
+            "count": 1,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 102, 245)",
+            "borderRadius": "0px",
+            "padding": "16px 40px",
+            "border": "1px solid rgb(0, 102, 245)",
+            "borderColor": "rgb(0, 102, 245)",
+            "boxShadow": "none",
+            "fontFamily": "\"Roboto Bold\", Helvetica, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "textTransform": "uppercase",
+            "letterSpacing": "0.84px",
+            "hover": {
+              "backgroundColor": "rgb(0, 102, 245)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(0, 102, 245)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Cookies Settings",
+            "selector": "#onetrust-pc-btn-handler",
+            "count": 1,
+            "backgroundColor": "rgb(33, 33, 33)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "2px",
+            "padding": "12px 10px",
+            "border": "2px solid rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "13.008px",
+            "fontWeight": "600",
+            "textTransform": "none",
+            "letterSpacing": "0.13008px",
+            "hover": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(45, 41, 38)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "Who We Are",
+            "selector": "nav > ol > li:nth-of-type(1) > a",
+            "count": 2,
+            "color": "rgb(7, 29, 73)",
+            "textDecoration": "none",
+            "fontWeight": "700",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(7, 29, 73)",
+              "borderColor": "rgb(7, 29, 73)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "SEPTEMBER 15, 2026NEUROSCIENCEMore than…",
+            "selector": "#main-content > div:nth-of-type(9) > div > div:nth-of-type(1) > div > div > div > a",
+            "count": 2,
+            "color": "rgb(7, 29, 73)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(7, 29, 73)",
+              "borderColor": "rgb(7, 29, 73)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 88
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "sticky",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "nav",
+            "selector": "#nav",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 88
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px 55px",
+            "maxWidth": "1550px",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 260,
+              "y": 664,
+              "w": 416,
+              "h": 24
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 280,
+              "y": 5824,
+              "w": 430,
+              "h": 300
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "100%",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 280,
+              "y": 6148,
+              "w": 430,
+              "h": 24
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "100%",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main",
+            "selector": "#main-content",
+            "rect": {
+              "x": 0,
+              "y": 88,
+              "w": 1440,
+              "h": 5736
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 0,
+              "y": 5744,
+              "w": 1440,
+              "h": 610
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#main-content > div:nth-of-type(1)",
+            "rect": {
+              "x": 0,
+              "y": 88,
+              "w": 1440,
+              "h": 992
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "1440px",
+            "borderRadius": "80px 0px 0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#main-content > div:nth-of-type(2)",
+            "rect": {
+              "x": 0,
+              "y": 1160,
+              "w": 1440,
+              "h": 1033
+            },
+            "backgroundColor": "rgb(241, 243, 255)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "1440px",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#main-content > div:nth-of-type(3)",
+            "rect": {
+              "x": 0,
+              "y": 2273,
+              "w": 1440,
+              "h": 890
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "1440px",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#main-content > div:nth-of-type(4)",
+            "rect": {
+              "x": 0,
+              "y": 3243,
+              "w": 1440,
+              "h": 470
+            },
+            "backgroundColor": "rgb(244, 244, 244)",
+            "color": "rgb(7, 29, 73)",
+            "padding": "0px",
+            "maxWidth": "1440px",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "fontSize": "6.25px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "80px 0px 0px",
+            "count": 3,
+            "area": 3058560,
+            "sources": [
+              "#main-content > div:nth-of-type(1)",
+              "#section-bg-9",
+              "footer > div > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 3,
+            "area": 10788,
+            "sources": [
+              "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > button",
+              "#section-bg-9 > div > div > div > blockquote > div:nth-of-type(2) > div:nth-of-type(1)",
+              "footer > div > button"
+            ]
+          },
+          {
+            "value": "2px",
+            "count": 2,
+            "area": 7387,
+            "sources": [
+              "#onetrust-pc-btn-handler",
+              "#onetrust-close-btn-container > button"
+            ]
+          },
+          {
+            "value": "40px 0px 0px",
+            "count": 1,
+            "area": 604702,
+            "sources": [
+              "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(3) > div"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.2) 0px 0px 18px 0px",
+            "count": 1,
+            "sources": [
+              "#onetrust-banner-sdk"
+            ]
+          }
+        ],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(244, 244, 244)",
+            "count": 4,
+            "area": 1412055,
+            "sources": [
+              "#main-content > div:nth-of-type(4)",
+              "#main-content > div:nth-of-type(8)",
+              "#main-content > div:nth-of-type(9)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 3,
+            "area": 9881767,
+            "sources": [
+              "body",
+              "#false > div:nth-of-type(2)",
+              "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(3) > div"
+            ]
+          },
+          {
+            "value": "rgb(241, 243, 255)",
+            "count": 2,
+            "area": 1902240,
+            "sources": [
+              "#main-content > div:nth-of-type(2)",
+              "#main-content > div:nth-of-type(7)"
+            ]
+          },
+          {
+            "value": "rgb(250, 250, 250)",
+            "count": 2,
+            "area": 878400,
+            "sources": [
+              "footer > div > div:nth-of-type(1)",
+              "footer > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(33, 33, 33)",
+            "count": 2,
+            "area": 206399,
+            "sources": [
+              "#onetrust-banner-sdk",
+              "#onetrust-pc-btn-handler"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 1,
+            "area": 1166400,
+            "sources": [
+              "#main-content > div:nth-of-type(3) > div > div > div > div"
+            ]
+          },
+          {
+            "value": "rgb(21, 27, 23)",
+            "count": 1,
+            "area": 875520,
+            "sources": [
+              "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > div > video-js"
+            ]
+          },
+          {
+            "value": "rgb(166, 181, 224)",
+            "count": 1,
+            "area": 7744,
+            "sources": [
+              "footer > div > button"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(7, 29, 73)",
+            "count": 51,
+            "sources": [
+              "#nav > div:nth-of-type(2) > div > ul > li:nth-of-type(1) > button > span",
+              "#nav > div:nth-of-type(2) > div > ul > li:nth-of-type(2) > button > span",
+              "#nav > div:nth-of-type(2) > div > ul > li:nth-of-type(3) > button > span"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 10,
+            "sources": [
+              "div:nth-of-type(3) > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(1)",
+              "div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > p",
+              "div > div > div > div > div > div:nth-of-type(2) > button > span:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(102, 107, 122)",
+            "count": 5,
+            "sources": [
+              "nav > ol > li:nth-of-type(3) > span",
+              "div > div > div > a > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > time",
+              "div > div > div > a > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > time"
+            ]
+          },
+          {
+            "value": "rgb(0, 102, 245)",
+            "count": 3,
+            "sources": [
+              "div > div:nth-of-type(3) > div > div > div > div > p > a",
+              "div:nth-of-type(1) > div > div > div > a > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+              "div:nth-of-type(2) > div > div > div > a > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 3,
+            "sources": [
+              "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > button",
+              "div:nth-of-type(3) > div > div > div > div > div > div:nth-of-type(2) > button",
+              "#onetrust-pc-btn-handler"
+            ]
+          },
+          {
+            "value": "rgb(0, 102, 245)",
+            "count": 1,
+            "sources": [
+              "div > div:nth-of-type(3) > div > div > div > div > p > a"
+            ]
+          },
+          {
+            "value": "rgb(185, 180, 180)",
+            "count": 1,
+            "sources": [
+              "footer > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div"
+            ]
+          }
+        ],
+        "customProps": {
+          "--base-size": {
+            "declared": "10",
+            "computed": "10"
+          },
+          "--px-to-rem": {
+            "declared": "calc(1rem / var(--base-size))",
+            "computed": "calc(1rem / 10)"
+          },
+          "--corp-layout-multiplier-direction-value": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--direction-multiplier": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--corp-grid-cols-mobile": {
+            "declared": "6",
+            "computed": "6"
+          },
+          "--corp-grid-cols-tablet": {
+            "declared": "8",
+            "computed": "8"
+          },
+          "--corp-grid-cols-desktop": {
+            "declared": "12",
+            "computed": "12"
+          },
+          "--corp-color-link-default": {
+            "declared": "#035fe6",
+            "computed": "#035fe6"
+          },
+          "--corp-color-link-hover": {
+            "declared": "#136ff6",
+            "computed": "#136ff6"
+          },
+          "--corp-color-link-secondary": {
+            "declared": "#0662bb",
+            "computed": "#0662bb"
+          },
+          "--color-surface-default": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--color-surface-highlight": {
+            "declared": "#f1f3ff",
+            "computed": "#f1f3ff"
+          },
+          "--color-surface-highlight-inverse": {
+            "declared": "#0066f5",
+            "computed": "#0066f5"
+          },
+          "--color-border-container": {
+            "declared": "#a6b5e0",
+            "computed": "#a6b5e0"
+          },
+          "--corp-color-text-default": {
+            "declared": "#071d49",
+            "computed": "#071d49"
+          },
+          "--corp-color-text-label": {
+            "declared": "#061e47",
+            "computed": "#061e47"
+          },
+          "--color-blue-medium": {
+            "declared": "#6f89cd",
+            "computed": "#6f89cd"
+          },
+          "--corp-color-text-muted": {
+            "declared": "#808080",
+            "computed": "#808080"
+          },
+          "--corp-color-text-accent": {
+            "declared": "#0066f5",
+            "computed": "#0066f5"
+          },
+          "--corp-color-text-subtle": {
+            "declared": "#555",
+            "computed": "#555"
+          },
+          "--color-blue-grey-500": {
+            "declared": "#607d8b",
+            "computed": "#607d8b"
+          },
+          "--color-gray-600": {
+            "declared": "#6c7280",
+            "computed": "#6c7280"
+          },
+          "--corp-color-surface-subtle": {
+            "declared": "#f8f8f8",
+            "computed": "#f8f8f8"
+          },
+          "--corp-color-text-strong": {
+            "declared": "#505050",
+            "computed": "#505050"
+          },
+          "--corp-color-surface-overlay": {
+            "declared": "lightgrey",
+            "computed": "lightgrey"
+          },
+          "--color-accent-blue": {
+            "declared": "#0066f5",
+            "computed": "#0066f5"
+          },
+          "--color-accent-blue-light": {
+            "declared": "#479ff8",
+            "computed": "#479ff8"
+          },
+          "--color-accent-blue-bright": {
+            "declared": "#007aff",
+            "computed": "#007aff"
+          },
+          "--color-accent-green": {
+            "declared": "#338700",
+            "computed": "#338700"
+          },
+          "--color-overlay-navy": {
+            "declared": "rgb(7 29 73 / 70%)",
+            "computed": "rgb(7 29 73 / 70%)"
+          },
+          "--color-overlay-navy-medium": {
+            "declared": "rgb(7 29 73 / 55%)",
+            "computed": "rgb(7 29 73 / 55%)"
+          },
+          "--color-overlay-navy-light": {
+            "declared": "rgb(7 29 73 / 50%)",
+            "computed": "rgb(7 29 73 / 50%)"
+          },
+          "--color-overlay-gray": {
+            "declared": "rgb(80 80 80 / 68%)",
+            "computed": "rgb(80 80 80 / 68%)"
+          },
+          "--color-overlay-purple": {
+            "declared": "rgb(138 46 204 / 66%)",
+            "computed": "rgb(138 46 204 / 66%)"
+          },
+          "--color-purple-pink": {
+            "declared": "#e642f5",
+            "computed": "#e642f5"
+          },
+          "--color-white": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-black": {
+            "declared": "#000",
+            "computed": "#000"
+          },
+          "--color-navy-dark": {
+            "declared": "var(--corp-color-text-default)",
+            "computed": "#071d49"
+          },
+          "--color-blue-light": {
+            "declared": "#a6b5e0",
+            "computed": "#a6b5e0"
+          },
+          "--color-blue-gray": {
+            "declared": "#526180",
+            "computed": "#526180"
+          },
+          "--color-blue-very-light": {
+            "declared": "#f1f3ff",
+            "computed": "#f1f3ff"
+          },
+          "--color-blue-ultra-light": {
+            "declared": "#fafbff",
+            "computed": "#fafbff"
+          },
+          "--color-gray-dark": {
+            "declared": "#666b7a",
+            "computed": "#666b7a"
+          },
+          "--color-gray-medium": {
+            "declared": "#b9b4b4",
+            "computed": "#b9b4b4"
+          },
+          "--color-gray-light": {
+            "declared": "#f4f4f4",
+            "computed": "#f4f4f4"
+          },
+          "--color-gray-medium-light": {
+            "declared": "#e4e4e4",
+            "computed": "#e4e4e4"
+          },
+          "--color-gray-extra-light": {
+            "declared": "#fafafa",
+            "computed": "#fafafa"
+          },
+          "--color-purple-primary": {
+            "declared": "#8a2ecc",
+            "computed": "#8a2ecc"
+          },
+          "--color-purple-light": {
+            "declared": "#a86bde",
+            "computed": "#a86bde"
+          },
+          "--color-orange-dark": {
+            "declared": "#cf451c",
+            "computed": "#cf451c"
+          },
+          "--color-orange-light": {
+            "declared": "#f7634f",
+            "computed": "#f7634f"
+          },
+          "--color-green-primary": {
+            "declared": "#338700",
+            "computed": "#338700"
+          },
+          "--color-border-subtle": {
+            "declared": "#dadada",
+            "computed": "#dadada"
+          },
+          "--color-warning-bg": {
+            "declared": "#fff4c2",
+            "computed": "#fff4c2"
+          },
+          "--color-warning-border": {
+            "declared": "#fc3",
+            "computed": "#fc3"
+          },
+          "--color-outline-focus": {
+            "declared": "#0bf",
+            "computed": "#0bf"
+          },
+          "--color-error": {
+            "declared": "var(--color-orange-dark)",
+            "computed": "#cf451c"
+          },
+          "--color-warning": {
+            "declared": "#f2dede",
+            "computed": "#f2dede"
+          },
+          "--color-success": {
+            "declared": "#2f9ece",
+            "computed": "#2f9ece"
+          },
+          "--body-font-family": {
+            "declared": "\"Roboto Regular\", Helvetica, Arial, sans-serif",
+            "computed": "\"Roboto Regular\", Helvetica, Arial, sans-serif"
+          },
+          "--heading-font-family": {
+            "declared": "\"F37 Lineca Book\", Helvetica, Arial, sans-serif",
+            "computed": "\"F37 Lineca Book\", Helvetica, Arial, sans-serif"
+          },
+          "--heading-font-family-bold": {
+            "declared": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif",
+            "computed": "\"F37 Lineca Medium\", Helvetica, Arial, sans-serif"
+          },
+          "--corp-icon-font-family": {
+            "declared": "\"Abbvie Icon\"",
+            "computed": "\"Abbvie Icon\""
+          },
+          "--roboto-small-font-family": {
+            "declared": "\"Roboto Small\", Helvetica, Arial, sans-serif",
+            "computed": "\"Roboto Small\", Helvetica, Arial, sans-serif"
+          },
+          "--roboto-bold-font-family": {
+            "declared": "\"Roboto Bold\", Helvetica, Arial, sans-serif",
+            "computed": "\"Roboto Bold\", Helvetica, Arial, sans-serif"
+          },
+          "--roboto-medium-font-family": {
+            "declared": "\"Roboto Medium\", Helvetica, Arial, sans-serif",
+            "computed": "\"Roboto Medium\", Helvetica, Arial, sans-serif"
+          },
+          "--roboto-light-font-family": {
+            "declared": "\"Roboto Light\", Helvetica, Arial, sans-serif",
+            "computed": "\"Roboto Light\", Helvetica, Arial, sans-serif"
+          },
+          "--roboto-italic-font-family": {
+            "declared": "\"Roboto Italic\", Helvetica, Arial, sans-serif",
+            "computed": "\"Roboto Italic\", Helvetica, Arial, sans-serif"
+          },
+          "--form-font-family": {
+            "declared": "\"Open Sans\", sans-serif",
+            "computed": "\"Open Sans\", sans-serif"
+          },
+          "--f37-lineca-medium": {
+            "declared": "\"F37 Lineca Medium\"",
+            "computed": "\"F37 Lineca Medium\""
+          },
+          "--body-font-size-m": {
+            "declared": "1.8rem",
+            "computed": "1.8rem"
+          },
+          "--body-font-size-s": {
+            "declared": "1.6rem",
+            "computed": "1.6rem"
+          },
+          "--body-font-size-xs": {
+            "declared": "1.4rem",
+            "computed": "1.4rem"
+          },
+          "--corp-font-size-6": {
+            "declared": "0.6rem",
+            "computed": "0.6rem"
+          },
+          "--corp-font-size-7": {
+            "declared": "0.7rem",
+            "computed": "0.7rem"
+          },
+          "--corp-font-size-8": {
+            "declared": "0.8rem",
+            "computed": "0.8rem"
+          },
+          "--corp-font-size-10": {
+            "declared": "1rem",
+            "computed": "1rem"
+          },
+          "--corp-font-size-11": {
+            "declared": "1.1rem",
+            "computed": "1.1rem"
+          },
+          "--corp-font-size-12": {
+            "declared": "1.2rem",
+            "computed": "1.2rem"
+          },
+          "--corp-font-size-125": {
+            "declared": "1.25rem",
+            "computed": "1.25rem"
+          },
+          "--corp-font-size-13": {
+            "declared": "1.3rem",
+            "computed": "1.3rem"
+          },
+          "--corp-font-size-14": {
+            "declared": "1.4rem",
+            "computed": "1.4rem"
+          },
+          "--corp-font-size-16": {
+            "declared": "1.6rem",
+            "computed": "1.6rem"
+          },
+          "--corp-font-size-18": {
+            "declared": "1.8rem",
+            "computed": "1.8rem"
+          },
+          "--corp-font-size-19": {
+            "declared": "1.9rem",
+            "computed": "1.9rem"
+          },
+          "--corp-font-size-20": {
+            "declared": "2rem",
+            "computed": "2rem"
+          },
+          "--corp-font-size-22": {
+            "declared": "2.2rem",
+            "computed": "2.2rem"
+          },
+          "--corp-font-size-24": {
+            "declared": "2.4rem",
+            "computed": "2.4rem"
+          },
+          "--corp-font-size-26": {
+            "declared": "2.6rem",
+            "computed": "2.6rem"
+          },
+          "--corp-font-size-28": {
+            "declared": "2.8rem",
+            "computed": "2.8rem"
+          },
+          "--corp-font-size-30": {
+            "declared": "3rem",
+            "computed": "3rem"
+          },
+          "--corp-font-size-3125": {
+            "declared": "3.125rem",
+            "computed": "3.125rem"
+          },
+          "--corp-font-size-32": {
+            "declared": "3.2rem",
+            "computed": "3.2rem"
+          },
+          "--corp-font-size-33": {
+            "declared": "3.3rem",
+            "computed": "3.3rem"
+          },
+          "--corp-font-size-34": {
+            "declared": "3.4rem",
+            "computed": "3.4rem"
+          },
+          "--corp-font-size-36": {
+            "declared": "3.6rem",
+            "computed": "3.6rem"
+          },
+          "--corp-font-size-38": {
+            "declared": "3.8rem",
+            "computed": "3.8rem"
+          },
+          "--corp-font-size-40": {
+            "declared": "4rem",
+            "computed": "4rem"
+          },
+          "--corp-font-size-42": {
+            "declared": "4.2rem",
+            "computed": "4.2rem"
+          },
+          "--corp-font-size-48": {
+            "declared": "4.8rem",
+            "computed": "4.8rem"
+          },
+          "--corp-font-size-50": {
+            "declared": "5rem",
+            "computed": "5rem"
+          },
+          "--corp-font-size-56": {
+            "declared": "5.6rem",
+            "computed": "5.6rem"
+          },
+          "--corp-font-size-64": {
+            "declared": "6.4rem",
+            "computed": "6.4rem"
+          },
+          "--corp-font-size-80": {
+            "declared": "8rem",
+            "computed": "8rem"
+          },
+          "--heading-font-size-xxl": {
+            "declared": "6.4rem",
+            "computed": "6.4rem"
+          },
+          "--heading-font-size-xl": {
+            "declared": "5.6rem",
+            "computed": "5.6rem"
+          },
+          "--heading-font-size-l": {
+            "declared": "4.8rem",
+            "computed": "4.8rem"
+          },
+          "--heading-font-size-m": {
+            "declared": "4rem",
+            "computed": "4rem"
+          },
+          "--heading-font-size-s": {
+            "declared": "3.2rem",
+            "computed": "3.2rem"
+          },
+          "--heading-font-size-xs": {
+            "declared": "2.4rem",
+            "computed": "2.4rem"
+          },
+          "--nav-height": {
+            "declared": "var(--corp-spacing-88)",
+            "computed": "8.8rem"
+          },
+          "--nav-height-mobile": {
+            "declared": "7.2rem",
+            "computed": "7.2rem"
+          },
+          "--header-height": {
+            "declared": "var(--nav-height)",
+            "computed": "8.8rem"
+          },
+          "--header-height-mobile": {
+            "declared": "var(--nav-height-mobile)",
+            "computed": "7.2rem"
+          },
+          "--corp-section-float-top": {
+            "declared": "18.8rem",
+            "computed": "18.8rem"
+          },
+          "--corp-section-height-sm": {
+            "declared": "26rem",
+            "computed": "26rem"
+          },
+          "--corp-section-height-md": {
+            "declared": "44.8rem",
+            "computed": "44.8rem"
+          },
+          "--corp-section-height-lg": {
+            "declared": "40rem",
+            "computed": "40rem"
+          },
+          "--corp-section-height-xl": {
+            "declared": "60rem",
+            "computed": "60rem"
+          },
+          "--corp-section-height-2xl": {
+            "declared": "80rem",
+            "computed": "80rem"
+          },
+          "--corp-font-weight-light": {
+            "declared": "300",
+            "computed": "300"
+          },
+          "--corp-font-weight-lighter": {
+            "declared": "350",
+            "computed": "350"
+          },
+          "--corp-font-weight-regular": {
+            "declared": "400",
+            "computed": "400"
+          },
+          "--corp-font-weight-medium": {
+            "declared": "500",
+            "computed": "500"
+          },
+          "--corp-font-weight-semibold": {
+            "declared": "600",
+            "computed": "600"
+          },
+          "--corp-font-weight-semibold-alt": {
+            "declared": "650",
+            "computed": "650"
+          },
+          "--corp-font-weight-bold": {
+            "declared": "700",
+            "computed": "700"
+          },
+          "--corp-font-weight-extrabold": {
+            "declared": "800",
+            "computed": "800"
+          },
+          "--corp-space-token-xxs": {
+            "declared": "calc(8 * var(--px-to-rem))",
+            "computed": "calc(8 * calc(1rem / 10))"
+          },
+          "--corp-space-token-xs": {
+            "declared": "calc(16 * var(--px-to-rem))",
+            "computed": "calc(16 * calc(1rem / 10))"
+          },
+          "--corp-space-token-s": {
+            "declared": "calc(24 * var(--px-to-rem))",
+            "computed": "calc(24 * calc(1rem / 10))"
+          },
+          "--corp-space-token-m": {
+            "declared": "calc(32 * var(--px-to-rem))",
+            "computed": "calc(32 * calc(1rem / 10))"
+          },
+          "--corp-space-token-l": {
+            "declared": "calc(40 * var(--px-to-rem))",
+            "computed": "calc(40 * calc(1rem / 10))"
+          },
+          "--corp-space-token-xl": {
+            "declared": "calc(56 * var(--px-to-rem))",
+            "computed": "calc(56 * calc(1rem / 10))"
+          },
+          "--corp-space-token-xxl": {
+            "declared": "calc(80 * var(--px-to-rem))",
+            "computed": "calc(80 * calc(1rem / 10))"
+          },
+          "--corp-space-token-xxxl": {
+            "declared": "calc(104 * var(--px-to-rem))",
+            "computed": "calc(104 * calc(1rem / 10))"
+          },
+          "--corp-spacing-05": {
+            "declared": "0.05rem",
+            "computed": "0.05rem"
+          },
+          "--corp-spacing-1": {
+            "declared": "0.1rem",
+            "computed": "0.1rem"
+          },
+          "--corp-spacing-2": {
+            "declared": "0.2rem",
+            "computed": "0.2rem"
+          },
+          "--corp-spacing-3": {
+            "declared": "0.3rem",
+            "computed": "0.3rem"
+          },
+          "--corp-spacing-4": {
+            "declared": "0.4rem",
+            "computed": "0.4rem"
+          },
+          "--corp-spacing-5": {
+            "declared": "0.5rem",
+            "computed": "0.5rem"
+          },
+          "--corp-spacing-055": {
+            "declared": "0.55rem",
+            "computed": "0.55rem"
+          },
+          "--corp-spacing-6": {
+            "declared": "0.6rem",
+            "computed": "0.6rem"
+          },
+          "--corp-spacing-7": {
+            "declared": "0.7rem",
+            "computed": "0.7rem"
+          },
+          "--corp-spacing-75": {
+            "declared": "0.75rem",
+            "computed": "0.75rem"
+          },
+          "--corp-spacing-8": {
+            "declared": "0.8rem",
+            "computed": "0.8rem"
+          },
+          "--corp-spacing-9": {
+            "declared": "0.9rem",
+            "computed": "0.9rem"
+          },
+          "--corp-spacing-10": {
+            "declared": "1rem",
+            "computed": "1rem"
+          },
+          "--corp-spacing-11": {
+            "declared": "1.1rem",
+            "computed": "1.1rem"
+          },
+          "--corp-spacing-12": {
+            "declared": "1.2rem",
+            "computed": "1.2rem"
+          },
+          "--corp-spacing-125": {
+            "declared": "1.25rem",
+            "computed": "1.25rem"
+          },
+          "--corp-spacing-13": {
+            "declared": "1.3rem",
+            "computed": "1.3rem"
+          },
+          "--corp-spacing-14": {
+            "declared": "1.4rem",
+            "computed": "1.4rem"
+          },
+          "--corp-spacing-15": {
+            "declared": "1.5rem",
+            "computed": "1.5rem"
+          },
+          "--corp-spacing-16": {
+            "declared": "1.6rem",
+            "computed": "1.6rem"
+          },
+          "--corp-spacing-17": {
+            "declared": "1.7rem",
+            "computed": "1.7rem"
+          },
+          "--corp-spacing-18": {
+            "declared": "1.8rem",
+            "computed": "1.8rem"
+          },
+          "--corp-spacing-20": {
+            "declared": "2rem",
+            "computed": "2rem"
+          },
+          "--corp-spacing-21": {
+            "declared": "2.1rem",
+            "computed": "2.1rem"
+          },
+          "--corp-spacing-22": {
+            "declared": "2.2rem",
+            "computed": "2.2rem"
+          },
+          "--corp-spacing-24": {
+            "declared": "2.4rem",
+            "computed": "2.4rem"
+          },
+          "--corp-spacing-25": {
+            "declared": "2.5rem",
+            "computed": "2.5rem"
+          },
+          "--corp-spacing-26": {
+            "declared": "2.6rem",
+            "computed": "2.6rem"
+          },
+          "--corp-spacing-27": {
+            "declared": "2.7rem",
+            "computed": "2.7rem"
+          },
+          "--corp-spacing-275": {
+            "declared": "2.75rem",
+            "computed": "2.75rem"
+          },
+          "--corp-spacing-28": {
+            "declared": "2.8rem",
+            "computed": "2.8rem"
+          },
+          "--corp-spacing-30": {
+            "declared": "3rem",
+            "computed": "3rem"
+          },
+          "--corp-spacing-31": {
+            "declared": "3.1rem",
+            "computed": "3.1rem"
+          },
+          "--corp-spacing-32": {
+            "declared": "3.2rem",
+            "computed": "3.2rem"
+          },
+          "--corp-spacing-33": {
+            "declared": "3.3rem",
+            "computed": "3.3rem"
+          },
+          "--corp-spacing-34": {
+            "declared": "3.4rem",
+            "computed": "3.4rem"
+          },
+          "--corp-spacing-35": {
+            "declared": "3.5rem",
+            "computed": "3.5rem"
+          },
+          "--corp-spacing-36": {
+            "declared": "3.6rem",
+            "computed": "3.6rem"
+          },
+          "--corp-spacing-38": {
+            "declared": "3.8rem",
+            "computed": "3.8rem"
+          },
+          "--corp-spacing-40": {
+            "declared": "4rem",
+            "computed": "4rem"
+          },
+          "--corp-spacing-41": {
+            "declared": "4.1rem",
+            "computed": "4.1rem"
+          },
+          "--corp-spacing-42": {
+            "declared": "4.2rem",
+            "computed": "4.2rem"
+          },
+          "--corp-spacing-44": {
+            "declared": "4.4rem",
+            "computed": "4.4rem"
+          },
+          "--corp-spacing-45": {
+            "declared": "4.5rem",
+            "computed": "4.5rem"
+          },
+          "--corp-spacing-46": {
+            "declared": "4.6rem",
+            "computed": "4.6rem"
+          },
+          "--corp-spacing-48": {
+            "declared": "4.8rem",
+            "computed": "4.8rem"
+          },
+          "--corp-spacing-50": {
+            "declared": "5rem",
+            "computed": "5rem"
+          },
+          "--corp-spacing-52": {
+            "declared": "5.2rem",
+            "computed": "5.2rem"
+          },
+          "--corp-spacing-53": {
+            "declared": "5.3rem",
+            "computed": "5.3rem"
+          },
+          "--corp-spacing-55": {
+            "declared": "5.5rem",
+            "computed": "5.5rem"
+          },
+          "--corp-spacing-56": {
+            "declared": "5.6rem",
+            "computed": "5.6rem"
+          },
+          "--corp-spacing-60": {
+            "declared": "6rem",
+            "computed": "6rem"
+          },
+          "--corp-spacing-64": {
+            "declared": "6.4rem",
+            "computed": "6.4rem"
+          },
+          "--corp-spacing-66": {
+            "declared": "6.6rem",
+            "computed": "6.6rem"
+          },
+          "--corp-spacing-67": {
+            "declared": "6.7rem",
+            "computed": "6.7rem"
+          },
+          "--corp-spacing-70": {
+            "declared": "7rem",
+            "computed": "7rem"
+          },
+          "--corp-spacing-72": {
+            "declared": "7.2rem",
+            "computed": "7.2rem"
+          },
+          "--corp-spacing-74": {
+            "declared": "7.4rem",
+            "computed": "7.4rem"
+          },
+          "--corp-spacing-76": {
+            "declared": "7.6rem",
+            "computed": "7.6rem"
+          },
+          "--corp-spacing-80": {
+            "declared": "8rem",
+            "computed": "8rem"
+          },
+          "--corp-spacing-81": {
+            "declared": "8.1rem",
+            "computed": "8.1rem"
+          },
+          "--corp-spacing-82": {
+            "declared": "8.2rem",
+            "computed": "8.2rem"
+          },
+          "--corp-spacing-85": {
+            "declared": "8.5rem",
+            "computed": "8.5rem"
+          },
+          "--corp-spacing-86": {
+            "declared": "8.6rem",
+            "computed": "8.6rem"
+          },
+          "--corp-spacing-88": {
+            "declared": "8.8rem",
+            "computed": "8.8rem"
+          },
+          "--corp-spacing-90": {
+            "declared": "9rem",
+            "computed": "9rem"
+          },
+          "--corp-spacing-100": {
+            "declared": "10rem",
+            "computed": "10rem"
+          },
+          "--corp-spacing-104": {
+            "declared": "10.4rem",
+            "computed": "10.4rem"
+          },
+          "--corp-spacing-108": {
+            "declared": "10.8rem",
+            "computed": "10.8rem"
+          },
+          "--corp-spacing-110": {
+            "declared": "11rem",
+            "computed": "11rem"
+          },
+          "--corp-spacing-112": {
+            "declared": "11.2rem",
+            "computed": "11.2rem"
+          },
+          "--corp-spacing-118": {
+            "declared": "11.8rem",
+            "computed": "11.8rem"
+          },
+          "--corp-spacing-120": {
+            "declared": "12rem",
+            "computed": "12rem"
+          },
+          "--corp-spacing-130": {
+            "declared": "13rem",
+            "computed": "13rem"
+          },
+          "--corp-spacing-140": {
+            "declared": "14rem",
+            "computed": "14rem"
+          },
+          "--corp-spacing-150": {
+            "declared": "15rem",
+            "computed": "15rem"
+          },
+          "--corp-spacing-160": {
+            "declared": "16rem",
+            "computed": "16rem"
+          },
+          "--corp-spacing-152": {
+            "declared": "15.2rem",
+            "computed": "15.2rem"
+          },
+          "--corp-spacing-124": {
+            "declared": "12.4rem",
+            "computed": "12.4rem"
+          },
+          "--corp-spacing-161": {
+            "declared": "16.1rem",
+            "computed": "16.1rem"
+          },
+          "--corp-spacing-168": {
+            "declared": "16.8rem",
+            "computed": "16.8rem"
+          },
+          "--corp-spacing-180": {
+            "declared": "18rem",
+            "computed": "18rem"
+          },
+          "--corp-spacing-190": {
+            "declared": "19rem",
+            "computed": "19rem"
+          },
+          "--corp-spacing-192": {
+            "declared": "19.2rem",
+            "computed": "19.2rem"
+          },
+          "--corp-spacing-200": {
+            "declared": "20rem",
+            "computed": "20rem"
+          },
+          "--corp-spacing-250": {
+            "declared": "25rem",
+            "computed": "25rem"
+          },
+          "--corp-spacing-254": {
+            "declared": "25.4rem",
+            "computed": "25.4rem"
+          },
+          "--corp-spacing-270": {
+            "declared": "27rem",
+            "computed": "27rem"
+          },
+          "--corp-spacing-288": {
+            "declared": "28.8rem",
+            "computed": "28.8rem"
+          },
+          "--corp-spacing-300": {
+            "declared": "30rem",
+            "computed": "30rem"
+          },
+          "--corp-spacing-312": {
+            "declared": "31.2rem",
+            "computed": "31.2rem"
+          },
+          "--corp-spacing-320": {
+            "declared": "32rem",
+            "computed": "32rem"
+          },
+          "--corp-spacing-368": {
+            "declared": "36.8rem",
+            "computed": "36.8rem"
+          },
+          "--corp-spacing-375": {
+            "declared": "37.5rem",
+            "computed": "37.5rem"
+          },
+          "--corp-spacing-380": {
+            "declared": "38rem",
+            "computed": "38rem"
+          },
+          "--corp-spacing-400": {
+            "declared": "40rem",
+            "computed": "40rem"
+          },
+          "--corp-spacing-480": {
+            "declared": "48rem",
+            "computed": "48rem"
+          },
+          "--corp-spacing-500": {
+            "declared": "50rem",
+            "computed": "50rem"
+          },
+          "--corp-spacing-528": {
+            "declared": "52.8rem",
+            "computed": "52.8rem"
+          },
+          "--corp-spacing-530": {
+            "declared": "53rem",
+            "computed": "53rem"
+          },
+          "--corp-spacing-560": {
+            "declared": "56rem",
+            "computed": "56rem"
+          },
+          "--corp-spacing-585": {
+            "declared": "58.5rem",
+            "computed": "58.5rem"
+          },
+          "--corp-spacing-710": {
+            "declared": "71rem",
+            "computed": "71rem"
+          },
+          "--corp-spacing-810": {
+            "declared": "81rem",
+            "computed": "81rem"
+          },
+          "--corp-spacing-1110": {
+            "declared": "111rem",
+            "computed": "111rem"
+          },
+          "--corp-spacing-1000": {
+            "declared": "100rem",
+            "computed": "100rem"
+          },
+          "--corp-spacing-1200": {
+            "declared": "120rem",
+            "computed": "120rem"
+          },
+          "--corp-separator-hairline": {
+            "declared": "var(--corp-spacing-1)",
+            "computed": "0.1rem"
+          },
+          "--corp-separator-xs": {
+            "declared": "var(--corp-spacing-8)",
+            "computed": "0.8rem"
+          },
+          "--corp-separator-sm": {
+            "declared": "var(--corp-spacing-16)",
+            "computed": "1.6rem"
+          },
+          "--corp-separator-md": {
+            "declared": "var(--corp-spacing-24)",
+            "computed": "2.4rem"
+          },
+          "--corp-separator-lg": {
+            "declared": "var(--corp-spacing-32)",
+            "computed": "3.2rem"
+          },
+          "--corp-section-gap-xs": {
+            "declared": "var(--corp-spacing-48)",
+            "computed": "4.8rem"
+          },
+          "--corp-section-gap-sm": {
+            "declared": "var(--corp-spacing-64)",
+            "computed": "6.4rem"
+          },
+          "--corp-section-gap-md": {
+            "declared": "var(--corp-spacing-80)",
+            "computed": "8rem"
+          },
+          "--corp-section-gap-lg": {
+            "declared": "9.6rem",
+            "computed": "9.6rem"
+          },
+          "--corp-section-gap-xl": {
+            "declared": "11.2rem",
+            "computed": "11.2rem"
+          },
+          "--corp-section-gap-2xl": {
+            "declared": "12.8rem",
+            "computed": "12.8rem"
+          },
+          "--corp-section-gap-3xl": {
+            "declared": "14.4rem",
+            "computed": "14.4rem"
+          },
+          "--text-transform-uppercase": {
+            "declared": "uppercase",
+            "computed": "uppercase"
+          },
+          "--text-transform-lowercase": {
+            "declared": "lowercase",
+            "computed": "lowercase"
+          },
+          "--text-transform-none": {
+            "declared": "normal",
+            "computed": "normal"
+          },
+          "--border-radius-s": {
+            "declared": "0.2rem",
+            "computed": "0.2rem"
+          },
+          "--border-radius-base": {
+            "declared": "0.4rem",
+            "computed": "0.4rem"
+          },
+          "--border-radius-m": {
+            "declared": "0.8rem",
+            "computed": "0.8rem"
+          },
+          "--border-radius-ml": {
+            "declared": "1.2rem",
+            "computed": "1.2rem"
+          },
+          "--border-radius-md": {
+            "declared": "4rem",
+            "computed": "4rem"
+          },
+          "--border-radius-l": {
+            "declared": "8rem",
+            "computed": "8rem"
+          },
+          "--border-width-hairline": {
+            "declared": "0.05rem",
+            "computed": "0.05rem"
+          },
+          "--border-width-thin": {
+            "declared": "0.1rem",
+            "computed": "0.1rem"
+          },
+          "--border-width-thick": {
+            "declared": "0.2rem",
+            "computed": "0.2rem"
+          },
+          "--border-width-medium": {
+            "declared": "0.3rem",
+            "computed": "0.3rem"
+          },
+          "--border-width-accent": {
+            "declared": "0.5rem",
+            "computed": "0.5rem"
+          },
+          "--border-radius-xl": {
+            "declared": "8rem",
+            "computed": "8rem"
+          },
+          "--border-radius-subtle": {
+            "declared": "4rem",
+            "computed": "4rem"
+          },
+          "--corp-z-index-negative": {
+            "declared": "-1",
+            "computed": "-1"
+          },
+          "--corp-z-index-base": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--corp-z-index-raised": {
+            "declared": "2",
+            "computed": "2"
+          },
+          "--corp-z-index-dropdown": {
+            "declared": "3",
+            "computed": "3"
+          },
+          "--corp-z-index-sticky": {
+            "declared": "4",
+            "computed": "4"
+          },
+          "--corp-z-index-overlay": {
+            "declared": "10",
+            "computed": "10"
+          },
+          "--order-first": {
+            "declared": "-1",
+            "computed": "-1"
+          },
+          "--order-default": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--order-last": {
+            "declared": "2",
+            "computed": "2"
+          },
+          "--opacity-full": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--opacity-high": {
+            "declared": "0.9",
+            "computed": "0.9"
+          },
+          "--opacity-muted": {
+            "declared": "0.7",
+            "computed": "0.7"
+          },
+          "--opacity-medium": {
+            "declared": "0.5",
+            "computed": "0.5"
+          },
+          "--opacity-low": {
+            "declared": "0.3",
+            "computed": "0.3"
+          },
+          "--corp-layout-container-max-width-xxs": {
+            "declared": "60rem",
+            "computed": "60rem"
+          },
+          "--corp-layout-container-max-width-xs": {
+            "declared": "90rem",
+            "computed": "90rem"
+          },
+          "--corp-layout-container-max-width-sm": {
+            "declared": "110rem",
+            "computed": "110rem"
+          },
+          "--corp-layout-container-max-width-md": {
+            "declared": "133rem",
+            "computed": "133rem"
+          },
+          "--corp-layout-container-max-width-lg": {
+            "declared": "144rem",
+            "computed": "144rem"
+          },
+          "--corp-gap-xs": {
+            "declared": "0.4rem",
+            "computed": "0.4rem"
+          },
+          "--corp-gap-sm": {
+            "declared": "1rem",
+            "computed": "1rem"
+          },
+          "--corp-gap-sm1": {
+            "declared": "1.5rem",
+            "computed": "1.5rem"
+          },
+          "--corp-gap-md": {
+            "declared": "1.6rem",
+            "computed": "1.6rem"
+          },
+          "--corp-gap-lg": {
+            "declared": "2rem",
+            "computed": "2rem"
+          },
+          "--corp-gap-xl": {
+            "declared": "2.4rem",
+            "computed": "2.4rem"
+          },
+          "--corp-gap-2xl": {
+            "declared": "3.2rem",
+            "computed": "3.2rem"
+          },
+          "--corp-gap-3xl": {
+            "declared": "4rem",
+            "computed": "4rem"
+          },
+          "--corp-gap-4xl": {
+            "declared": "4.2rem",
+            "computed": "4.2rem"
+          },
+          "--corp-gap-5xl": {
+            "declared": "4.8rem",
+            "computed": "4.8rem"
+          }
+        },
+        "fonts": [
+          {
+            "family": "VideoJS",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "roboto-fallback",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "F37 Lineca Book",
+            "weight": "650",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "F37 Lineca Medium",
+            "weight": "800",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Roboto Regular",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Roboto Bold",
+            "weight": "700",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Roboto Medium",
+            "weight": "500",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto Small",
+            "weight": "300",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Roboto Light",
+            "weight": "300",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "Roboto Italic",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Abbvie Icon",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          }
+        ],
+        "logoCandidates": [
+          {
+            "tag": "img",
+            "selector": "#nav > div:nth-of-type(3) > div > ul > li:nth-of-type(1) > button > span:nth-of-type(1) > img",
+            "src": "https://www.abbvie.com/icons/icon-dot-menu.svg",
+            "inlineSvg": false,
+            "alt": "",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": null,
+            "inHomeLink": false,
+            "rect": {
+              "x": 1129,
+              "y": 35,
+              "w": 20,
+              "h": 20
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "#nav > div:nth-of-type(3) > div > ul > li:nth-of-type(2) > button > span:nth-of-type(1) > img",
+            "src": "https://www.abbvie.com/icons/icon-globe.svg",
+            "inlineSvg": false,
+            "alt": "",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": null,
+            "inHomeLink": false,
+            "rect": {
+              "x": 1230,
+              "y": 35,
+              "w": 20,
+              "h": 20
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "#nav > div:nth-of-type(3) > div > ul > li:nth-of-type(3) > button > span:nth-of-type(1) > img",
+            "src": "https://www.abbvie.com/icons/icon-search.svg",
+            "inlineSvg": false,
+            "alt": "",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": null,
+            "inHomeLink": false,
+            "rect": {
+              "x": 1345,
+              "y": 35,
+              "w": 20,
+              "h": 20
+            }
+          }
+        ],
+        "iconFont": {
+          "families": [
+            "Abbvie Icon"
+          ],
+          "glyphs": [
+            {
+              "class": "back-btn",
+              "pseudo": "::before",
+              "codepoint": "U+E903",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "selected",
+              "pseudo": "::before",
+              "codepoint": "U+E902",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "external-link",
+              "pseudo": "::after",
+              "codepoint": "U+E900",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "menu-label",
+              "pseudo": "::after",
+              "codepoint": "U+E905",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F101",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F103",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F104",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-volume-level",
+              "pseudo": "::before",
+              "codepoint": "U+F111",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-play-progress vjs-slider-bar",
+              "pseudo": "::before",
+              "codepoint": "U+F111",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F111",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F10E",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F11D",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F110",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F10C",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F11E",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "vjs-icon-placeholder",
+              "pseudo": "::before",
+              "codepoint": "U+F115",
+              "fontFamily": "VideoJS"
+            },
+            {
+              "class": "breadcrumb-drop-title",
+              "pseudo": "::after",
+              "codepoint": "U+E901",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "icon-abbvie-play bcvideo-icon bcvideo-icon-font",
+              "pseudo": "::before",
+              "codepoint": "U+E90B",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "story-card-read-time story-card-read-time-inline",
+              "pseudo": "::before",
+              "codepoint": "U+E904",
+              "fontFamily": "\"Abbvie Icon\""
+            },
+            {
+              "class": "back-to-top",
+              "pseudo": "::before",
+              "codepoint": "U+E90A",
+              "fontFamily": "\"Abbvie Icon\""
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+      }
+    }
+  },
+  "aggregate": {
+    "counts": {
+      "pages": 1,
+      "widths": [
+        360,
+        1440
+      ],
+      "measurements": 2
+    },
+    "colors": [
+      {
+        "hex": "#071d49",
+        "values": [
+          "rgb(7, 29, 73)"
+        ],
+        "weight": 119,
+        "by": {
+          "text": 95,
+          "link": 8,
+          "heading": 16
+        },
+        "roles": [
+          "text",
+          "heading"
+        ],
+        "sources": [
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "#nav > div:nth-of-type(2) > div > ul > li:nth-of-type(1) > button > span",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "nav > ol > li:nth-of-type(1) > a > span",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "#main-content > div:nth-of-type(9) > div > div:nth-of-type(1) > div > div > div > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "nav > ol > li:nth-of-type(1) > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "#abbviebirdies-for-brain-health-ambassador",
+            "prop": "heading"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "values": [
+          "rgb(255, 255, 255)",
+          "rgb(244, 244, 244)",
+          "rgb(250, 250, 250)"
+        ],
+        "weight": 52,
+        "bgArea": 16214354,
+        "by": {
+          "text": 19,
+          "background": 19,
+          "border": 6,
+          "button-border": 4,
+          "button-text": 4
+        },
+        "roles": [
+          "background",
+          "border"
+        ],
+        "sources": [
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "div:nth-of-type(3) > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(1)",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "body",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "#main-content > div:nth-of-type(4)",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > button",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "footer > div > div:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#0066f5",
+        "values": [
+          "rgb(0, 102, 245)"
+        ],
+        "weight": 12,
+        "by": {
+          "text": 6,
+          "border": 2,
+          "button-border": 2,
+          "button-text": 2
+        },
+        "roles": [
+          "accent"
+        ],
+        "sources": [
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "div > div:nth-of-type(3) > div > div > div > div > p > a",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "div > div:nth-of-type(3) > div > div > div > div > p > a",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "div > div:nth-of-type(3) > div > div > div > div > p > a",
+            "prop": "button-border"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "div > div:nth-of-type(3) > div > div > div > div > p > a",
+            "prop": "button-text"
+          }
+        ]
+      },
+      {
+        "hex": "#212121",
+        "values": [
+          "rgb(33, 33, 33)",
+          "rgb(21, 27, 23)"
+        ],
+        "weight": 8,
+        "bgArea": 1257570,
+        "by": {
+          "background": 6,
+          "button-background": 2
+        },
+        "roles": [
+          "primary"
+        ],
+        "sources": [
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "#onetrust-banner-sdk",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > div > video-js",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "#onetrust-pc-btn-handler",
+            "prop": "button-background"
+          }
+        ]
+      },
+      {
+        "hex": "#f1f3ff",
+        "values": [
+          "rgb(241, 243, 255)"
+        ],
+        "weight": 4,
+        "bgArea": 2341915,
+        "by": {
+          "background": 4
+        },
+        "roles": [
+          "surface"
+        ],
+        "sources": [
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "#main-content > div:nth-of-type(2)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#666b7a",
+        "values": [
+          "rgb(102, 107, 122)"
+        ],
+        "weight": 10,
+        "by": {
+          "text": 10
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "nav > ol > li:nth-of-type(3) > span",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#000000",
+        "values": [
+          "rgb(0, 0, 0)"
+        ],
+        "weight": 3,
+        "bgArea": 1224000,
+        "by": {
+          "background": 2,
+          "text": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "#main-content > div:nth-of-type(3) > div > div > div > div",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "div > div:nth-of-type(3) > div > div > div > div:nth-of-type(1) > div > button",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#a6b5e0",
+        "values": [
+          "rgb(166, 181, 224)"
+        ],
+        "weight": 2,
+        "bgArea": 15488,
+        "by": {
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "footer > div > button",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#b9b4b4",
+        "values": [
+          "rgb(185, 180, 180)"
+        ],
+        "weight": 2,
+        "by": {
+          "border": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "footer > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div",
+            "prop": "border"
+          }
+        ]
+      }
+    ],
+    "type": {
+      "families": [
+        {
+          "family": "Roboto Regular",
+          "count": 21,
+          "headings": 4,
+          "text": 15,
+          "buttons": 2
+        },
+        {
+          "family": "F37 Lineca Medium",
+          "count": 12,
+          "headings": 12,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "family": "Roboto Bold",
+          "count": 4,
+          "headings": 0,
+          "text": 0,
+          "buttons": 4
+        },
+        {
+          "family": "F37 Lineca Book",
+          "count": 2,
+          "headings": 0,
+          "text": 2,
+          "buttons": 0
+        },
+        {
+          "family": "Roboto Light",
+          "count": 2,
+          "headings": 0,
+          "text": 2,
+          "buttons": 0
+        }
+      ],
+      "headingFamily": "F37 Lineca Medium",
+      "bodyFamily": "Roboto Regular",
+      "sizes": [
+        {
+          "px": 64,
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 56,
+          "count": 2,
+          "headings": 2,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 48,
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 40,
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 32,
+          "count": 3,
+          "headings": 1,
+          "text": 2,
+          "buttons": 0
+        },
+        {
+          "px": 30,
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 28,
+          "count": 2,
+          "headings": 2,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 26,
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 24,
+          "count": 3,
+          "headings": 3,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 20,
+          "count": 4,
+          "headings": 1,
+          "text": 3,
+          "buttons": 0
+        },
+        {
+          "px": 18,
+          "count": 9,
+          "headings": 2,
+          "text": 7,
+          "buttons": 0
+        },
+        {
+          "px": 16,
+          "count": 9,
+          "headings": 0,
+          "text": 7,
+          "buttons": 2
+        },
+        {
+          "px": 14,
+          "count": 2,
+          "headings": 0,
+          "text": 0,
+          "buttons": 2
+        },
+        {
+          "px": 13.01,
+          "count": 2,
+          "headings": 0,
+          "text": 0,
+          "buttons": 2
+        }
+      ],
+      "weights": [
+        {
+          "weight": "400",
+          "count": 21,
+          "headings": 4,
+          "text": 17,
+          "buttons": 0
+        },
+        {
+          "weight": "800",
+          "count": 12,
+          "headings": 12,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "weight": "700",
+          "count": 4,
+          "headings": 0,
+          "text": 0,
+          "buttons": 4
+        },
+        {
+          "weight": "600",
+          "count": 2,
+          "headings": 0,
+          "text": 0,
+          "buttons": 2
+        },
+        {
+          "weight": "650",
+          "count": 2,
+          "headings": 0,
+          "text": 2,
+          "buttons": 0
+        }
+      ],
+      "levels": {
+        "h1": {
+          "fontSize": 64,
+          "fontWeight": "800",
+          "count": 1,
+          "score": 128
+        },
+        "h2": {
+          "fontSize": 56,
+          "fontWeight": "800",
+          "count": 2,
+          "score": 158.39
+        },
+        "h3": {
+          "fontSize": 48,
+          "fontWeight": "800",
+          "count": 1,
+          "score": 96
+        },
+        "h4": {
+          "fontSize": 40,
+          "fontWeight": "800",
+          "count": 1,
+          "score": 80
+        },
+        "h5": {
+          "fontSize": 32,
+          "fontWeight": "800",
+          "count": 1,
+          "score": 64
+        }
+      }
+    },
+    "motifs": {
+      "radius": {
+        "mode": "2px",
+        "areaMode": "80px 0px 0px",
+        "pill": "50%",
+        "values": [
+          {
+            "value": "50%",
+            "count": 6,
+            "area": 21576,
+            "sources": [
+              {
+                "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+                "selector": "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > button"
+              },
+              {
+                "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+                "selector": "#section-bg-9 > div > div > div > blockquote > div:nth-of-type(2) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+                "selector": "footer > div > button"
+              }
+            ]
+          },
+          {
+            "value": "2px",
+            "count": 4,
+            "area": 23278,
+            "sources": [
+              {
+                "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+                "selector": "#onetrust-pc-btn-handler"
+              },
+              {
+                "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+                "selector": "#onetrust-close-btn-container > button"
+              }
+            ]
+          },
+          {
+            "value": "32px 0px 0px",
+            "count": 3,
+            "area": 864360,
+            "sources": [
+              {
+                "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+                "selector": "#main-content > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+                "selector": "#section-bg-9"
+              },
+              {
+                "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+                "selector": "footer > div > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "80px 0px 0px",
+            "count": 3,
+            "area": 3058560,
+            "sources": [
+              {
+                "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+                "selector": "#main-content > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+                "selector": "#section-bg-9"
+              },
+              {
+                "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+                "selector": "footer > div > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "24px 0px 0px",
+            "count": 1,
+            "area": 146560,
+            "sources": [
+              {
+                "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+                "selector": "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(3) > div"
+              }
+            ]
+          },
+          {
+            "value": "40px 0px 0px",
+            "count": 1,
+            "area": 604702,
+            "sources": [
+              {
+                "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+                "selector": "#main-content > div:nth-of-type(1) > div > div > div > div:nth-of-type(3) > div"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgba(0, 0, 0, 0.2) 0px 0px 18px 0px",
+          "count": 2,
+          "sources": [
+            {
+              "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+              "selector": "#onetrust-banner-sdk"
+            }
+          ]
+        }
+      ],
+      "gradients": []
+    },
+    "hover": [
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 102, 245)"
+        },
+        "to": {
+          "backgroundColor": "rgb(0, 102, 245)",
+          "color": "rgb(255, 255, 255)"
+        },
+        "count": 2,
+        "sources": [
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "div > div:nth-of-type(3) > div > div > div > div > p > a"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "div > div:nth-of-type(3) > div > div > div > div > p > a"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(33, 33, 33)",
+          "color": "rgb(255, 255, 255)"
+        },
+        "to": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(45, 41, 38)"
+        },
+        "count": 2,
+        "sources": [
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "#onetrust-pc-btn-handler"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "#onetrust-pc-btn-handler"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        },
+        "to": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(7, 29, 73)"
+        },
+        "count": 2,
+        "sources": [
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "div:nth-of-type(3) > div > div > div > div > div > div:nth-of-type(2) > button"
+          },
+          {
+            "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "selector": "div:nth-of-type(3) > div > div > div > div > div > div:nth-of-type(2) > button"
+          }
+        ]
+      }
+    ],
+    "logo": {
+      "source": "none",
+      "url": null,
+      "selector": null
+    },
+    "iconFont": {
+      "families": [
+        "Abbvie Icon"
+      ],
+      "glyphs": [
+        {
+          "class": "back-btn",
+          "pseudo": "::before",
+          "codepoint": "U+E903",
+          "fontFamily": "\"Abbvie Icon\"",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "back-to-top",
+          "pseudo": "::before",
+          "codepoint": "U+E90A",
+          "fontFamily": "\"Abbvie Icon\"",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "breadcrumb-drop-title",
+          "pseudo": "::after",
+          "codepoint": "U+E901",
+          "fontFamily": "\"Abbvie Icon\"",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "external-link",
+          "pseudo": "::after",
+          "codepoint": "U+E900",
+          "fontFamily": "\"Abbvie Icon\"",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "icon-abbvie-play bcvideo-icon bcvideo-icon-font",
+          "pseudo": "::before",
+          "codepoint": "U+E90B",
+          "fontFamily": "\"Abbvie Icon\"",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "selected",
+          "pseudo": "::before",
+          "codepoint": "U+E902",
+          "fontFamily": "\"Abbvie Icon\"",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "story-card-read-time story-card-read-time-inline",
+          "pseudo": "::before",
+          "codepoint": "U+E904",
+          "fontFamily": "\"Abbvie Icon\"",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "vjs-icon-placeholder",
+          "pseudo": "::before",
+          "codepoint": "U+F101",
+          "fontFamily": "VideoJS",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "vjs-icon-placeholder",
+          "pseudo": "::before",
+          "codepoint": "U+F103",
+          "fontFamily": "VideoJS",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "vjs-icon-placeholder",
+          "pseudo": "::before",
+          "codepoint": "U+F104",
+          "fontFamily": "VideoJS",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "vjs-icon-placeholder",
+          "pseudo": "::before",
+          "codepoint": "U+F111",
+          "fontFamily": "VideoJS",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "vjs-icon-placeholder",
+          "pseudo": "::before",
+          "codepoint": "U+F10E",
+          "fontFamily": "VideoJS",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "vjs-icon-placeholder",
+          "pseudo": "::before",
+          "codepoint": "U+F11D",
+          "fontFamily": "VideoJS",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "vjs-icon-placeholder",
+          "pseudo": "::before",
+          "codepoint": "U+F110",
+          "fontFamily": "VideoJS",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "vjs-icon-placeholder",
+          "pseudo": "::before",
+          "codepoint": "U+F10C",
+          "fontFamily": "VideoJS",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "vjs-icon-placeholder",
+          "pseudo": "::before",
+          "codepoint": "U+F11E",
+          "fontFamily": "VideoJS",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "vjs-icon-placeholder",
+          "pseudo": "::before",
+          "codepoint": "U+F115",
+          "fontFamily": "VideoJS",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "vjs-play-progress vjs-slider-bar",
+          "pseudo": "::before",
+          "codepoint": "U+F111",
+          "fontFamily": "VideoJS",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "vjs-volume-level",
+          "pseudo": "::before",
+          "codepoint": "U+F111",
+          "fontFamily": "VideoJS",
+          "count": 2,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "icon-abbvie-external-link",
+          "pseudo": "::before",
+          "codepoint": "U+E900",
+          "fontFamily": "\"Abbvie Icon\"",
+          "count": 1,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "class": "menu-label",
+          "pseudo": "::after",
+          "codepoint": "U+E905",
+          "fontFamily": "\"Abbvie Icon\"",
+          "count": 1,
+          "sources": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        }
+      ]
+    }
+  }
+}

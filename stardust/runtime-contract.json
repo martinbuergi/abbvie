@@ -1,0 +1,29 @@
+{
+  "runtime": "vanilla-eds",
+  "probedFrom": ["scripts/scripts.js", "scripts/aem.js"],
+  "blockWrapperClass": "block",
+  "blockShape": "div.section.<name>-container > div.<name>-wrapper > div.<name>.block[data-block-name]",
+  "defaultContentWrapper": "div.default-content-wrapper",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonLook": "one outlined accent CTA (source cta.css default-cta) for primary, secondary and accent",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "cellNormalization": "wrapTextNodes (decorateBlock)",
+  "widgetAutoBlocks": "stock buildWidgetAutoBlocks + blocks/widget",
+  "delayed": "scripts/delayed.js (departure-warning widget), loaded from loadDelayed()",
+  "chrome": {
+    "header": "blocks/header — /nav sections: brand | links | tools | mobile labels",
+    "footer": "blocks/footer — /footer sections: logo | primary+social | popular | external+legal copy | legal links",
+    "navHeight": { "base": "72px", "1024": "88px" },
+    "headerPosition": "sticky (body > header)"
+  },
+  "breakpoints": [744, 1024, 1440],
+  "sectionStyles": ["sky", "mist", "mist-spaced", "sky-short", "mist-bleed", "bleed", "flush", "radius", "sky-radius"],
+  "sharedClasses": [".grid (6/8/12-col source grid)", ".sr-only"],
+  "fonts": {
+    "body": "\"Roboto Regular\" / \"Roboto Bold\" / \"Roboto Light\" (self-hosted)",
+    "heading": "\"F37 Lineca Medium\" | \"F37 Lineca Book\" first, then \"Lineca Sub\" (Wix Madefor Display) stand-in",
+    "icon": "\"Abbvie Icon\" (var(--ff-icon))"
+  }
+}

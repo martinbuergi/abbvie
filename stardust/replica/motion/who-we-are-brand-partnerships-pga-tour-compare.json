@@ -1,0 +1,372 @@
+{
+  "live": "stardust/replica/motion/who-we-are-brand-partnerships-pga-tour.json",
+  "build": "stardust/replica/motion/who-we-are-brand-partnerships-pga-tour-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 25,
+  "counts": {
+    "behaviors": 50,
+    "parity": 10,
+    "missing": 24,
+    "extra": 0,
+    "tolerance": 1,
+    "dead": 14,
+    "advisory": 1
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": "button[aria-label=\"who-we-are\"]",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget button[aria-label=\"who-we-are\"]: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": "div > ul > li:nth-child(2) > button[aria-label=\"global\"]",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget div > ul > li:nth-child(2) > button[aria-label=\"global\"]: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": "button[aria-label=\"more\"]",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget button[aria-label=\"more\"]: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": "button[aria-label=\"search\"]",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget button[aria-label=\"search\"]: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": "button[aria-label=\"Pause/Play button\"]",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget button[aria-label=\"Pause/Play button\"]: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": "button[class$=\"play-btn\"]",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget button[class$=\"play-btn\"]: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": "button[aria-label=\"Back to top\"]",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget button[aria-label=\"Back to top\"]: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": "button[aria-label=\"science\"]",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover button[aria-label=\"science\"]: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": "a[aria-label=\"POWER OF PARTNERSHIPS\"]",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover a[aria-label=\"POWER OF PARTNERSHIPS\"]: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": "a[href*=\"our-stories/i-am\"]",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover a[href*=\"our-stories/i-am\"]: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": "footer a[href=\"/science.html\"]",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover footer a[href=\"/science.html\"]: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": "button[class$=\"play-btn\"]",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover button[class$=\"play-btn\"]: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": "button[aria-label=\"Back to top\"]",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover button[aria-label=\"Back to top\"]: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "entrance",
+      "name": "vjs-spinner-fade",
+      "state": "missing",
+      "note": "fired on 7 element(s) on live",
+      "line": "motion entrance vjs-spinner-fade: MISSING on build (fired on 7 element(s) on live)"
+    },
+    {
+      "cls": "entrance",
+      "name": "vjs-spinner-show",
+      "state": "missing",
+      "note": "fired on 1 element(s) on live",
+      "line": "motion entrance vjs-spinner-show: MISSING on build (fired on 1 element(s) on live)"
+    },
+    {
+      "cls": "entrance",
+      "name": "vjs-spinner-spin",
+      "state": "missing",
+      "note": "fired on 7 element(s) on live",
+      "line": "motion entrance vjs-spinner-spin: MISSING on build (fired on 7 element(s) on live)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "tolerance",
+      "deltas": [
+        "timing delta 600ms > 150ms [longest duration: live 1000ms, build 400ms]"
+      ],
+      "note": "23 event(s) on live, 22 on build",
+      "line": "motion transition opacity: timing delta 600ms > 150ms [longest duration: live 1000ms, build 400ms] (23 event(s) on live, 22 on build)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "parity",
+      "note": "7 event(s) on live, 8 on build, 400ms",
+      "line": "motion transition transform: parity (7 event(s) on live, 8 on build, 400ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "visibility",
+      "state": "parity",
+      "note": "8 event(s) on live, 8 on build, 400ms",
+      "line": "motion transition visibility: parity (8 event(s) on live, 8 on build, 400ms)"
+    },
+    {
+      "cls": "class",
+      "name": "bc-player-Lj7UrCc1z_default",
+      "state": "missing",
+      "note": "trigger class added 12× on live, never on build",
+      "line": "motion class bc-player-Lj7UrCc1z_default: MISSING on build (trigger class added 12× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "bc-player-Lj7UrCc1z_default-index-0",
+      "state": "missing",
+      "note": "trigger class added 13× on live, never on build",
+      "line": "motion class bc-player-Lj7UrCc1z_default-index-0: MISSING on build (trigger class added 13× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "bc-style-Lj7UrCc1z-default",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class bc-style-Lj7UrCc1z-default: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "bc-style-vjs",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class bc-style-vjs: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "bcvideo-playing",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class bcvideo-playing: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "hide-nav",
+      "state": "parity",
+      "note": "added 5× on live, 3× on build",
+      "line": "motion class hide-nav: parity (added 5× on live, 3× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "show-nav",
+      "state": "parity",
+      "note": "added 6× on live, 3× on build",
+      "line": "motion class show-nav: parity (added 6× on live, 3× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-contextmenu-ui",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class vjs-contextmenu-ui: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-controls-enabled",
+      "state": "missing",
+      "note": "trigger class added 6× on live, never on build",
+      "line": "motion class vjs-controls-enabled: MISSING on build (trigger class added 6× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-errors",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class vjs-errors: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-has-started",
+      "state": "missing",
+      "note": "trigger class added 3× on live, never on build",
+      "line": "motion class vjs-has-started: MISSING on build (trigger class added 3× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-layout-large",
+      "state": "missing",
+      "note": "trigger class added 11× on live, never on build",
+      "line": "motion class vjs-layout-large: MISSING on build (trigger class added 11× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-mouse",
+      "state": "missing",
+      "note": "trigger class added 14× on live, never on build",
+      "line": "motion class vjs-mouse: MISSING on build (trigger class added 14× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-paused",
+      "state": "parity",
+      "note": "added 6× on live, 4× on build",
+      "line": "motion class vjs-paused: parity (added 6× on live, 4× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-player-info",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class vjs-player-info: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-playing",
+      "state": "missing",
+      "note": "trigger class added 4× on live, never on build",
+      "line": "motion class vjs-playing: MISSING on build (trigger class added 4× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-plugins-ready",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class vjs-plugins-ready: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-seeking",
+      "state": "parity",
+      "note": "added 7× on live, 7× on build",
+      "line": "motion class vjs-seeking: parity (added 7× on live, 7× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-tech",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class vjs-tech: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-user-active",
+      "state": "missing",
+      "note": "trigger class added 10× on live, never on build",
+      "line": "motion class vjs-user-active: MISSING on build (trigger class added 10× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-user-inactive",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class vjs-user-inactive: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-v8",
+      "state": "missing",
+      "note": "trigger class added 8× on live, never on build",
+      "line": "motion class vjs-v8: MISSING on build (trigger class added 8× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-viewability",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class vjs-viewability: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-vol-3",
+      "state": "missing",
+      "note": "trigger class added 3× on live, never on build",
+      "line": "motion class vjs-vol-3: MISSING on build (trigger class added 3× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-waiting",
+      "state": "parity",
+      "note": "added 8× on live, 7× on build",
+      "line": "motion class vjs-waiting: parity (added 8× on live, 7× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-waiting-for-autoplay",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class vjs-waiting-for-autoplay: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vjs-workinghover",
+      "state": "missing",
+      "note": "trigger class added 7× on live, never on build",
+      "line": "motion class vjs-workinghover: MISSING on build (trigger class added 7× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-playing",
+      "state": "advisory",
+      "note": "added 1× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-playing: extra on build — advisory (added 1× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "media",
+      "name": "video#1 2869159a-ae80-4569-be7a-12394bc37d35",
+      "state": "parity",
+      "note": "paused on both",
+      "line": "motion media video#1 2869159a-ae80-4569-be7a-12394bc37d35: parity (paused on both)"
+    },
+    {
+      "cls": "media",
+      "name": "auto-advance",
+      "state": "parity",
+      "note": "2 class mutation(s) fired unpoked on live, 2 on build",
+      "line": "motion media auto-advance: parity (2 class mutation(s) fired unpoked on live, 2 on build)"
+    }
+  ]
+}

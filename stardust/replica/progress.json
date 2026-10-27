@@ -1,0 +1,72 @@
+{
+  "types": {
+    "who-we-are-brand-partnerships-pga-tour": {
+      "pageType": "landing",
+      "archetype": "who-we-are-brand-partnerships-pga-tour",
+      "liveUrl": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+      "prototype": "stardust/prototypes/who-we-are-brand-partnerships-pga-tour-proposed.html",
+      "iterations": {
+        "360": 4,
+        "1440": 4
+      },
+      "gates": {
+        "360": {
+          "label": "iter4",
+          "pixel": 1,
+          "heightDelta": 0,
+          "contentDiffRed": 1,
+          "nothingLostYellow": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "verdict": "PASS (1 justified icon residual)"
+        },
+        "1440": {
+          "label": "iter4",
+          "pixel": 0.81,
+          "heightDelta": 0,
+          "contentDiffRed": 0,
+          "nothingLostYellow": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "verdict": "PASS"
+        },
+        "capProbe": "PASS"
+      },
+      "residuals": [
+        {
+          "what": "font substitution F37 Lineca → Wix Madefor Display (Lineca Sub)",
+          "where": "headings, quote, footer primary links",
+          "cause": "licensed face not rehosted; line breaks match, glyph shapes differ",
+          "status": "permanent, justified"
+        },
+        {
+          "what": "footer YouTube/social icon signature",
+          "where": "footer, 360 content-diff 1 🔴 ICON DIFF",
+          "cause": "source serves SVG bytes under .avif URLs; build uses the same bytes as .svg at same size/position",
+          "status": "capture-state, re-checked at the published-origin gate"
+        }
+      ],
+      "motion": {
+        "observed": [
+          "header dropdowns (Who We Are, MORE, GLOBAL, search) transform/opacity/visibility",
+          "header hide-nav/show-nav on scroll direction",
+          "hero ambient Brightcove player",
+          "video band click → playing state + player load"
+        ],
+        "implemented": [
+          "header dropdowns",
+          "hide-nav/show-nav",
+          "hero ambient player + pause/play",
+          "video band click-to-play",
+          "back-to-top"
+        ],
+        "dead": [
+          "hover rules on nav buttons, CTA, story cards, footer links, play button, back-to-top (no measured change live)"
+        ],
+        "notes": "band player live = Lj7UrCc1z (domain-locked), fallback pydM0AMeC; hide-nav threshold assumed; 360 drawer not poked"
+      },
+      "approvedBy": "hands-off",
+      "at": "2026-10-26T14:25:23.554Z"
+    }
+  }
+}

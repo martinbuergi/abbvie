@@ -1,36 +1,65 @@
-/* stylelint-disable max-line-length */
-@font-face {
-  font-family: roboto-condensed;
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('../fonts/roboto-condensed-bold.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
+/*
+ * Brand faces — loaded by loadFonts() (scripts.js), never from head.html.
+ * F37 Lineca (proprietary, unlicensed for this origin) is NOT shipped: every heading stack names
+ * "F37 Lineca Medium" / "F37 Lineca Book" first, then the "Lineca Sub" stand-in below
+ * (Wix Madefor Display, OFL) with F37 Lineca's own vertical metrics
+ * (hhea/typo 830 / -200 / 0 per 1000 upm) so line boxes and baselines match.
+ * "Abbvie Icon" is AbbVie's own brand icon font (see fonts/LICENSING.md).
+ */
 
+/* Book stand-in (400): size-adjust 101.4% = mean advance-width ratio F37 Lineca Book / Wix 400 */
 @font-face {
-  font-family: roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('../fonts/roboto-bold.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('../fonts/roboto-medium.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: roboto;
+  font-family: "Lineca Sub";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/roboto-regular.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("../fonts/wix-madefor-display-latin.woff2") format("woff2");
+  size-adjust: 101.4%;
+  ascent-override: 83%;
+  descent-override: 20%;
+  line-gap-override: 0%;
+}
+
+/* Medium stand-in (500): advance widths within 1% of F37 Lineca Medium, no size adjustment */
+@font-face {
+  font-family: "Lineca Sub";
+  font-style: normal;
+  font-weight: 401 800;
+  font-display: swap;
+  src: url("../fonts/wix-madefor-display-latin.woff2") format("woff2");
+  ascent-override: 83%;
+  descent-override: 20%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/roboto-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/roboto-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/roboto-light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Abbvie Icon";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../fonts/abbvie-icon.woff2") format("woff2");
 }

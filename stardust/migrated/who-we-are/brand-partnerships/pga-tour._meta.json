@@ -1,0 +1,364 @@
+{
+  "slug": "who-we-are-brand-partnerships-pga-tour",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero",
+    "breadcrumb",
+    "video",
+    "quote",
+    "partner-logos",
+    "cta-band",
+    "story-cards"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "hero",
+    "band",
+    "band",
+    "band",
+    "quote-band",
+    "band",
+    "band",
+    "band",
+    "band",
+    "spacer-band"
+  ],
+  "canonShas": {
+    "header": "4b9805e9bf6a",
+    "footer": "204491c172cb",
+    "css": "1a0e0b1720ea"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "AbbVie and PGA TOUR | Birdies for Brain Health | AbbVie",
+    "description": "Birdies for Brain Health turns birdies into increased awareness and support for people living with neurological and mental health conditions and the care partners who support them.",
+    "canonical": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "AbbVie and PGA TOUR | Birdies for Brain Health | AbbVie",
+    "description": "Birdies for Brain Health turns birdies into increased awareness and support for people living with neurological and mental health conditions and the care partners who support them.",
+    "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+  },
+  "migratedAt": "2026-10-26T14:26:33Z",
+  "designMdSha": "c868ba595ee3",
+  "designJsonSha": "b0fdcf026da2",
+  "sourceCurrentSha": "bae37b154465",
+  "sourceProposedSha": "99059ec8b491",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 42,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/science/pipeline.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/patients/products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/science/partner-with-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/patients/patient-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/algeria.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/south-africa-and-sub-saharan-africa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/tunisia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/bosnia-and-herzegovina.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/croatia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/estonia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/latvia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/lithuania.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/romania.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/serbia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/slovenia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/lebanon.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/saudi-arabia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/united-arab-emirates.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/united-states.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/science/pipeline.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/patients/products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/science/partner-with-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/patients/patient-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/algeria.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/south-africa-and-sub-saharan-africa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/tunisia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/bosnia-and-herzegovina.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/croatia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/estonia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/latvia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/lithuania.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/romania.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/serbia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/slovenia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/lebanon.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/saudi-arabia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/united-arab-emirates.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center/locations/united-states.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/who-we-are.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/who-we-are/brand-partnerships.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/who-we-are/brand-partnerships.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/who-we-are/our-stories/more-than-just-a-headache-living-with-the-impact-of-migraine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/who-we-are/our-stories/i-am.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/patients.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/join-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sustainability.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/who-we-are.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/science.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/patients.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/join-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sustainability.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/modal-fragment/warn-departure-modal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/modal-fragment/warn-departure-modal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/modal-fragment/warn-departure-modal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/modal-fragment/warn-departure-modal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/science/partner-with-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/patients/patient-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/science/pipeline.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/patients/products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/science/partner-with-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/patients/patient-support.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/modal-fragment/warn-departure-modal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/modal-fragment/warn-departure-modal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/site-map.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/terms-of-use.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.abbvie.com/privacy-center/privacy-notice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-center.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/accessibility-statement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/site-map.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/terms-of-use.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.abbvie.com/privacy-center/privacy-notice.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "who-we-are/brand-partnerships/pga-tour.html",
+  "outputPathDefault": null,
+  "sidecar": "who-we-are/brand-partnerships/pga-tour._meta.json",
+  "driverVersion": "1"
+}

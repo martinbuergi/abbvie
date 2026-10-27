@@ -1,0 +1,1634 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-10-26T13:49:32.299Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/who-we-are/brand-partnerships/pga-tour.html": {
+   "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+   "status": 200,
+   "host": "www.abbvie.com",
+   "title": "AbbVie and PGA TOUR | Birdies for Brain Health | AbbVie",
+   "forms": [
+    {
+     "name": "search-form",
+     "action": "https://www.abbvie.com/search-results",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "_charset_"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Who We Are",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 2251,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Science",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 2251,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Patients",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 2251,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Join Us",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 2251,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Sustainability",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 2251,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Quick Links",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 2251,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "GLOBAL",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 2251,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "MORE",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 2251,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "GLOBAL",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 2251,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 2251,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": ", external link, opens in a new window",
+     "href": "https://www.facebook.com/AbbVieGlobal",
+     "marker": "data-warn-departure-modal-path",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": ", external link, opens in a new window",
+     "href": "https://twitter.com/abbvie",
+     "marker": "data-warn-departure-modal-path",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": ", external link, opens in a new window",
+     "href": "https://www.instagram.com/abbvie/?hl=en",
+     "marker": "data-warn-departure-modal-path",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": ", external link, opens in a new window",
+     "href": "https://www.linkedin.com/company/abbvie/",
+     "marker": "data-warn-departure-modal-path",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": ", external link, opens in a new window",
+     "href": "https://www.youtube.com/user/AbbVie",
+     "marker": "data-warn-departure-modal-path",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": ", external link, opens in a new window",
+     "href": "https://www.tiktok.com/@abbvie",
+     "marker": "data-warn-departure-modal-path",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "News Center, external link, opens in a new window",
+     "href": "https://news.abbvie.com/",
+     "marker": "data-warn-departure-modal-path",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Investors, external link, opens in a new window",
+     "href": "https://investors.abbvie.com/",
+     "marker": "data-warn-departure-modal-path",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Contract Manufacturing, external link, opens in a new window",
+     "href": "https://www.abbviecontractmfg.com/",
+     "marker": "data-warn-departure-modal-path",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Medical Information, external link, opens in a new window",
+     "href": "https://www.abbviemedinfo.com/",
+     "marker": "data-warn-departure-modal-path",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "p",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 638,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "p",
+     "heading": "",
+     "textLen": 68,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "",
+     "textLen": 531,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 125,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "p",
+     "heading": "",
+     "textLen": 107,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "alertdialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2979,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 10,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.googletagmanager.com/ns.html?id=GTM-53KLF8",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "div",
+     "src": "",
+     "account": null,
+     "player": null,
+     "videoId": "6406773145112",
+     "inDialog": false
+    },
+    {
+     "tag": "video-js",
+     "src": "",
+     "account": "2157889328001",
+     "player": "pydM0AMeC",
+     "videoId": "6406773145112",
+     "inDialog": false
+    },
+    {
+     "tag": "video",
+     "src": "blob:https://www.abbvie.com/d20ff49e-3f88-4f75-8879-38bcc7ad48b0",
+     "account": "2157889328001",
+     "player": "pydM0AMeC",
+     "videoId": "6406773145112",
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=dc6buyu&cookie_sync=1&upv=3.0.0&upid=qeyyfbt&ref=https%3A%2F%2Fwww.abbvie.com%2Fwho-we-are%2Fbrand-partnerships%2Fpga-tour.html",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.googletagmanager.com/ns.html?id=GTM-53KLF8",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=dc6buyu&cookie_sync=1&upv=3.0.0&upid=qeyyfbt&ref=https%3A%2F%2Fwww.abbvie.com%2Fwho-we-are%2Fbrand-partnerships%2Fpga-tour.html",
+     "title": "TTD Universal Pixel",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 1
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "videojs",
+    "bc",
+    "YT",
+    "clarity"
+   ],
+   "clientRendered": [
+    {
+     "cls": "video-js hero-bc-player vjs-play-button-position-top-right",
+     "attrs": [],
+     "text": "Video Player is loading.Play VideoPauseUnmuteCurrent Time 0:"
+    },
+    {
+     "cls": "vjs-loading-spinner",
+     "attrs": [],
+     "text": "Video Player is loading."
+    },
+    {
+     "cls": "vjs-control-bar",
+     "attrs": [],
+     "text": "PauseUnmuteCurrent Time 0:00/Duration 0:03Loaded: 100.00%0:0"
+    },
+    {
+     "cls": "vjs-seek-to-live-control vjs-control",
+     "attrs": [],
+     "text": "Seek to live, currently behind liveLIVE"
+    },
+    {
+     "cls": "vjs-descriptions-button vjs-menu-button vjs-menu-button-popup",
+     "attrs": [],
+     "text": "Descriptionsdescriptions off, selected"
+    },
+    {
+     "cls": "vjs-menu",
+     "attrs": [],
+     "text": "descriptions off, selected"
+    },
+    {
+     "cls": "vjs-menu-content",
+     "attrs": [],
+     "text": "descriptions off, selected"
+    },
+    {
+     "cls": "vjs-menu-item vjs-selected",
+     "attrs": [],
+     "text": "descriptions off, selected"
+    },
+    {
+     "cls": "vjs-quality-menu-wrapper vjs-menu-button vjs-menu-button-popup",
+     "attrs": [],
+     "text": "Quality Levels1080p1, selectedHD900p900pHD720p720pHD540p540p"
+    },
+    {
+     "cls": "vjs-menu",
+     "attrs": [],
+     "text": "1080p1, selectedHD900p900pHD720p720pHD540p540p288p288pAutoAu"
+    },
+    {
+     "cls": "vjs-menu-content",
+     "attrs": [],
+     "text": "1080p1, selectedHD900p900pHD720p720pHD540p540p288p288pAutoAu"
+    },
+    {
+     "cls": "vjs-subs-caps-button vjs-menu-button vjs-menu-button-popup",
+     "attrs": [],
+     "text": "Subtitlessubtitles settings, opens subtitles settings dialog"
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 19,
+   "inlineFetch": false,
+   "mainText": 2718,
+   "domAddedAfterLoad": 427,
+   "hosts": {
+    "www.abbvie.com": 85,
+    "static.cloudflareinsights.com": 1,
+    "players.brightcove.net": 1,
+    "vjs.zencdn.net": 1,
+    "edge.api.brightcove.com": 1,
+    "metrics.brightcove.com": 7,
+    "cf-images.us-east-1.prod.boltdns.net": 1,
+    "manifest.prod.boltdns.net": 5,
+    "fastly-signed-us-east-1-prod.brightcovecdn.com": 2,
+    "delivery-p157365-e1666014.adobeaemcloud.com": 7,
+    "www.googletagmanager.com": 13,
+    "cdn.cookielaw.org": 11,
+    "geolocation.onetrust.com": 1,
+    "www.youtube.com": 2,
+    "www.google.com": 5,
+    "ad.doubleclick.net": 1,
+    "www.redditstatic.com": 1,
+    "js.adsrvr.org": 2,
+    "siteimproveanalytics.com": 1,
+    "static.ads-twitter.com": 1,
+    "connect.facebook.net": 3,
+    "analytics.tiktok.com": 6,
+    "www.clarity.ms": 1,
+    "www.7-groupoperation.com": 2,
+    "insight.adsrvr.org": 2,
+    "pixel-config.reddit.com": 1,
+    "snap.licdn.com": 1,
+    "match.adsrvr.org": 4,
+    "analytics.twitter.com": 2,
+    "alb.reddit.com": 2,
+    "t.co": 2,
+    "cm.g.doubleclick.net": 2,
+    "pixel.rubiconproject.com": 1,
+    "3407.global.siteimproveanalytics.io": 1,
+    "ib.adnxs.com": 2,
+    "stats.g.doubleclick.net": 1,
+    "analytics.google.com": 3,
+    "www.google-analytics.com": 7,
+    "corpgcp.abbvie.com": 2,
+    "c.clarity.ms": 2,
+    "scripts.clarity.ms": 1,
+    "c.bing.com": 1,
+    "u.clarity.ms": 4,
+    "www.facebook.com": 3,
+    "googleads.g.doubleclick.net": 1,
+    "analytics-ipv6.tiktokw.us": 1,
+    "capi-automation.s3.us-east-2.amazonaws.com": 1,
+    "app.bowencraggs.com": 1
+   },
+   "thirdPartyHosts": [
+    "static.cloudflareinsights.com",
+    "players.brightcove.net",
+    "vjs.zencdn.net",
+    "edge.api.brightcove.com",
+    "metrics.brightcove.com",
+    "cf-images.us-east-1.prod.boltdns.net",
+    "manifest.prod.boltdns.net",
+    "fastly-signed-us-east-1-prod.brightcovecdn.com",
+    "delivery-p157365-e1666014.adobeaemcloud.com",
+    "www.googletagmanager.com",
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "www.youtube.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "www.redditstatic.com",
+    "js.adsrvr.org",
+    "siteimproveanalytics.com",
+    "static.ads-twitter.com",
+    "connect.facebook.net",
+    "analytics.tiktok.com",
+    "www.clarity.ms",
+    "www.7-groupoperation.com",
+    "insight.adsrvr.org",
+    "pixel-config.reddit.com",
+    "snap.licdn.com",
+    "match.adsrvr.org",
+    "analytics.twitter.com",
+    "alb.reddit.com",
+    "t.co",
+    "cm.g.doubleclick.net",
+    "pixel.rubiconproject.com",
+    "3407.global.siteimproveanalytics.io",
+    "ib.adnxs.com",
+    "stats.g.doubleclick.net",
+    "analytics.google.com",
+    "www.google-analytics.com",
+    "c.clarity.ms",
+    "scripts.clarity.ms",
+    "c.bing.com",
+    "u.clarity.ms",
+    "www.facebook.com",
+    "googleads.g.doubleclick.net",
+    "analytics-ipv6.tiktokw.us",
+    "capi-automation.s3.us-east-2.amazonaws.com",
+    "app.bowencraggs.com"
+   ],
+   "scripts": [
+    "https://www.abbvie.com/scripts/aem.js",
+    "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+    "https://www.abbvie.com/scripts/scripts.js",
+    "https://www.abbvie.com/scripts/primary-analytics.js",
+    "https://www.abbvie.com/scripts/utils.js",
+    "https://www.abbvie.com/scripts/load-rte-decoration.js",
+    "https://www.abbvie.com/blocks/hero-container/hero-container.js",
+    "https://www.abbvie.com/scripts/config.js",
+    "https://www.abbvie.com/scripts/placeholders.js",
+    "https://www.abbvie.com/blocks/breadcrumb/breadcrumb.js",
+    "https://players.brightcove.net/2157889328001/pydM0AMeC_default/index.min.js",
+    "https://www.abbvie.com/scripts/index-utils.js",
+    "https://vjs.zencdn.net/vttjs/0.15.3/vtt.global.min.js",
+    "https://www.abbvie.com/blocks/custom-title/custom-title.js",
+    "https://www.abbvie.com/blocks/text-container/text-container.js",
+    "https://www.abbvie.com/blocks/brightcove-video/brightcove-video.js",
+    "https://www.abbvie.com/blocks/header/header.js",
+    "https://www.abbvie.com/blocks/quote/quote.js",
+    "https://www.abbvie.com/blocks/fragment/fragment.js",
+    "https://www.abbvie.com/scripts/cfUtil.js",
+    "https://www.abbvie.com/blocks/custom-image/custom-image.js",
+    "https://www.abbvie.com/blocks/navigation-content/navigation-content.js",
+    "https://www.abbvie.com/blocks/cta/cta.js",
+    "https://www.abbvie.com/blocks/story-card/story-card.js",
+    "https://www.abbvie.com/scripts/tag-utils.js",
+    "https://www.abbvie.com/scripts/date-utils.js",
+    "https://www.abbvie.com/blocks/separator/separator.js",
+    "https://www.abbvie.com/blocks/footer/footer.js",
+    "https://www.abbvie.com/blocks/linklist/linklist.js",
+    "https://www.abbvie.com/blocks/eyebrow-text/eyebrow-text.js",
+    "https://www.abbvie.com/scripts/delayed.js",
+    "https://www.abbvie.com/scripts/multi-theme.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-53KLF8",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://www.youtube.com/iframe_api",
+    "https://www.youtube.com/s/player/cbcfbf2f/www-widgetapi.vflset/www-widgetapi.js",
+    "https://cdn.cookielaw.org/scripttemplates/202401.1.0/otBannerSdk.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-TGXMQFF&gtm=4e6al1",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-WDVH3GS&gtm=4e6al1",
+    "https://www.redditstatic.com/ads/pixel.js",
+    "https://js.adsrvr.org/up_loader.1.1.0.js",
+    "https://siteimproveanalytics.com/js/siteanalyze_3407.js",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CPQ4VK3C77U1C0R4OC8G&lib=ttq",
+    "https://www.googletagmanager.com/gtag/js?id=G-0RYKSV1NRX&cx=c&gtm=4e6al1",
+    "https://www.googletagmanager.com/gtag/js?id=G-6B9GBDE9EC&cx=c&gtm=4e6al1",
+    "https://www.googletagmanager.com/gtag/js?id=G-X88ZKK166D&cx=c&gtm=4e6al1",
+    "https://www.clarity.ms/tag/jqwvtn5kg8",
+    "https://www.googletagmanager.com/gtag/js?id=G-5LEXD56YGK&cx=c&gtm=4e6al1",
+    "https://www.googletagmanager.com/gtag/js?id=G-789M7EKDQ5&cx=c&gtm=4e6al1",
+    "https://www.7-groupoperation.com/js/802205.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://js.adsrvr.org/universal_pixel.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-C7VF4WXV2K&cx=c&gtm=4e6al1",
+    "https://connect.facebook.net/signals/config/347300242308462?v=2.9.427&r=stable&domain=www.abbvie.com&hme=766752a074f0cb0756dd3275a46fdecbcfe3de1ab8f573546734b619e44d384f&ex_m=118%2C241%2C171%2C27%2C82",
+    "https://analytics.tiktok.com/i18n/pixel/static/main.MTFiZjI1ODk0MA.js",
+    "https://scripts.clarity.ms/0.8.72/clarity.js",
+    "https://www.7-groupoperation.com/Track/Capture.aspx?retType=js&trk_jshv=1&trk_uid=&trk_user=802205&trk_sw=1440&trk_sh=900&trk_ref=&trk_tit=AbbVie%20and%20PGA%20TOUR%20%7C%20Birdies%20for%20Brain%20Hea",
+    "https://connect.facebook.net/signals/config/6868489029912867?v=2.9.427&r=stable&domain=www.abbvie.com&optin_meta_enabled_capi=true&hme=766752a074f0cb0756dd3275a46fdecbcfe3de1ab8f573546734b619e44d384f&"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "www.abbvie.com",
+     "path": "/cdn-cgi/rum",
+     "query": [],
+     "status": 204,
+     "contentType": "text/plain",
+     "example": "https://www.abbvie.com/cdn-cgi/rum"
+    },
+    {
+     "method": "GET",
+     "host": "www.abbvie.com",
+     "path": "/placeholders.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.abbvie.com/placeholders.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.abbvie.com",
+     "path": "/ab-config.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.abbvie.com/ab-config.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.abbvie.com",
+     "path": "/query-index-en.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.abbvie.com/query-index-en.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.abbvie.com",
+     "path": "/redirects.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.abbvie.com/redirects.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.abbvie.com",
+     "path": "/nav.plain.html",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.abbvie.com/nav.plain.html"
+    },
+    {
+     "method": "GET",
+     "host": "www.abbvie.com",
+     "path": "/footer.plain.html",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.abbvie.com/footer.plain.html"
+    },
+    {
+     "method": "GET",
+     "host": "www.abbvie.com",
+     "path": "/tags.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.abbvie.com/tags.json"
+    },
+    {
+     "method": "GET",
+     "host": "corpgcp.abbvie.com",
+     "path": "/g/collect",
+     "query": [
+      "_fplc",
+      "_fv",
+      "_p",
+      "_s",
+      "_ss",
+      "_tu",
+      "cid",
+      "dl",
+      "dma",
+      "dr",
+      "dt",
+      "ecid",
+      "en",
+      "evnid",
+      "frm",
+      "gap.sstd",
+      "gcd",
+      "gtm",
+      "ngs",
+      "npa",
+      "pscdl",
+      "rcb",
+      "richsstsse",
+      "sct",
+      "seg",
+      "sid",
+      "sr",
+      "sst.gch",
+      "sst.lpc",
+      "sst.navt",
+      "sst.sw_exp",
+      "sst.tft",
+      "sst.ude",
+      "tag_exp",
+      "tfd",
+      "tid",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uam",
+      "uamb",
+      "uap",
+      "uapv",
+      "uaw",
+      "ul",
+      "ur",
+      "v"
+     ],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://corpgcp.abbvie.com/g/collect"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET edge.api.brightcove.com/playback/v1/accounts/2157889328001/videos/6406773145112",
+    "GET manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/2157889328001/d3a82201-c781-426c-9fb2-dcbd4461d78d/10s",
+    "GET manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/2157889328001/d3a82201-c781-426c-9fb2-dcbd4461d78d/015",
+    "GET manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/2157889328001/d3a82201-c781-426c-9fb2-dcbd4461d78d/92f",
+    "GET manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/2157889328001/d3a82201-c781-426c-9fb2-dcbd4461d78d/054",
+    "GET manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/2157889328001/d3a82201-c781-426c-9fb2-dcbd4461d78d/2a3",
+    "GET fastly-signed-us-east-1-prod.brightcovecdn.com/media/v1/hls/v4/clear/2157889328001/d3a82201-c781-426c-9fb2-dcbd4461d78d/05432d",
+    "GET fastly-signed-us-east-1-prod.brightcovecdn.com/media/v1/hls/v4/clear/2157889328001/d3a82201-c781-426c-9fb2-dcbd4461d78d/2a38ba",
+    "GET cdn.cookielaw.org/consent/f982bb1e-466d-46d0-8a52-e7df5ab1d6f1/f982bb1e-466d-46d0-8a52-e7df5ab1d6",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/f982bb1e-466d-46d0-8a52-e7df5ab1d6f1/cc02823b-b5e8-409e-a751-d430d72513",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "GET cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/202401.1.0/assets/v2/otPcCenter.json",
+    "GET cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "GET pixel-config.reddit.com/pixels/t2_k2khsn2u/config",
+    "POST alb.reddit.com/rp",
+    "POST analytics.google.com/g/collect",
+    "POST www.google-analytics.com/g/collect",
+    "POST u.clarity.ms/collect",
+    "POST www.google.com/rmkt/collect/775459973/",
+    "POST insight.adsrvr.org/track/realtimeconversion",
+    "POST www.google.com/measurement/conversion"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.abbvie.com/cdn-cgi/rum?",
+     "body": "{\"startTime\":1793022572418,\"pageloadId\":\"8954af6d-78bb-4ae7-9006-53a500688bc7\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.10.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"156\",\"bv\":\"156\"},\"memory\":{\"totalJSHeapSize\":4154981,\"usedJSHeapSize\":2798949,\"jsHeapSizeLimit\":4395630592},\"firstPaint\":0,\"fi"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=1&ae=g&auid=1042409359.1793022575&dt=AbbVie%20and%20PGA%20TOUR%20%7C%20Birdies%20for%20Brain%20Health%20%7C%20AbbVie&en=page_view&dl=https%3A%2F%2Fw",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?_gsid=ABEE9MGf_fM4AidcUO4VbMN2XlWYERiHDQ&auid=1042409359.1793022575&gtm=45He6al1v832207059za20gzb72746627zd72746627xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://alb.reddit.com/rp?id=t2_k2khsn2u&event=PageVisit",
+     "body": "ts=1793022575307&id=t2_k2khsn2u&event=PageVisit&m.itemCount=&m.value=&m.valueDecimal=&m.currency=&m.transactionId=&m.orderId=&m.customEventName=&m.products=&m.conversionId=&uuid=acd1afaf-8c63-41a1-baf1-110e780b9bbe&aaid=&external_id=&idfa=&integration=reddit&partner=&partner_version=&opt_out=0&sh=1440&sw=900&v=rdt_d3960254&dpm=&dpcc=&dprc=&esurl=https%3A%2F%2Fwww.abbvie.com%2Fwho-we-are%2Fbrand-pa"
+    },
+    {
+     "url": "https://alb.reddit.com/rp?id=a2_hc1rwhb6k2zw&event=PageVisit",
+     "body": "ts=1793022575311&id=a2_hc1rwhb6k2zw&event=PageVisit&m.itemCount=&m.value=&m.valueDecimal=&m.currency=&m.transactionId=&m.orderId=&m.customEventName=&m.products=&m.conversionId=&uuid=acd1afaf-8c63-41a1-baf1-110e780b9bbe&aaid=&external_id=&idfa=&integration=reddit&partner=&partner_version=&opt_out=0&sh=1440&sw=900&v=rdt_d3960254&dpm=&dpcc=&dprc=&esurl=https%3A%2F%2Fwww.abbvie.com%2Fwho-we-are%2Fbran"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-0RYKSV1NRX&gtm=45je6al1v881526669za20ozb832207059zd72746627xf1&_p=1793022574538&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=1015141370.1793022",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-6B9GBDE9EC&gtm=45je6al1v9102216449za20ozb832207059zd72746627xf1&_p=1793022574538&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1015141370.1793022576&frm=0&ngs=1",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-5LEXD56YGK&gtm=45je6al1v886583976za20ozb72746627zd72746627xf1&_p=1793022574538&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1015141370.1793022576&frm=0&ngs=1&p",
+     "body": ""
+    },
+    {
+     "url": "https://u.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�Vm��8\u0010�+ȟZip0o��O۞Ԟ�^����$\u0016U\u0006\fqcl�6aӷ�~2���}�$\f���\f��'��U�\u0002��m��@\u0000$�\u0000}�g:X��\f\u0001\"zH'19*o�(�\u0016Ew������l�i´�\u000e��Z��i����T�M��l��j+�6;>���QߪQ��\u0005*\u0001QtU\u0014[Ȁ�q\u0000i��%\u0014Q\u000e�,�<\b\u0016F�\u0001)��C\bs �\u0000��O�\u0001�\u0006@�\u001c�<<\u0003��,\u0001$�w�2\u0004h\u0017\"��,�8������\u001bŀ����\u0006A�\u0002\u0004(@�*q�\u0016��ȅ��\u0004\u0007ޣ�\t��{��x��e��4~�]\u000f�`��\u0005��$��(�\u001e�x���K�\u0004�3�\u0019����t�U�6$Iq�.T��\u0004�@��*\u001aA����O�<*\u001b�ͳk���wx��'\\7�\u0019�U�{�)��sF��y���\u0000�\u0010C�.�#@�R�k\\\u000b56���qix��f�\u000f�\u001e�6�Ҏ[�\u0003ÒY"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-C7VF4WXV2K&gtm=45je6al1v882412849za20ozb832626565zd72746627xf1&_p=1793022574538&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1015141370.1793022576&frm=0&ngs=1&",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/775459973/?random=1793022576230&cv=11&fst=1793022576230&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1v895918250z8832207059za20gzb832207059zd72746627xeaxf1&gcd=13l3l3",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&ae=g&auid=1042409359.1793022575&dt=AbbVie%20and%20PGA%20TOUR%20%7C%20Birdies%20for%20Brain%20Health%20%7C%20AbbVie&tid=AW-775459973&dl=https%3A%2F",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 0,
+   "mainEmptyAtLoad": true
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-pixel-config-reddit-com",
+   "class": "A",
+   "feature": "unknown third-party host pixel-config.reddit.com",
+   "hint": "inspect",
+   "evidence": [
+    "pixel-config.reddit.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-alb-reddit-com",
+   "class": "A",
+   "feature": "unknown third-party host alb.reddit.com",
+   "hint": "inspect",
+   "evidence": [
+    "alb.reddit.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-t-co",
+   "class": "A",
+   "feature": "unknown third-party host t.co",
+   "hint": "inspect",
+   "evidence": [
+    "t.co"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-video-js-hero-bc-player-vjs-play-but",
+   "class": "CR",
+   "feature": "client-rendered slot video-js hero-bc-player vjs-play-button-position-top-right",
+   "hint": "client-rendered",
+   "evidence": [
+    "Video Player is loading.Play VideoPauseUnmuteCurrent Time 0:"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-loading-spinner",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-loading-spinner",
+   "hint": "client-rendered",
+   "evidence": [
+    "Video Player is loading."
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-control-bar",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-control-bar",
+   "hint": "client-rendered",
+   "evidence": [
+    "PauseUnmuteCurrent Time 0:00/Duration 0:03Loaded: 100.00%0:0"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-seek-to-live-control-vjs-control",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-seek-to-live-control vjs-control",
+   "hint": "client-rendered",
+   "evidence": [
+    "Seek to live, currently behind liveLIVE"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-descriptions-button-vjs-menu-but",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-descriptions-button vjs-menu-button vjs-menu-button-popup",
+   "hint": "client-rendered",
+   "evidence": [
+    "Descriptionsdescriptions off, selected"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-menu",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-menu",
+   "hint": "client-rendered",
+   "evidence": [
+    "descriptions off, selected",
+    "1080p1, selectedHD900p900pHD720p720pHD540p540p288p288pAutoAu"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-menu-content",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-menu-content",
+   "hint": "client-rendered",
+   "evidence": [
+    "descriptions off, selected",
+    "1080p1, selectedHD900p900pHD720p720pHD540p540p288p288pAutoAu"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-menu-item-vjs-selected",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-menu-item vjs-selected",
+   "hint": "client-rendered",
+   "evidence": [
+    "descriptions off, selected"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-quality-menu-wrapper-vjs-menu-bu",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-quality-menu-wrapper vjs-menu-button vjs-menu-button-popup",
+   "hint": "client-rendered",
+   "evidence": [
+    "Quality Levels1080p1, selectedHD900p900pHD720p720pHD540p540p"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-vjs-subs-caps-button-vjs-menu-button",
+   "class": "CR",
+   "feature": "client-rendered slot vjs-subs-caps-button vjs-menu-button vjs-menu-button-popup",
+   "hint": "client-rendered",
+   "evidence": [
+    "Subtitlessubtitles settings, opens subtitles settings dialog"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "cr-main-empty-at-load-filled-after-client-rendered-page",
+   "class": "CR",
+   "feature": "main empty at load, filled after (client-rendered page)",
+   "hint": "client-rendered-page",
+   "evidence": [
+    "text at load 0 → settled 2718"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-placeholders-json",
+   "class": "D",
+   "feature": "first-party data file GET /placeholders.json",
+   "api": {
+    "method": "GET",
+    "path": "/placeholders.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /placeholders.json → 200"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-ab-config-json",
+   "class": "D",
+   "feature": "first-party data file GET /ab-config.json",
+   "api": {
+    "method": "GET",
+    "path": "/ab-config.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /ab-config.json → 200"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-query-index-en-json",
+   "class": "D",
+   "feature": "first-party data file GET /query-index-en.json",
+   "api": {
+    "method": "GET",
+    "path": "/query-index-en.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /query-index-en.json → 200"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-redirects-json",
+   "class": "D",
+   "feature": "first-party data file GET /redirects.json",
+   "api": {
+    "method": "GET",
+    "path": "/redirects.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /redirects.json → 200"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-tags-json",
+   "class": "D",
+   "feature": "first-party data file GET /tags.json",
+   "api": {
+    "method": "GET",
+    "path": "/tags.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /tags.json → 200"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-div-form-button-co",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → div:form/button:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Who We Are",
+    "Science",
+    "Patients",
+    "Join Us"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ],
+   "reach": {
+    "pages": 11,
+    "of": 1
+   }
+  },
+  {
+   "id": "m-modal-trigger-data-warn-departure-modal-path-chrome-only-t",
+   "class": "M",
+   "feature": "modal trigger data-warn-departure-modal-path (chrome only) → target outside DOM at capture",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "https://www.facebook.com/AbbVieGlobal",
+    "https://twitter.com/abbvie",
+    "https://www.instagram.com/abbvie/?hl=en",
+    "https://www.linkedin.com/company/abbvie/"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ],
+   "reach": {
+    "pages": 10,
+    "of": 1
+   }
+  },
+  {
+   "id": "s-site-search-form-search-results",
+   "class": "S",
+   "feature": "site search form → /search-results",
+   "hint": "search",
+   "evidence": [
+    "search:q"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ],
+   "reach": {
+    "pages": 0,
+    "of": 1
+   }
+  },
+  {
+   "id": "t-unknown-third-party-host-static-cloudflareinsights-com",
+   "class": "T",
+   "feature": "unknown third-party host static.cloudflareinsights.com",
+   "hint": "inspect",
+   "evidence": [
+    "static.cloudflareinsights.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-vjs-zencdn-net",
+   "class": "T",
+   "feature": "unknown third-party host vjs.zencdn.net",
+   "hint": "inspect",
+   "evidence": [
+    "vjs.zencdn.net"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-delivery-p157365-e1666014-adobeae",
+   "class": "T",
+   "feature": "unknown third-party host delivery-p157365-e1666014.adobeaemcloud.com",
+   "hint": "inspect",
+   "evidence": [
+    "delivery-p157365-e1666014.adobeaemcloud.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "role": "consent: OneTrust",
+   "hint": "tags",
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "ad.doubleclick.net",
+    "js.adsrvr.org",
+    "connect.facebook.net",
+    "analytics.tiktok.com",
+    "insight.adsrvr.org",
+    "snap.licdn.com",
+    "match.adsrvr.org",
+    "cm.g.doubleclick.net",
+    "pixel.rubiconproject.com",
+    "ib.adnxs.com",
+    "stats.g.doubleclick.net",
+    "googleads.g.doubleclick.net"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-redditstatic-com",
+   "class": "T",
+   "feature": "unknown third-party host www.redditstatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.redditstatic.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-siteimproveanalytics-com",
+   "class": "T",
+   "feature": "unknown third-party host siteimproveanalytics.com",
+   "hint": "inspect",
+   "evidence": [
+    "siteimproveanalytics.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-static-ads-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host static.ads-twitter.com",
+   "hint": "inspect",
+   "evidence": [
+    "static.ads-twitter.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "role": "analytics: session replay",
+   "hint": "tags",
+   "evidence": [
+    "www.clarity.ms",
+    "c.clarity.ms",
+    "scripts.clarity.ms",
+    "u.clarity.ms"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-7-groupoperation-com",
+   "class": "T",
+   "feature": "unknown third-party host www.7-groupoperation.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.7-groupoperation.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-analytics-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host analytics.twitter.com",
+   "hint": "inspect",
+   "evidence": [
+    "analytics.twitter.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-3407-global-siteimproveanalytics-",
+   "class": "T",
+   "feature": "unknown third-party host 3407.global.siteimproveanalytics.io",
+   "hint": "inspect",
+   "evidence": [
+    "3407.global.siteimproveanalytics.io"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "analytics.google.com",
+    "www.google-analytics.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-c-bing-com",
+   "class": "T",
+   "feature": "unknown third-party host c.bing.com",
+   "hint": "inspect",
+   "evidence": [
+    "c.bing.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-analytics-ipv6-tiktokw-us",
+   "class": "T",
+   "feature": "unknown third-party host analytics-ipv6.tiktokw.us",
+   "hint": "inspect",
+   "evidence": [
+    "analytics-ipv6.tiktokw.us"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-capi-automation-s3-us-east-2-amaz",
+   "class": "T",
+   "feature": "unknown third-party host capi-automation.s3.us-east-2.amazonaws.com",
+   "hint": "inspect",
+   "evidence": [
+    "capi-automation.s3.us-east-2.amazonaws.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-app-bowencraggs-com",
+   "class": "T",
+   "feature": "unknown third-party host app.bowencraggs.com",
+   "hint": "inspect",
+   "evidence": [
+    "app.bowencraggs.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "v-video-brightcove",
+   "class": "V",
+   "feature": "video: Brightcove",
+   "role": "video: Brightcove",
+   "hint": "media",
+   "evidence": [
+    "players.brightcove.net",
+    "edge.api.brightcove.com",
+    "metrics.brightcove.com",
+    "cf-images.us-east-1.prod.boltdns.net",
+    "manifest.prod.boltdns.net",
+    "fastly-signed-us-east-1-prod.brightcovecdn.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "v-video-youtube",
+   "class": "V",
+   "feature": "video: YouTube",
+   "role": "video: YouTube",
+   "hint": "media",
+   "evidence": [
+    "www.youtube.com"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "v-player-element-div",
+   "class": "V",
+   "feature": "player element <div>",
+   "hint": "media",
+   "evidence": [
+    "?/default/6406773145112"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "v-player-element-video-js",
+   "class": "V",
+   "feature": "player element <video-js>",
+   "hint": "media",
+   "evidence": [
+    "2157889328001/pydM0AMeC/6406773145112"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "v-player-element-video",
+   "class": "V",
+   "feature": "player element <video>",
+   "hint": "media",
+   "evidence": [
+    "2157889328001/pydM0AMeC/6406773145112"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "onetrust-text-resize",
+    "0×0"
+   ],
+   "pages": [
+    "/who-we-are/brand-partnerships/pga-tour.html"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 1,
+  "of": 1,
+  "endpoints": {
+   "POST www.abbvie.com/cdn-cgi/rum": 1,
+   "GET www.abbvie.com/placeholders.json": 1,
+   "GET edge.api.brightcove.com/playback/v1/accounts/{n}/videos/{n}": 1,
+   "GET www.abbvie.com/ab-config.json": 1,
+   "GET www.abbvie.com/query-index-en.json": 1,
+   "GET manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/{n}/{uuid}/10s/master.m3u8": 1,
+   "GET www.abbvie.com/redirects.json": 1,
+   "GET manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/{n}/{uuid}/{uuid}/10s/rendition.m3u8": 1,
+   "GET fastly-signed-us-east-1-prod.brightcovecdn.com/media/v1/hls/v4/clear/{n}/{uuid}/{uuid}/6x/segment0.ts": 1,
+   "GET www.abbvie.com/nav.plain.html": 1,
+   "GET www.abbvie.com/footer.plain.html": 1,
+   "GET www.abbvie.com/tags.json": 1,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}.json": 1,
+   "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location": 1,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}/en.json": 1,
+   "POST www.google.com/ccm/collect": 1,
+   "POST ad.doubleclick.net/ccm/s/collect": 1,
+   "GET cdn.cookielaw.org/scripttemplates/202401.1.0/assets/v2/otPcCenter.json": 1,
+   "GET cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otFlat.json": 1,
+   "GET cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otCommonStyles.css": 1,
+   "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg": 1,
+   "GET pixel-config.reddit.com/pixels/t2_k2khsn2u/config": 1,
+   "POST alb.reddit.com/rp": 1,
+   "POST analytics.google.com/g/collect": 1,
+   "POST www.google-analytics.com/g/collect": 1,
+   "GET corpgcp.abbvie.com/g/collect": 1,
+   "POST i.clarity.ms/collect": 1,
+   "POST insight.adsrvr.org/track/realtimeconversion": 1,
+   "POST www.google.com/rmkt/collect/{n}/": 1,
+   "POST www.google.com/measurement/conversion": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 0,
+  "triggerPages": {
+   "aria-haspopup": 11,
+   "vjs-menu-button-popup": 6,
+   "data-warn-departure-modal-path": 10
+  }
+ }
+}

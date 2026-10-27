@@ -1,0 +1,42 @@
+{"ts":"2026-10-26T13:46:45Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"bounded single-page extract of /who-we-are/brand-partnerships/pga-tour.html with --dynamics"}
+{"ts":"2026-10-26T13:48:56Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"1/1 page captured live (headless, 200); census 1440+360; 23 css + 6 fonts harvested; OneTrust close-only notice; no locale capture gaps"}
+{"ts":"2026-10-26T13:49:09Z","skill":"stardust:replica","phase":"preserve-direction","event":"start","detail":"bounded-single promotion: synthesize minimal spec from page JSON + CSS lift; register; dynamics triage"}
+{"ts":"2026-10-26T13:51:32Z","skill":"stardust:replica","phase":"preserve-direction","event":"end","detail":"bounded-single spec synthesized (PRODUCT/DESIGN/DESIGN.json); register empty; 49 dynamic rows dispositioned; container 1440 cap, source bps 744/1024/1440"}
+{"ts":"2026-10-26T13:51:41Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"archetype who-we-are-brand-partnerships-pga-tour (landing): clean HTML/CSS from capture + lifted source CSS"}
+{"ts":"2026-10-26T14:24:24Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"gate rows for the archetype: iter1..iter4 at 1440/360 ran inside recreate; prototype table via gate-all"}
+{"ts":"2026-10-26T14:25:36Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"1440: 0.81% Δh0 0🔴 clip0 · 360: 1.00% Δh0 1🔴(icon capture-state) clip0 · cap-probe PASS · prototype table 1/1 PASS both widths · 4 rounds/width"}
+{"ts":"2026-10-26T14:25:36Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"1 archetype (landing) recreated and approved hands-off; fonts substituted (F37 Lineca→Wix Madefor Display); motion parity recorded"}
+{"ts":"2026-10-26T14:25:51Z","skill":"stardust:replica","phase":"handoff","event":"start","detail":"migrate → deploy → rollout for the single archetype; publish decision: publish"}
+{"ts":"2026-10-26T14:26:31Z","skill":"stardust:migrate","phase":"plan","event":"start","detail":"1 approved archetype, no siblings"}
+{"ts":"2026-10-26T14:26:31Z","skill":"stardust:migrate","phase":"plan","event":"end","detail":"plan: who-we-are-brand-partnerships-pga-tour → approved-page branch; 0 siblings"}
+{"ts":"2026-10-26T14:26:31Z","skill":"stardust:migrate","phase":"render","event":"start","detail":"render the approved archetype"}
+{"ts":"2026-10-26T14:26:39Z","skill":"stardust:migrate","phase":"render","event":"end","detail":"rendered 1, refused 0 → stardust/migrated/who-we-are/brand-partnerships/pga-tour.html"}
+{"ts":"2026-10-26T14:26:39Z","skill":"stardust:migrate","phase":"assets","event":"start","detail":"bundle"}
+{"ts":"2026-10-26T14:26:39Z","skill":"stardust:migrate","phase":"assets","event":"end","detail":"42 assets bundled under stardust/migrated/assets"}
+{"ts":"2026-10-26T14:26:39Z","skill":"stardust:migrate","phase":"state-and-report","event":"start","detail":"report"}
+{"ts":"2026-10-26T14:26:39Z","skill":"stardust:migrate","phase":"state-and-report","event":"end","detail":"1/1 page rendered"}
+{"ts":"2026-10-26T14:26:44Z","skill":"stardust:rollout","phase":"A-inventory","event":"start","detail":"inventory the migrated tree (1 page)"}
+{"ts":"2026-10-26T14:26:56Z","skill":"stardust:rollout","phase":"A-inventory","event":"end","detail":"1 page, 1 template, 7 block ids; DA aemcoder/4b3558cc@main"}
+{"ts":"2026-10-26T14:26:56Z","skill":"stardust:rollout","phase":"B-block","event":"start","detail":"block dedup + plan"}
+{"ts":"2026-10-26T14:27:02Z","skill":"stardust:rollout","phase":"B-block","event":"end","detail":"7 distinct blocks, 7 conversions on 1 page"}
+{"ts":"2026-10-26T14:27:02Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"start","detail":"verify dynamic-features.md against target host"}
+{"ts":"2026-10-26T14:27:03Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"end","detail":"49 rows, all dispositioned; host-bound 5/5 data files (expected on a new origin)"}
+{"ts":"2026-10-26T14:27:32Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"units: foundation, archetype(pga-tour), cluster(pga-tour, 0 siblings), gate-all, final"}
+{"ts":"2026-10-26T15:39:02Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"5/5 units done; 1/1 page live; gate-all PASS 1440 2.66% / 360 3.13% Δh 0, clip 0, presence 0; 1 foundation request applied"}
+{"ts":"2026-10-26T15:39:11Z","skill":"stardust:rollout","phase":"D-site","event":"start","detail":"sitemap/robots, redirects sheet, root / resolves to the pga-tour page"}
+{"ts":"2026-10-26T15:40:04Z","skill":"stardust:rollout","phase":"D-site","event":"end","detail":"sitemap served 1 = assembled 1; redirects wired (3 rows, live); / 301→200 to the pga-tour page"}
+{"ts":"2026-10-26T15:40:13Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"start","detail":"dynamic-feature parity on the live origin"}
+{"ts":"2026-10-26T15:46:25Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"end","detail":"parity 5/5 PASS on aem.live; video band corrected to the source's 30 s film (account 2157889325001, Lj7UrCc1z, 6404881113112)"}
+{"ts":"2026-10-26T15:46:38Z","skill":"stardust:rollout","phase":"E-full-site","event":"start","detail":"verify.mjs on aem.live + gate table into coverage"}
+{"ts":"2026-10-26T15:46:59Z","skill":"stardust:rollout","phase":"E-full-site","event":"end","detail":"1/1 verified on aem.live; gate PASS both widths; hero autoplay + band playback confirmed"}
+{"ts":"2026-10-26T15:47:11Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"nav/footer/page hrefs against the live tree"}
+{"ts":"2026-10-26T15:49:07Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"104/104 hrefs resolve (21 curl, 83 browser); logo → / localized; out-of-scope targets kept on the source site"}
+{"ts":"2026-10-26T15:49:15Z","skill":"stardust:rollout","phase":"F-optimize","event":"start","detail":"optimize sweep on aem.live; P1 gate"}
+{"ts":"2026-10-26T15:49:21Z","skill":"stardust:rollout","phase":"F-optimize","event":"end","detail":"health 100/100; open P1 0 P2 0 P3 0; 1 source-parity informational (no JSON-LD on source)"}
+{"ts":"2026-10-26T15:49:29Z","skill":"stardust:rollout","phase":"G-aem","event":"start","detail":"autofix pass (0 open findings expected)"}
+{"ts":"2026-10-26T15:49:32Z","skill":"stardust:rollout","phase":"G-aem","event":"end","detail":"0 candidates; no edits"}
+{"ts":"2026-10-26T15:49:39Z","skill":"stardust:rollout","phase":"H-report","event":"start","detail":"summary + learnings"}
+{"ts":"2026-10-26T15:49:51Z","skill":"stardust:rollout","phase":"H-report","event":"end","detail":"1/1 pages verified, 7/7 blocks, health 100, gate PASS both widths; report.md + learnings"}
+{"ts":"2026-10-26T15:49:59Z","skill":"stardust:rollout","phase":"I-dashboard","event":"start","detail":"dashboard"}
+{"ts":"2026-10-26T15:50:04Z","skill":"stardust:rollout","phase":"I-dashboard","event":"end","detail":"dashboard written; 1/1 page delivered"}
+{"ts":"2026-10-26T15:50:11Z","skill":"stardust:replica","phase":"handoff","event":"end","detail":"1/1 page live on aem.live, root → page; rollout A–I ended; done-check complete, 0 gaps"}

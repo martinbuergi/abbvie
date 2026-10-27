@@ -1,0 +1,1581 @@
+{
+ "tool": "chrome-explore",
+ "url": "http://localhost:8791/who-we-are-brand-partnerships-pga-tour-proposed.html",
+ "at": "2026-10-26T15:22:34.013Z",
+ "shots": "stardust/.work/chrome/header-source-proto",
+ "widths": {
+  "390": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Home",
+     "key": "home",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>nav>div:nth-of-type(1)>a",
+     "href": "http://localhost:8791/",
+     "expanded": null,
+     "rect": [
+      35,
+      28,
+      247,
+      16
+     ],
+     "actions": {}
+    },
+    {
+     "name": "search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>nav>div:nth-of-type(3)>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      282,
+      -7,
+      34,
+      86
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Open navigation",
+     "key": "open navigation",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>header>div>nav>div:nth-of-type(4)>button",
+     "expanded": null,
+     "rect": [
+      332,
+      30,
+      24,
+      13
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 0,
+   "truncated": null,
+   "loads": 1
+  },
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Home",
+     "key": "home",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>nav>div:nth-of-type(1)>a",
+     "href": "http://localhost:8791/",
+     "expanded": null,
+     "rect": [
+      55,
+      34,
+      110,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Who We Are",
+     "key": "who we are",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>nav>div:nth-of-type(2)>ul>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      273,
+      -1,
+      98,
+      89
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        }
+       ],
+       "shot": "1440-001-Who-We-Are-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 389,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        }
+       ],
+       "shot": "1440-002-Who-We-Are-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>header>div>nav>div:nth-of-type(2)>ul>li:nth-of-type(2)>div>div>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Science",
+     "key": "science",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>nav>div:nth-of-type(2)>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      419,
+      -1,
+      63,
+      89
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        }
+       ],
+       "shot": "1440-003-Science-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 389,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        }
+       ],
+       "shot": "1440-004-Science-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>header>div>nav>div:nth-of-type(2)>ul>li:nth-of-type(3)>div>div>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Patients",
+     "key": "patients",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>nav>div:nth-of-type(2)>ul>li:nth-of-type(4)>button",
+     "expanded": "false",
+     "rect": [
+      530,
+      -1,
+      66,
+      89
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        }
+       ],
+       "shot": "1440-005-Patients-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 389,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        }
+       ],
+       "shot": "1440-006-Patients-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>header>div>nav>div:nth-of-type(2)>ul>li:nth-of-type(4)>div>div>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Join Us",
+     "key": "join us",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>nav>div:nth-of-type(2)>ul>li:nth-of-type(5)>button",
+     "expanded": "false",
+     "rect": [
+      644,
+      -1,
+      60,
+      89
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        }
+       ],
+       "shot": "1440-007-Join-Us-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 389,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        }
+       ],
+       "shot": "1440-008-Join-Us-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>header>div>nav>div:nth-of-type(2)>ul>li:nth-of-type(5)>div>div>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Sustainability",
+     "key": "sustainability",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>nav>div:nth-of-type(2)>ul>li:nth-of-type(6)>button",
+     "expanded": "false",
+     "rect": [
+      752,
+      -1,
+      107,
+      89
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        }
+       ],
+       "shot": "1440-009-Sustainability-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         120
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 389,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        }
+       ],
+       "shot": "1440-010-Sustainability-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>header>div>nav>div:nth-of-type(2)>ul>li:nth-of-type(6)>div>div>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "MORE",
+     "key": "more",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>nav>div:nth-of-type(3)>ul>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      1119,
+      1,
+      91,
+      85
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Pipeline",
+          "href": "http://localhost:8791/science/pipeline.html"
+         },
+         {
+          "text": "Products",
+          "href": "http://localhost:8791/patients/products.html"
+         },
+         {
+          "text": "Partner with Us",
+          "href": "http://localhost:8791/science/partner-with-us.html"
+         },
+         {
+          "text": "Patient Support",
+          "href": "http://localhost:8791/patients/patient-support.html"
+         },
+         {
+          "text": "Contact Center",
+          "href": "http://localhost:8791/contact-center.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         610
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__body"
+        }
+       ],
+       "shot": "1440-011-MORE-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Pipeline",
+          "href": "http://localhost:8791/science/pipeline.html"
+         },
+         {
+          "text": "Products",
+          "href": "http://localhost:8791/patients/products.html"
+         },
+         {
+          "text": "Partner with Us",
+          "href": "http://localhost:8791/science/partner-with-us.html"
+         },
+         {
+          "text": "Patient Support",
+          "href": "http://localhost:8791/patients/patient-support.html"
+         },
+         {
+          "text": "Contact Center",
+          "href": "http://localhost:8791/contact-center.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         610
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__body"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        }
+       ],
+       "shot": "1440-012-MORE-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>header>div>nav>div:nth-of-type(3)>ul>li:nth-of-type(1)>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 6
+        },
+        "key": {
+         "opened": false,
+         "hides": 6
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "GLOBAL",
+     "key": "global",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>nav>div:nth-of-type(3)>ul>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      1220,
+      1,
+      105,
+      85
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Algeria",
+          "href": "http://localhost:8791/contact-center/locations/algeria.html"
+         },
+         {
+          "text": "South Africa and Sub-Saharan Africa",
+          "href": "http://localhost:8791/contact-center/locations/south-africa-and-sub-saharan-africa.html"
+         },
+         {
+          "text": "Tunisia",
+          "href": "http://localhost:8791/contact-center/locations/tunisia.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         804
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__body"
+        }
+       ],
+       "shot": "1440-013-GLOBAL-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Algeria",
+          "href": "http://localhost:8791/contact-center/locations/algeria.html"
+         },
+         {
+          "text": "South Africa and Sub-Saharan Africa",
+          "href": "http://localhost:8791/contact-center/locations/south-africa-and-sub-saharan-africa.html"
+         },
+         {
+          "text": "Tunisia",
+          "href": "http://localhost:8791/contact-center/locations/tunisia.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         804
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 384,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__body"
+        }
+       ],
+       "shot": "1440-014-GLOBAL-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>header>div>nav>div:nth-of-type(3)>ul>li:nth-of-type(2)>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 4
+        },
+        "key": {
+         "opened": false,
+         "hides": 4
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>nav>div:nth-of-type(3)>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      1335,
+      1,
+      40,
+      85
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         226
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-search"
+        }
+       ],
+       "shot": "1440-015-search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "CLOSE"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         226
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-panel__close-row"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.nav-panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "ease",
+         "target": "div.nav-search"
+        }
+       ],
+       "shot": "1440-016-search-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "CLOSE",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>header>div>nav>div:nth-of-type(3)>ul>li:nth-of-type(3)>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        1314,
+        109,
+        71,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 3
+        },
+        "key": {
+         "opened": false,
+         "hides": 3
+        }
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "input",
+       "kind": "search",
+       "sel": "#site-search",
+       "expanded": null,
+       "rect": [
+        280,
+        189,
+        880,
+        45
+       ],
+       "actions": {},
+       "search": {
+        "probe": "skip",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "http://localhost:8791/search-results?q={q}"
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "body>header>div>nav>div:nth-of-type(3)>ul>li:nth-of-type(3)>div>div:nth-of-type(2)>form>div>label",
+       "expanded": null,
+       "rect": [
+        280,
+        197,
+        74,
+        24
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 16,
+   "truncated": null,
+   "loads": 16
+  }
+ },
+ "probe": "skip"
+}

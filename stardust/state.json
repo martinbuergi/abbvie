@@ -1,0 +1,138 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-10-26T14:26:44Z",
+    "stardustVersion": "0.36.0"
+  },
+  "site": {
+    "originUrl": "https://www.abbvie.com",
+    "deployUrl": null,
+    "extractedAt": "2026-10-26T13:47:03.744Z",
+    "pageCap": 1,
+    "totalDiscovered": 1,
+    "crawled": 1
+  },
+  "direction": {
+    "resolvedAt": "2026-10-26T13:51:32.193Z",
+    "phrase": "replica (preserve mode, bounded-single)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-26T13:48:47.678Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "who-we-are-brand-partnerships-pga-tour",
+      "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+      "title": "AbbVie and PGA TOUR | Birdies for Brain Health | AbbVie",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T13:47:03.744Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-26T13:51:32Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-26T14:24:28Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-26T14:25:23Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-26T14:26:44Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/who-we-are-brand-partnerships-pga-tour.json",
+      "prototypePath": "stardust/prototypes/who-we-are-brand-partnerships-pga-tour-proposed.html",
+      "migratedPath": "stardust/migrated/who-we-are/brand-partnerships/pga-tour.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-26T14:26:33Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/who-we-are/brand-partnerships/pga-tour.html",
+        "outputPath": "who-we-are/brand-partnerships/pga-tour.html",
+        "slug": "who-we-are-brand-partnerships-pga-tour",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 42,
+    "bundledAssets": [
+      "fonts/Roboto-Light.woff2",
+      "fonts/WixMadeforDisplay-latin.woff2",
+      "fonts/abbvie-icon.ttf",
+      "fonts/roboto-bold.woff2",
+      "fonts/roboto-regular.woff2",
+      "media/abbvie-logo-header.svg",
+      "media/bc-image.jpg",
+      "media/footer-instagram.svg",
+      "media/footer-linkedin.svg",
+      "media/footer-twitter.svg",
+      "media/footer-youtube.svg",
+      "media/icon-dot-menu.svg",
+      "media/icon-globe.svg",
+      "media/icon-search.svg",
+      "media/media_108b4c9ca4bd2ee3c0d6c3d8c222807fac4a42bb7-e2bf4f.webp",
+      "media/media_108b4c9ca4bd2ee3c0d6c3d8c222807fac4a42bb7-f2cfd8.webp",
+      "media/media_1117643b00ad7dcc0553596e75c6f910224c4f17d.svg",
+      "media/media_1211f54e146302b2fac3f0b1b538534b305426b62.svg",
+      "media/media_147e1a68efdf882c99b2391ea4b9259058a3fa4c5-e2bf4f.webp",
+      "media/media_147e1a68efdf882c99b2391ea4b9259058a3fa4c5-f2cfd8.webp",
+      "media/media_156d220e210d1c505b5523f370ed607fd76cae402-e2bf4f.webp",
+      "media/media_156d220e210d1c505b5523f370ed607fd76cae402-f2cfd8.webp",
+      "media/media_16d32e6e9cc7ca1c68737ebd73b7f30369ec17aac-e2bf4f.webp",
+      "media/media_16d32e6e9cc7ca1c68737ebd73b7f30369ec17aac-f2cfd8.webp",
+      "media/media_1701f6d543ae8551ba6c4f5c5f2de5d7e90e6e837-e2bf4f.webp",
+      "media/media_1701f6d543ae8551ba6c4f5c5f2de5d7e90e6e837-f2cfd8.webp",
+      "media/media_184cd8a9a00fa0a139ccf18592b68319671cfa0f7-e2bf4f.webp",
+      "media/media_184cd8a9a00fa0a139ccf18592b68319671cfa0f7-f2cfd8.webp",
+      "media/media_1a2766cafe539504a3a3a4c9edfe5525862ddf632-e2bf4f.webp",
+      "media/media_1a2766cafe539504a3a3a4c9edfe5525862ddf632-f2cfd8.webp",
+      "media/media_1a7cafa71439e6f634dee68dcfe1f2b8fbc83147d.svg",
+      "media/media_1b164effbba3a5b1fc10bbc35389b3f568b32984e-3dff81.avif",
+      "media/media_1b505c1053c06d11c5e88ff7a529078eed5a7b321-e2bf4f.webp",
+      "media/media_1b505c1053c06d11c5e88ff7a529078eed5a7b321-f2cfd8.webp",
+      "media/media_1d30f1f8cd3b5f3c7dbd577217720363c1bb92a55-e2bf4f.webp",
+      "media/media_1d30f1f8cd3b5f3c7dbd577217720363c1bb92a55-f2cfd8.webp",
+      "media/morgane-hero-image-w1200.avif",
+      "media/morgane-hero-image-w750.avif",
+      "media/privacy-options-icon.svg",
+      "media/sunny-poster-image.jpg",
+      "who-we-are-brand-partnerships-pga-tour.css",
+      "who-we-are-brand-partnerships-pga-tour.js"
+    ],
+    "pages": [
+      {
+        "slug": "who-we-are-brand-partnerships-pga-tour",
+        "file": "stardust/migrated/who-we-are/brand-partnerships/pga-tour.html",
+        "assetsBundled": 42
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-26T14:26:33Z",
+      "rendered": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

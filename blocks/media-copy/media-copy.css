@@ -1,0 +1,59 @@
+/* media-copy — source section.css grid, image + copy columns (lifted from the gated prototype) */
+.media-copy .grid-pad-bottom {
+  padding-bottom: var(--pad-bottom);
+}
+
+.media-copy .copy p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.media-copy .figure {
+  margin-bottom: 30px;
+  line-height: 0;
+}
+
+.media-copy .figure p {
+  margin: 0;
+}
+
+.media-copy .figure img {
+  width: 100%;
+  height: auto;
+}
+
+@media (width < 744px) {
+  .media-copy .m-order-1 {
+    order: 1;
+  }
+
+  .media-copy .m-order-3 {
+    order: 3;
+  }
+}
+
+@media (width >= 744px) {
+  .media-copy .span-1 {
+    grid-column: span 1;
+  }
+
+  .media-copy .span-4 {
+    grid-column: span 4;
+  }
+
+  .media-copy .span-6 {
+    grid-column: span 6;
+  }
+
+  .media-copy .copy p {
+    line-height: 22px;
+  }
+}
+
+@media (width >= 1024px) {
+  .media-copy .copy p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

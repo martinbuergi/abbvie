@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-10-26T15:49:59.609Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.abbvie.com",
+    "liveHost": "main--4b3558cc--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 1,
+    "prototyped": 1,
+    "deployed": 1,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 1,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "who-we-are-brand-partnerships-pga-tour",
+      "path": "/who-we-are/brand-partnerships/pga-tour",
+      "stage": "deployed",
+      "templateId": "who-we-are-brand-partnerships-pga-tour",
+      "isTemplate": true,
+      "openFindings": 1
+    }
+  ],
+  "templates": [
+    {
+      "id": "who-we-are-brand-partnerships-pga-tour",
+      "archetype": "who-we-are-brand-partnerships-pga-tour",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 7,
+    "converted": 7
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 1
+    },
+    "byAutofix": {}
+  }
+}

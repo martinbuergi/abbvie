@@ -1,0 +1,983 @@
+{
+ "source": "http://localhost:8791/who-we-are-brand-partnerships-pga-tour-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "video"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "2157889328001"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "pydM0AMeC"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "6406773145112"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "hero-container-item, ambient"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Video Player is loading."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Play Video"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Pause"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Unmute"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Current Time"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "0:02"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "/"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Duration"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "0:03"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Loaded"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "100.00%"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "0:02"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "LIVE"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Stream Type"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Seek to live, currently behind live"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "LIVE"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Remaining Time"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "0:01"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "1x"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Playback Rate"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Chapters"
+    },
+    {
+     "role": "eyebrow",
+     "order": 28,
+     "text": "Chapters"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Descriptions"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "descriptions off"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": ", selected"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Quality Levels"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "1080p"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "1, selected"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "HD"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "900p"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "900p"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "HD"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "720p"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "720p"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "HD"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "540p"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "540p"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "288p"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "288p"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Auto"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Auto"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Subtitles"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "subtitles settings"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": ", opens subtitles settings dialog"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "subtitles off"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": ", selected"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Audio Track"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "en (Main)"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": ", selected"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "This is a modal window."
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Beginning of dialog window. Escape will cancel and close the window."
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Text"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Color"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "White"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Black"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Red"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "Green"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Blue"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Yellow"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Magenta"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Cyan"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Transparency"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "Opaque"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Semi-Transparent"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Background"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Color"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Black"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "White"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Red"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Green"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Blue"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "Yellow"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Magenta"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Cyan"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "Transparency"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Opaque"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Semi-Transparent"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Transparent"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Window"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "Color"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "Black"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "White"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "Red"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "Green"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "Blue"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "Yellow"
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "Magenta"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "Cyan"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "Transparency"
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "Transparent"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "Semi-Transparent"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "Opaque"
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "Font Size"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "50%"
+    },
+    {
+     "role": "body",
+     "order": 101,
+     "text": "75%"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "100%"
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "125%"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "150%"
+    },
+    {
+     "role": "body",
+     "order": 105,
+     "text": "175%"
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "200%"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "300%"
+    },
+    {
+     "role": "body",
+     "order": 108,
+     "text": "400%"
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "Text Edge Style"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "None"
+    },
+    {
+     "role": "body",
+     "order": 111,
+     "text": "Raised"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "Depressed"
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "Uniform"
+    },
+    {
+     "role": "body",
+     "order": 114,
+     "text": "Dropshadow"
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "Font Family"
+    },
+    {
+     "role": "body",
+     "order": 116,
+     "text": "Proportional Sans-Serif"
+    },
+    {
+     "role": "body",
+     "order": 117,
+     "text": "Monospace Sans-Serif"
+    },
+    {
+     "role": "body",
+     "order": 118,
+     "text": "Proportional Serif"
+    },
+    {
+     "role": "body",
+     "order": 119,
+     "text": "Monospace Serif"
+    },
+    {
+     "role": "body",
+     "order": 120,
+     "text": "Casual"
+    },
+    {
+     "role": "body",
+     "order": 121,
+     "text": "Script"
+    },
+    {
+     "role": "body",
+     "order": 122,
+     "text": "Small Caps"
+    },
+    {
+     "role": "body",
+     "order": 123,
+     "text": "Reset"
+    },
+    {
+     "role": "body",
+     "order": 124,
+     "text": "restore all settings to the default values"
+    },
+    {
+     "role": "body",
+     "order": 125,
+     "text": "Done"
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "Close Modal Dialog"
+    },
+    {
+     "role": "body",
+     "order": 127,
+     "text": "End of dialog window."
+    },
+    {
+     "role": "body",
+     "order": 128,
+     "text": "Close Modal Dialog"
+    },
+    {
+     "role": "body",
+     "order": 129,
+     "text": "This is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    },
+    {
+     "role": "eyebrow",
+     "order": 130,
+     "text": "PGA TOUR"
+    },
+    {
+     "role": "cta",
+     "order": 131,
+     "text": "Who We Are",
+     "href": "/who-we-are.html"
+    },
+    {
+     "role": "cta",
+     "order": 132,
+     "text": "Brand Partnerships",
+     "href": "/who-we-are/brand-partnerships.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 133,
+     "text": "PGA TOUR"
+    },
+    {
+     "role": "heading",
+     "order": 134,
+     "text": "Turning birdies into real impact on and off the course"
+    },
+    {
+     "role": "body",
+     "order": 135,
+     "text": "As the Official Pharmaceutical Sponsor of the PGA TOUR, AbbVie is launching Birdies for Brain Health, a campaign that turns birdies into increased awareness and support for people living with neurological and mental health conditions and their care partners who support them."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 17,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.vjs-menu-item",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.vjs-menu-item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "About Birdies for Brain Health"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "As Official Pharmaceutical Sponsor of the 2026 Presidents Cup, AbbVie launched the campaign by making a $330,000 donation in recognition of the 33% of the global population affected by a neurological disorder . Beginning in 2027, Birdies for Brain Health will expand across the PGA TOUR season, with a donation for every birdie scored at PGA TOUR Signature Events and the FedExCup Playoffs. These donations will benefit six patient advocacy organizations advancing research and support for people and care partners affected by migraine, mental health conditions, and Parkinson’s disease."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Throughout the season, compelling stories from individuals - including members of the golf community - will shine a light on the realities of living with neurological and mental health conditions. The campaign connects every birdie to a greater purpose, driving advocacy and action in support of brain health."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "1. World Health Organization. “Global status report on neurology.” October 2025. Accessed Aug. 5, 2026."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Birdies for Brain Health"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Making an impact on and off the course"
+    },
+    {
+     "role": "eyebrow",
+     "order": 2,
+     "text": "Watch 0:30"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "AbbVie Birdies for Brain Health Ambassador"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Gary Woodland, one of the U.S. captain’s assistants for the 2026 Presidents Cup and 2019 U.S. Open champion, will partner with AbbVie to bring Birdies for Brain Health to life through storytelling and engagement. Woodland underwent surgery in 2023 to remove a benign brain lesion and has spoken publicly about the physical, mental and emotional challenges of his recovery."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "quote-band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "My experience has shown me how important awareness, support and a strong community can be when someone is facing a health challenge. Birdies for Brain Health gives us a meaningful way to use golf’s platform to support organizations advancing science and care, while helping people and care partners know they are not alone."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Gary Woodland"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "AbbVie Birdies for Brain Health Ambassador"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Partnerships For Impact"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Learn more about the six patient advocacy organizations driving real impact for patients and their care partners."
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.span-2",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The Power of Partnership"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Learn about our other purposeful brand partnerships."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "POWER OF PARTNERSHIPS",
+     "href": "/who-we-are/brand-partnerships.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Related Content"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "SEPTEMBER 15, 2026"
+    },
+    {
+     "role": "eyebrow",
+     "order": 1,
+     "text": "NEUROSCIENCE"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "More than “Just a Headache”: Living with the Impact of Migraine"
+    },
+    {
+     "role": "eyebrow",
+     "order": 3,
+     "text": "READ STORY"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "8 Minute Read"
+    },
+    {
+     "role": "eyebrow",
+     "order": 5,
+     "text": "MAY 01, 2026"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Real people. Real inspiration."
+    },
+    {
+     "role": "eyebrow",
+     "order": 7,
+     "text": "READ STORY"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "8 Minute Read"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "ARTICLE.span-6",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

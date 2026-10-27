@@ -1,0 +1,11 @@
+{
+  "/who-we-are/brand-partnerships/pga-tour": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-26T15:45:11.953Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

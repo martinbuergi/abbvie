@@ -1,0 +1,89 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout",
+    "writtenAt": "2026-10-26T15:40:31Z",
+    "phase": "D2-dynamic"
+  },
+  "origin": "https://main--4b3558cc--aemcoder.aem.live",
+  "features": [
+    {
+      "id": "v-video-brightcove",
+      "disposition": "embed-passthrough",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/who-we-are/brand-partnerships/pga-tour",
+          "trigger": ".video .video-play",
+          "videoSelector": ".video .video-stage video",
+          "playbackHost": "brightcove"
+        }
+      ],
+      "feature": "v-video-brightcove",
+      "class": "V",
+      "status": "verified",
+      "note": "band player Lj7UrCc1z on account 2157889325001, video 6404881113112 (30 s, observed on the source 2026-10-26); content corrected from the hero clip id"
+    },
+    {
+      "id": "m-modal-trigger-data-warn-departure-modal-path",
+      "disposition": "rebuild-native",
+      "checks": [
+        {
+          "type": "click-dialog",
+          "path": "/who-we-are/brand-partnerships/pga-tour",
+          "trigger": "a[data-warn-departure]",
+          "headingIncludes": "You are about to leave"
+        }
+      ],
+      "feature": "m-modal-trigger-data-warn-departure-modal-path",
+      "class": "M",
+      "status": "verified"
+    },
+    {
+      "id": "m-modal-trigger-aria-haspopup",
+      "disposition": "rebuild-native",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/who-we-are/brand-partnerships/pga-tour",
+          "selector": "header .nav-section",
+          "min": 1
+        }
+      ],
+      "feature": "m-modal-trigger-aria-haspopup",
+      "class": "M",
+      "status": "verified"
+    },
+    {
+      "id": "d-first-party-data-file-get-redirects",
+      "disposition": "data-fed",
+      "checks": [
+        {
+          "type": "fetch-json",
+          "url": "/redirects.json",
+          "minRows": 3,
+          "expectKeys": [
+            "data"
+          ]
+        }
+      ],
+      "feature": "d-first-party-data-file-get-redirects",
+      "class": "D",
+      "status": "verified"
+    },
+    {
+      "id": "page-errors",
+      "disposition": "self",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/who-we-are/brand-partnerships/pga-tour"
+          ]
+        }
+      ],
+      "feature": "page-errors",
+      "class": "CR",
+      "status": "verified"
+    }
+  ]
+}

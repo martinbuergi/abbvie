@@ -1,0 +1,55 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-26T14:26:56.755Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-26T14:26:56.755Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "who-we-are-brand-partnerships-pga-tour"
+  ],
+  "steps": [
+    {
+      "slug": "who-we-are-brand-partnerships-pga-tour",
+      "path": "/who-we-are/brand-partnerships/pga-tour",
+      "templateId": "who-we-are-brand-partnerships-pga-tour",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb"
+        },
+        {
+          "id": "video",
+          "edsBlockName": "video"
+        },
+        {
+          "id": "quote",
+          "edsBlockName": "quote"
+        },
+        {
+          "id": "partner-logos",
+          "edsBlockName": "partner-logos"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band"
+        },
+        {
+          "id": "story-cards",
+          "edsBlockName": "story-cards"
+        }
+      ],
+      "reuse": []
+    }
+  ]
+}
