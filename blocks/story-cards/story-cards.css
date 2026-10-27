@@ -1,0 +1,216 @@
+/* story-cards — source story-card.css (lifted from the gated prototype) + the spacer band below */
+.story-cards {
+  padding-bottom: 112px;
+}
+
+.story-cards .grid-no-top {
+  padding-top: 0;
+}
+
+.story-cards .grid-pad-bottom {
+  padding-bottom: var(--pad-bottom);
+}
+
+.story-cards .story-card {
+  overflow: clip;
+}
+
+.story-cards .story-card-link:any-link {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--navy);
+}
+
+.story-cards .story-card-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  overflow: clip;
+  line-height: 0;
+}
+
+.story-cards .story-card-media p,
+.story-cards .story-card-media picture {
+  width: 100%;
+  margin: 0;
+}
+
+.story-cards .story-card-media img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.story-cards .story-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.story-cards .story-card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.story-cards .story-card-date {
+  display: block;
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  color: var(--gray-dark);
+}
+
+.story-cards .story-card-eyebrow {
+  display: block;
+  margin-bottom: 20px;
+  overflow: hidden;
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+
+.story-cards .story-card-body p {
+  margin: 0;
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+}
+
+.story-cards .story-card-meta :is(h2, h3, h4, h5, h6) {
+  margin: 0;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+}
+
+.story-cards .story-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.story-cards .story-card-title :is(h2, h3, h4, h5, h6) {
+  display: -webkit-box;
+  margin: 0 0 16px;
+  overflow: hidden;
+  font-family: var(--ff-body);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: normal;
+  color: var(--navy);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.story-cards .story-card-foot {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 22px;
+}
+
+.story-cards .story-card-cta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.story-cards .story-card-time {
+  display: flex;
+  align-items: center;
+  max-width: 50%;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--navy);
+}
+
+.story-cards .story-card-time::before {
+  content: "\e904";
+  display: block;
+  width: 22px;
+  height: 22px;
+  font-family: var(--ff-icon);
+  font-size: 22px;
+  line-height: 22px;
+  color: var(--navy);
+}
+
+@media (width >= 744px) {
+  .story-cards .span-6 {
+    grid-column: span 6;
+  }
+
+  .story-cards .story-card-link:any-link {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .story-cards .story-card-media,
+  .story-cards .story-card-body {
+    flex: 0 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+  }
+
+  .story-cards .story-card-body {
+    justify-content: space-between;
+  }
+
+  .story-cards .story-card-meta {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .story-cards .story-card-eyebrow {
+    margin-bottom: 0;
+  }
+
+  .story-cards .story-card-text {
+    margin-top: 16px;
+  }
+}
+
+@media (width >= 1024px) {
+  .story-cards .story-card-date {
+    font-size: 14px;
+    letter-spacing: 0.6px;
+  }
+
+  .story-cards .story-card-eyebrow {
+    font-size: 14px;
+  }
+
+  .story-cards .story-card-title :is(h2, h3, h4, h5, h6) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .story-cards .story-card-cta {
+    font-size: 14px;
+    letter-spacing: 0.84px;
+  }
+
+  .story-cards .story-card-time {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

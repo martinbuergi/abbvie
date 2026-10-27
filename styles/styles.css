@@ -1,91 +1,136 @@
 /*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * AbbVie — EDS foundation (replica of abbvie.com). Tokens lifted from the gated prototype
+ * (stardust/prototypes/who-we-are-brand-partnerships-pga-tour.css), which lifts them from the
+ * source's own tokens.css / styles.css / section.css. Breakpoints: 744, 1024, 1440 (source).
  *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * FONT LICENSING: F37 Lineca (Medium / Book) is proprietary and is NOT shipped — the stacks keep
+ * it first and fall to the "Lineca Sub" stand-in (Wix Madefor Display, OFL). "Abbvie Icon" is the
+ * brand's own icon font; confirm its web-embedding rights before go-live (fonts/LICENSING.md).
  */
 
 :root {
   /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --navy: #071d49;
+  --link: #035fe6;
+  --accent: #0066f5;
+  --white: #fff;
+  --gray-dark: #666b7a;
+  --gray-medium: #b9b4b4;
+  --gray-light: #f4f4f4;
+  --gray-extra-light: #fafafa;
+  --blue-very-light: #f1f3ff;
+  --blue-light: #a6b5e0;
+  --scrim: rgb(7 29 73 / 70%);
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  /* boilerplate aliases */
+  --background-color: var(--white);
+  --text-color: var(--navy);
+  --link-color: var(--link);
+  --link-hover-color: var(--link);
 
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  /* fonts: brand family first, self-hosted stand-in second, metric-matched local fallback third */
+  --ff-body: "Roboto Regular", roboto-fallback, helvetica, arial, sans-serif;
+  --ff-bold: "Roboto Bold", roboto-fallback, helvetica, arial, sans-serif;
+  --ff-light: "Roboto Light", roboto-fallback, helvetica, arial, sans-serif;
+  --ff-head: "F37 Lineca Medium", "Lineca Sub", lineca-fallback, helvetica, arial, sans-serif;
+  --ff-head-book: "F37 Lineca Book", "Lineca Sub", lineca-fallback, helvetica, arial, sans-serif;
+  --ff-icon: "Abbvie Icon";
+  --fw-head: 500;
+  --fw-book: 400;
+  --body-font-family: var(--ff-body);
+  --heading-font-family: var(--ff-head);
 
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  /* nav height */
-  --nav-height: 64px;
+  /* layout */
+  --max-width: 1440px;
+  --gutter: 35px; /* grid-container-inner side padding */
+  --band-x: 20px; /* main > .section side margin */
+  --pad-top: 32px;
+  --pad-bottom: 56px;
+  --col-gap: 15px;
+  --radius-xl: 32px;
+  --nav-h: 72px;
+  --nav-height: var(--nav-h);
 }
 
-/* fallback fonts */
-@font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
+@media (width >= 744px) {
+  :root {
+    --gutter: 70px;
+    --band-x: 70px;
+    --pad-top: 56px;
+    --pad-bottom: 80px;
+    --col-gap: 20px;
+    --radius-xl: 64px;
+  }
 }
 
+@media (width >= 1024px) {
+  :root {
+    --gutter: 55px;
+    --band-x: 55px;
+    --pad-top: 80px;
+    --radius-xl: 80px;
+    --nav-h: 88px;
+  }
+}
+
+/* metric-matched local fallbacks (first paint, before fonts.css lands) */
 @font-face {
   font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
+  src: local("Arial");
+  size-adjust: 101.64%;
+  ascent-override: 91.27%;
+  descent-override: 24.02%;
+  line-gap-override: 0%;
 }
 
-@media (width >= 900px) {
-  :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
+@font-face {
+  font-family: lineca-fallback;
+  src: local("Arial");
+  size-adjust: 107.81%;
+  ascent-override: 77%;
+  descent-override: 18.55%;
+  line-gap-override: 0%;
+}
 
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
-  }
+/* reset (source styles.css: universal border-box + zero margins) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--nav-h);
 }
 
 body {
   display: none;
   margin: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
-  line-height: 1.6;
+  background-color: var(--white);
+  color: var(--navy);
+  font-family: var(--ff-body);
+  font-size: 62.5%;
+  line-height: 1.5;
+  text-rendering: optimizespeed;
 }
 
 body.appear {
   display: block;
 }
 
-header {
+/* chrome reservation: sticky header, height = the bar */
+body > header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
   height: var(--nav-height);
+  background-color: var(--white);
 }
 
 header .header,
@@ -98,52 +143,28 @@ footer .footer[data-block-status="loaded"] {
   visibility: visible;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  scroll-margin: 40px;
-}
-
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
-
 p,
-dl,
 ol,
 ul,
-pre,
 blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+  margin: 0;
+  padding: 0;
 }
 
-code,
-pre {
-  font-size: var(--body-font-size-s);
+ul,
+ol {
+  list-style: none;
 }
 
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-main > div {
-  margin: 40px 16px;
+picture {
+  display: block;
+  max-width: 100%;
 }
 
 input,
@@ -153,135 +174,30 @@ button {
   font: inherit;
 }
 
-/* links */
+button {
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
 a:any-link {
-  color: var(--link-color);
+  color: var(--link);
   text-decoration: none;
   overflow-wrap: break-word;
 }
 
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
-}
-
-/* buttons */
-p.button-wrapper {
-  margin: 12px 0;
-}
-
-a.button:any-link,
-button.button {
-  box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  margin: 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
-  font: inherit;
-  font-weight: 500;
-  line-height: 1.25;
-  text-decoration: none;
-  cursor: pointer;
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
   overflow: hidden;
-  text-overflow: ellipsis;
+  clip-path: inset(50%);
   white-space: nowrap;
-}
-
-a.button[aria-disabled="true"],
-button.button:disabled {
-  cursor: not-allowed;
-  pointer-events: none;
-}
-
-a.button.primary,
-button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
-}
-
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
-
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary,
-button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
-}
-
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
-}
-
-a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
-}
-
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-main img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+  border: 0;
 }
 
 .icon {
@@ -295,31 +211,351 @@ main img {
   width: 100%;
 }
 
-/* sections */
-main > .section {
-  margin: 40px 0;
+/* type ramp (source styles.css) — h1 = display, h2..h5 = the heading scale */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-head);
+  font-weight: var(--fw-head);
+  color: var(--navy);
+  margin-bottom: 24px;
+  scroll-margin: var(--nav-h);
 }
 
-main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
+h1 {
+  font-size: 30px;
+  line-height: 34px;
+  margin-bottom: 16px;
 }
 
-main > .section:first-of-type {
-  margin-top: 0;
+h2 {
+  font-size: 28px;
+  line-height: 32px;
 }
 
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
+h3 {
+  font-size: 26px;
+  line-height: 30px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 16px;
+}
+
+main p,
+main li {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+main .default-content-wrapper p {
+  margin-bottom: 30px;
+}
+
+main sup {
+  font-size: 13.3333px;
+  line-height: 20px;
+}
+
+@media (width >= 744px) {
+  h1 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  h3 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  h4 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  h5 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  main p,
+  main li {
+    line-height: 22px;
   }
 }
 
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
+@media (width >= 1024px) {
+  h1 {
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: -1.28px;
+    margin-bottom: 24px;
+  }
+
+  h2 {
+    font-size: 56px;
+    line-height: 68px;
+    letter-spacing: -1.12px;
+  }
+
+  h3 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  h4 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  h5 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+
+  main p,
+  main li {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  main sup {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+/* buttons — the source's one CTA look (cta.css default-cta): outlined accent, uppercase */
+p.button-wrapper {
+  margin: 0 0 16px;
+}
+
+a.button:any-link,
+button.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
   margin: 0;
-  padding: 40px 0;
+  padding: 12px 32px;
+  border: 1px solid var(--accent);
+  border-radius: 0;
+  background-color: transparent;
+  color: var(--accent);
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.button.primary,
+a.button.accent,
+button.button.primary {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+a.button[aria-disabled="true"],
+button.button:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+@media (width >= 744px) {
+  a.button:any-link,
+  button.button {
+    width: max-content;
+    font-size: 14px;
+    letter-spacing: 0.84px;
+  }
+}
+
+@media (width >= 1024px) {
+  p.button-wrapper {
+    margin-bottom: 24px;
+  }
+
+  a.button:any-link,
+  button.button {
+    padding: 16px 40px;
+  }
+}
+
+/* sections — main > .section is the source's band (section.css abbvie-container) */
+main > .section {
+  max-width: var(--max-width);
+  margin: 0 var(--band-x) 32px;
+  overflow: hidden;
+}
+
+main > .section > div {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+main > .section > .default-content-wrapper {
+  padding: var(--pad-top) var(--gutter) 0;
+}
+
+main .section:empty {
+  display: none;
+}
+
+@media (width >= 744px) {
+  main > .section {
+    margin-bottom: 80px;
+  }
+}
+
+@media (width >= 1440px) {
+  main > .section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* section styles — ONE style value per section (closed set, grounds only) */
+main > .section.sky {
+  background-color: var(--blue-very-light);
+}
+
+main > .section.mist {
+  background-color: var(--gray-light);
+}
+
+main > .section.mist-spaced {
+  background-color: var(--gray-light);
+  margin-bottom: 56px;
+}
+
+main > .section.sky-short {
+  background-color: var(--blue-very-light);
+  min-height: 120px;
+}
+
+main > .section.mist-bleed {
+  background-color: var(--gray-light);
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+main > .section.bleed {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+main > .section.flush {
+  margin-bottom: 0;
+}
+
+main > .section.radius {
+  border-top-left-radius: var(--radius-xl);
+}
+
+main > .section.sky-radius {
+  background-color: var(--blue-very-light);
+  border-top-left-radius: var(--radius-xl);
+}
+
+@media (width >= 744px) {
+  main > .section.mist-spaced {
+    margin-bottom: 80px;
+  }
+}
+
+@media (width >= 1024px) {
+  main > .section.sky-short {
+    min-height: 288px;
+  }
+}
+
+@media (width >= 1440px) {
+  main > .section.mist-bleed,
+  main > .section.bleed {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* the source's 12-col grid (section.css grid-container-inner) — shared by blocks */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 20px var(--col-gap);
+  align-items: start;
+  padding: var(--pad-top) var(--gutter) 0;
+}
+
+.grid > * {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+@media (width >= 744px) {
+  .grid {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+}
+
+@media (width >= 1024px) {
+  .grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+}
+
+/* Experience Workspace edit mode: card-as-link inner anchor reads like the card text */
+a .prosemirror-editor a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Experience Workspace edit mode: repaint CTAs from their authored marks */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 32px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
 }

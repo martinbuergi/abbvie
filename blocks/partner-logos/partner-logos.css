@@ -1,0 +1,67 @@
+/* partner-logos — source custom-image.css tiles in the section grid (lifted from the prototype) */
+.partner-logos .lede-block {
+  margin-bottom: 16px;
+}
+
+.partner-logos .lede-block p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.partner-logos .logo-tile-img {
+  position: relative;
+  margin-bottom: 16px;
+  line-height: 0;
+}
+
+.partner-logos .logo-tile-padded {
+  padding: 20px 20px 32px;
+}
+
+.partner-logos .logo-tile a {
+  display: inline;
+}
+
+.partner-logos .logo-tile img {
+  width: 100%;
+  height: auto;
+}
+
+@media (width < 744px) {
+  .partner-logos .m-order-1 {
+    order: 1;
+  }
+
+  .partner-logos .m-order-2 {
+    order: 2;
+  }
+}
+
+@media (width >= 744px) {
+  .partner-logos .span-1 {
+    grid-column: span 1;
+  }
+
+  .partner-logos .span-2 {
+    grid-column: span 2;
+  }
+
+  .partner-logos .span-10 {
+    grid-column: span 10;
+  }
+}
+
+@media (width >= 1024px) {
+  .partner-logos .lede-block {
+    margin-bottom: 24px;
+  }
+
+  .partner-logos .lede-block p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .partner-logos .logo-tile-img {
+    margin-bottom: 24px;
+  }
+}

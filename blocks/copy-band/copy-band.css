@@ -1,0 +1,57 @@
+/* copy-band — source section.css grid + copy column (lifted from the gated prototype) */
+.copy-band .copy p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.copy-band .copy sup {
+  font-size: 13.3333px;
+  line-height: 20px;
+}
+
+.copy-band .figure {
+  margin-bottom: 30px;
+  line-height: 0;
+}
+
+.copy-band .copy .figure p {
+  margin: 0;
+}
+
+.copy-band .figure img {
+  width: 100%;
+  height: auto;
+}
+
+@media (width < 744px) {
+  .copy-band .m-order-2 {
+    order: 2;
+  }
+}
+
+@media (width >= 744px) {
+  .copy-band .span-2 {
+    grid-column: span 2;
+  }
+
+  .copy-band .span-8 {
+    grid-column: span 8;
+  }
+
+  .copy-band .copy p {
+    line-height: 22px;
+  }
+}
+
+@media (width >= 1024px) {
+  .copy-band .copy p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .copy-band .copy sup {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "pages": 0,
+      "blocks": 2,
+      "startedAt": "2026-10-26T14:27:32.397Z",
+      "endedAt": "2026-10-26T14:43:59.561Z",
+      "verdict": "foundation: styles/fonts/header/footer committed d6b7b1b, nav+footer live, lint clean",
+      "gates": {
+        "360": {
+          "headerBarMatch": "99.90% vs prototype on preview"
+        },
+        "1440": {
+          "headerBarMatch": "99.17% vs prototype on preview"
+        },
+        "crop": "footer height = prototype (610/1562px); published-origin header/footer crop-compare runs on the archetype unit (no shell page in a one-page roster)",
+        "chrome": "pending archetype unit"
+      }
+    },
+    "archetype-who-we-are-brand-partnerships-pga-tour": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "pages": 1,
+      "blocks": 8,
+      "startedAt": "2026-10-26T14:43:59.561Z",
+      "endedAt": "2026-10-26T15:31:40.623Z",
+      "verdict": "archetype who-we-are-brand-partnerships-pga-tour: live, blocks 8, gate 1440 2.66% \u0394h 0 / 360 3.13% \u0394h 0, clip 0, presence 0, header crop 0.16%/0.00% footer crop 0.51%/0.80% (1440/360), chrome-compare exit 0, requests 1",
+      "gates": {
+        "360": {
+          "archetype": 3.13,
+          "heightDelta": 0,
+          "pub2": 0.99
+        },
+        "1440": {
+          "archetype": 2.66,
+          "heightDelta": 0,
+          "pub1": 0.8
+        },
+        "crop": "header 0.16/0.00, footer 0.51/0.80",
+        "chrome": "chrome-compare exit 0; footer chrome-parity deltas = font substitution + lazy icons"
+      }
+    },
+    "who-we-are-brand-partnerships-pga-tour": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "pages": 0,
+      "blocks": 0,
+      "startedAt": "2026-10-26T15:31:40.623Z",
+      "endedAt": "2026-10-26T15:31:40.623Z",
+      "verdict": "who-we-are-brand-partnerships-pga-tour: pages 0/0 live (no siblings in a one-page scope), blocks 0, gate n/a, requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-26T15:31:40.623Z",
+      "endedAt": "2026-10-26T15:38:43.000Z",
+      "verdict": "gate-all: roster 1/1 PASS on the published origin (aem.live) \u2014 1440 2.66% \u0394h 0, 360 3.13% \u0394h 0, clip 0, presence MISSING 0 / HIDDEN 0; coverage updated from both summaries",
+      "gates": {
+        "1440": {
+          "archetype": 2.66,
+          "heightDelta": 0
+        },
+        "360": {
+          "archetype": 3.13,
+          "heightDelta": 0
+        },
+        "preRegate": "foundation request applied (footer social icon min-height in blocks/footer/footer.css, hero override removed, d2a3a2c); archetype re-gated on preview 2.66%/3.13% \u0394h 0"
+      }
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "startedAt": "2026-10-26T15:38:43.000Z",
+      "endedAt": "2026-10-26T15:39:02.000Z",
+      "pages": 1,
+      "verdict": "final: freeze check clean after the one queued request applied (re-frozen), archetype re-gated, gate-all 1/1 PASS, coverage updated, lint clean"
+    }
+  }
+}

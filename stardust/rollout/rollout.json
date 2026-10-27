@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-26T14:26:56.550Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.abbvie.com",
+    "da": {
+      "org": "aemcoder",
+      "site": "4b3558cc",
+      "ref": "main"
+    },
+    "liveHost": "main--4b3558cc--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 1,
+    "discovered": 1,
+    "capped": false,
+    "pageCap": 1
+  },
+  "lastRun": {
+    "at": "2026-10-26T15:46:59.532Z",
+    "pages": {
+      "total": 1,
+      "verified": 1,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 7,
+      "converted": 7,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

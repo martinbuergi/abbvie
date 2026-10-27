@@ -1,0 +1,171 @@
+/* quote — source quote.css + section background (lifted from the gated prototype) */
+.quote {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 15px;
+  min-height: 256px;
+  padding: 32px 35px 0;
+  border-top-left-radius: 32px;
+  overflow: clip;
+}
+
+.quote::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--scrim);
+  pointer-events: none;
+}
+
+.quote .quote-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  line-height: 0;
+}
+
+.quote .quote-bg p,
+.quote .quote-bg picture {
+  height: 100%;
+  margin: 0;
+}
+
+.quote .quote-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.quote .quote-inner {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: inherit;
+  gap: 20px var(--col-gap);
+}
+
+.quote .quote-body {
+  position: relative;
+  grid-column: 1 / -1;
+  max-width: 100%;
+  margin: 0 0 80px;
+}
+
+.quote .quote-body::before {
+  content: "\e909";
+  display: block;
+  height: 33px;
+  padding-left: 6px;
+  font-family: var(--ff-icon);
+  font-size: 33px;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.quote .quote-text {
+  padding-top: 44px;
+}
+
+.quote .quote-text p {
+  margin-bottom: 30px;
+  font-family: var(--ff-head-book);
+  font-weight: var(--fw-book);
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.quote .quote-by {
+  display: flex;
+  gap: 16px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.quote .quote-avatar {
+  flex: none;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.quote .quote-avatar p {
+  margin: 0;
+}
+
+.quote .quote-avatar img {
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+}
+
+.quote .quote-who {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote .quote-name p {
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--white);
+}
+
+.quote .quote-role p {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--white);
+}
+
+@media (width >= 744px) {
+  .quote {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    gap: 20px;
+    min-height: 416px;
+    padding: 56px 70px 0;
+    border-top-left-radius: 64px;
+  }
+
+  .quote .quote-body {
+    grid-column: 2 / span 6;
+  }
+
+  .quote .quote-text p {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+@media (width >= 1024px) {
+  .quote {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    min-height: 608px;
+    padding: 80px 55px 0;
+    border-top-left-radius: 80px;
+  }
+
+  .quote .quote-body {
+    grid-column: 2 / span 7;
+  }
+
+  .quote .quote-body::before {
+    height: 36px;
+  }
+
+  .quote .quote-text p {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .quote .quote-name p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

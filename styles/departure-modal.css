@@ -1,0 +1,113 @@
+/* external-link departure warning (scripts/delayed.js) — measured off the source modal @1440 */
+.departure-modal {
+  width: calc(100% - 40px);
+  max-width: 880px;
+  max-height: calc(100vh - 40px);
+  margin: auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  overflow: visible;
+}
+
+.departure-modal::backdrop {
+  background-color: rgb(0 0 0 / 75%);
+}
+
+.departure-modal-box {
+  position: relative;
+  max-height: calc(100vh - 40px);
+  overflow: auto;
+  padding: 72px 35px 56px;
+  background-color: var(--white);
+  border-top-left-radius: var(--radius-xl);
+  color: var(--navy);
+  font-family: var(--ff-body);
+}
+
+.departure-modal-close {
+  position: absolute;
+  top: 32px;
+  right: 35px;
+  width: 24px;
+  height: 24px;
+}
+
+.departure-modal-close::before,
+.departure-modal-close::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background-color: var(--navy);
+  transform: rotate(45deg);
+}
+
+.departure-modal-close::after {
+  transform: rotate(-45deg);
+}
+
+.departure-modal-title {
+  margin-bottom: 32px;
+}
+
+.departure-modal-body {
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.departure-modal-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.departure-modal-btn {
+  justify-self: start;
+  padding: 16px 40px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.84px;
+  text-transform: uppercase;
+}
+
+.departure-modal-btn:hover,
+.departure-modal-btn:focus-visible {
+  background-color: var(--accent);
+  color: var(--white);
+}
+
+@media (width >= 744px) {
+  .departure-modal-box {
+    padding: 80px 55px;
+  }
+
+  .departure-modal-close {
+    top: 87px;
+    right: 63px;
+  }
+
+  .departure-modal-title {
+    margin-top: 56px;
+    margin-bottom: 40px;
+  }
+
+  .departure-modal-actions {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+  .departure-modal-body {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

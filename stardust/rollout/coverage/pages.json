@@ -1,0 +1,62 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-26T14:26:56.550Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-26T15:46:59.532Z",
+  "pages": [
+    {
+      "slug": "who-we-are-brand-partnerships-pga-tour",
+      "path": "/who-we-are/brand-partnerships/pga-tour",
+      "title": "AbbVie and PGA TOUR | Birdies for Brain Health | AbbVie",
+      "templateId": "who-we-are-brand-partnerships-pga-tour",
+      "source": {
+        "migratedHtml": "stardust/migrated/who-we-are/brand-partnerships/pga-tour.html",
+        "metaJson": "stardust/migrated/who-we-are/brand-partnerships/pga-tour._meta.json",
+        "sourceHash": "sha256:21a7e9e9f0e4c8b171379bb4e7dd60fcba1bf2357925f2356ad8fd2e623cc092",
+        "sourceUrl": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+      },
+      "blocks": [
+        "hero",
+        "breadcrumb",
+        "video",
+        "quote",
+        "partner-logos",
+        "cta-band",
+        "story-cards"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--4b3558cc--aemcoder.aem.page/who-we-are/brand-partnerships/pga-tour",
+        "deployedAt": "2026-10-26T15:31:07.915Z",
+        "verifiedAt": "2026-10-26T15:46:39.363Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.13,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-26T15:46:59.532Z"
+        }
+      }
+    }
+  ]
+}

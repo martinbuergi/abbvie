@@ -1,0 +1,153 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-26T14:26:56.702Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-26T15:31:08.236Z",
+  "blocks": [
+    {
+      "id": "breadcrumb",
+      "label": "breadcrumb",
+      "kind": "module",
+      "signature": "module:breadcrumb",
+      "source": null,
+      "usedByTemplates": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "usedByPages": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cta-band",
+      "label": "cta-band",
+      "kind": "module",
+      "signature": "module:cta-band",
+      "source": null,
+      "usedByTemplates": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "usedByPages": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "cta-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero",
+      "label": "hero",
+      "kind": "module",
+      "signature": "module:hero",
+      "source": null,
+      "usedByTemplates": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "usedByPages": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "partner-logos",
+      "label": "partner-logos",
+      "kind": "module",
+      "signature": "module:partner-logos",
+      "source": null,
+      "usedByTemplates": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "usedByPages": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "partner-logos",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "quote",
+      "label": "quote",
+      "kind": "module",
+      "signature": "module:quote",
+      "source": null,
+      "usedByTemplates": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "usedByPages": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "quote",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "story-cards",
+      "label": "story-cards",
+      "kind": "module",
+      "signature": "module:story-cards",
+      "source": null,
+      "usedByTemplates": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "usedByPages": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "story-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "video",
+      "label": "video",
+      "kind": "module",
+      "signature": "module:video",
+      "source": null,
+      "usedByTemplates": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "usedByPages": [
+        "who-we-are-brand-partnerships-pga-tour"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "video",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

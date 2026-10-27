@@ -205,7 +205,8 @@ async function loadLazy(doc) {
  */
 function loadDelayed() {
   import('./consent-check.js');
-  // load anything that can be postponed to the latest here
+  // site-wide widgets (external-link departure warning)
+  import('./delayed.js');
 }
 
 async function loadPage() {

@@ -1,0 +1,1549 @@
+{
+  "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "header-wrapper hide-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "header-wrapper hide-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "header-wrapper hide-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "header-wrapper hide-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4354,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2854,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper show-nav",
+      "position": "sticky",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "button[aria-label=\"who-we-are\"]",
+      "frames": [
+        {
+          "t": 28878,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 29081.19999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 29283.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 29492.399999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "div > ul > li:nth-child(2) > button[aria-label=\"global\"]",
+      "frames": [
+        {
+          "t": 30538.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 30741.69999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 30945.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 31149.69999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "button[aria-label=\"more\"]",
+      "frames": [
+        {
+          "t": 32196.69999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 32399.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 32603.399999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 32807.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "button[aria-label=\"search\"]",
+      "frames": [
+        {
+          "t": 33838.39999999991,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 34046.69999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 34250.39999999991,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 34455.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "button[aria-label=\"Pause/Play button\"]",
+      "frames": [
+        {
+          "t": 35494.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 35697.59999999963,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 35901.69999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 36105.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "button[class$=\"play-btn\"]",
+      "frames": [
+        {
+          "t": 37149.19999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 37425.89999999991,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 37638,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 37840.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "button[aria-label=\"Back to top\"]",
+      "frames": [
+        {
+          "t": 38869.09999999963,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 39072.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 39276.39999999991,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 39493.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "button[aria-label=\"science\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(7, 29, 73)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(7, 29, 73)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "a[aria-label=\"POWER OF PARTNERSHIPS\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 102, 245)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 102, 245)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "a[href*=\"our-stories/i-am\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(7, 29, 73)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(7, 29, 73)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "footer a[href=\"/science.html\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(7, 29, 73)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(7, 29, 73)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "button[class$=\"play-btn\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.2s"
+        },
+        "subs": [
+          {
+            "el": "span.icon-abbvie-play.bcvideo-icon",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.2s"
+        },
+        "subs": [
+          {
+            "el": "span.icon-abbvie-play.bcvideo-icon",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "button[aria-label=\"Back to top\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, -44, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(166, 181, 224)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "transform 0.3s, box-shadow 0.2s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, -44, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(166, 181, 224)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "transform 0.3s, box-shadow 0.2s"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "blob:https://www.abbvie.com/2869159a-ae80-4569-be7a-12394bc37d35",
+        "autoplay": false,
+        "loop": true,
+        "muted": true,
+        "paused": false,
+        "currentTime": 3.141976,
+        "readyState": 4,
+        "inViewport": true,
+        "currentTimeAfter": 1.003985,
+        "playing": false
+      }
+    ],
+    "idleClassMutations": [
+      {
+        "added": [
+          "vjs-seeking"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right"
+      },
+      {
+        "added": [
+          "vjs-waiting"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right"
+      }
+    ],
+    "idleClassMutationCount": 2
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "vjs-spinner-spin",
+        "el": "div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 0
+      },
+      {
+        "name": "vjs-spinner-fade",
+        "el": "div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 0
+      },
+      {
+        "name": "vjs-spinner-spin",
+        "el": "div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 1830
+      },
+      {
+        "name": "vjs-spinner-fade",
+        "el": "div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 1830
+      },
+      {
+        "name": "vjs-spinner-spin",
+        "el": "div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 4397
+      },
+      {
+        "name": "vjs-spinner-fade",
+        "el": "div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 4397
+      },
+      {
+        "name": "vjs-spinner-spin",
+        "el": "div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 2424
+      },
+      {
+        "name": "vjs-spinner-fade",
+        "el": "div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 2424
+      },
+      {
+        "name": "vjs-spinner-spin",
+        "el": "div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 120
+      },
+      {
+        "name": "vjs-spinner-fade",
+        "el": "div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 120
+      },
+      {
+        "name": "vjs-spinner-spin",
+        "el": "div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 2256
+      },
+      {
+        "name": "vjs-spinner-fade",
+        "el": "div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 2256
+      },
+      {
+        "name": "vjs-spinner-show",
+        "el": "div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 2256
+      },
+      {
+        "name": "vjs-spinner-spin",
+        "el": "div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 2256
+      },
+      {
+        "name": "vjs-spinner-fade",
+        "el": "div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay > div.vjs-loading-spinner",
+        "txt": "Video Player is loading.",
+        "y": 2256
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "div.section.nav-sections.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-who-we-are > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.section.nav-sections.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-who-we-are > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.section.nav-sections.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-who-we-are > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu-who-we-are > div.submenu-level-1 > div.close-btn-wrapper",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.nav-sections.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-who-we-are > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.section.nav-sections.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-who-we-are > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.section.nav-sections.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-who-we-are > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu-who-we-are > div.submenu-level-1 > div.close-btn-wrapper",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-global > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-global > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-global > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu-who-we-are > div.submenu-level-1 > ul.navigation-group",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu-who-we-are > div.submenu-level-1 > div.mega-menu-wrapper-main",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu-global > div.submenu-level-1 > div.close-btn-wrapper",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu-global > div.submenu-level-1 > div.accordion",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu-global > div.submenu-level-1 > div.accordion",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-global > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-global > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-global > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-more > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-more > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-more > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu-global > div.submenu-level-1 > div.close-btn-wrapper",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu-more > div.submenu-level-1 > div.close-btn-wrapper",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu-more > div.submenu-level-1 > div.accordion",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.search-main-wrapper > div.search-wrapper > form.search-form > div.search-inner-wrapper > label.search-input-label.focus-out",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu-more > div.submenu-level-1 > div.close-btn-wrapper",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-more > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-more > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu-more > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu-more > div.submenu-level-1 > div.accordion",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu- > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu- > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.section.nav-tools.nav-item-level-0 > div.default-content-wrapper > ul > li.menu- > div.submenu-level-1",
+        "y": 0,
+        "dur": "0.4s, 0.3s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu- > div.submenu-level-1 > div.close-btn-wrapper",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.default-content-wrapper > ul > li.menu- > div.submenu-level-1 > div.search-main-wrapper",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay > button.vjs-big-play-button",
+        "y": 2256,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-controls-enabled > div.vjs-control-bar",
+        "y": 5416,
+        "dur": "1s, 1s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "vjs-seeking"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 0
+      },
+      {
+        "added": [
+          "vjs-waiting"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 0
+      },
+      {
+        "added": [
+          "show-nav"
+        ],
+        "el": "html > body.appear.abbvie > header.header-wrapper.show-nav",
+        "y": 2
+      },
+      {
+        "added": [
+          "hide-nav"
+        ],
+        "el": "html > body.appear.abbvie > header.header-wrapper.hide-nav",
+        "y": 1104
+      },
+      {
+        "added": [
+          "vjs-seeking"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 1682
+      },
+      {
+        "added": [
+          "vjs-waiting"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 1682
+      },
+      {
+        "added": [
+          "vjs-seeking"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 4390
+      },
+      {
+        "added": [
+          "vjs-waiting"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 4390
+      },
+      {
+        "added": [
+          "show-nav"
+        ],
+        "el": "html > body.appear.abbvie > header.header-wrapper.show-nav",
+        "y": 5198
+      },
+      {
+        "added": [
+          "vjs-seeking"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 2444
+      },
+      {
+        "added": [
+          "vjs-waiting"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 2444
+      },
+      {
+        "added": [
+          "vjs-seeking"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 120
+      },
+      {
+        "added": [
+          "vjs-waiting"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 120
+      },
+      {
+        "added": [
+          "vjs-seeking"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 0
+      },
+      {
+        "added": [
+          "vjs-waiting"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 0
+      },
+      {
+        "added": [
+          "vjs-seeking"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 0
+      },
+      {
+        "added": [
+          "vjs-waiting"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 0
+      },
+      {
+        "added": [
+          "vjs-paused"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 0
+      },
+      {
+        "added": [
+          "vjs-paused"
+        ],
+        "el": "div.hero-container.height-tall.block > div.hero-container-item > div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right",
+        "y": 0
+      },
+      {
+        "added": [
+          "vjs-paused"
+        ],
+        "el": "div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right > div.vjs-control-bar > button.vjs-play-control.vjs-control.vjs-button",
+        "y": 0
+      },
+      {
+        "added": [
+          "vjs-paused"
+        ],
+        "el": "div.hero-container-bg > div.hero-container-brightcove.ambient > video-js.video-js.hero-bc-player.vjs-play-button-position-top-right > div.vjs-control-bar > button.vjs-play-control.vjs-control.vjs-button",
+        "y": 0
+      },
+      {
+        "added": [
+          "hide-nav"
+        ],
+        "el": "html > body.appear.abbvie > header.header-wrapper.hide-nav",
+        "y": 1488
+      },
+      {
+        "added": [
+          "bcvideo-playing"
+        ],
+        "el": "div.section.abbvie-container.container-xxx-large > div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing",
+        "y": 2251
+      },
+      {
+        "added": [
+          "bcvideo-playing"
+        ],
+        "el": "div.section.abbvie-container.container-xxx-large > div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing",
+        "y": 2251
+      },
+      {
+        "added": [
+          "show-nav"
+        ],
+        "el": "html > body.appear.abbvie > header.header-wrapper.show-nav",
+        "y": 2256
+      },
+      {
+        "added": [
+          "bc-style-vjs"
+        ],
+        "el": "html > head > style.bc-style-vjs",
+        "y": 2256
+      },
+      {
+        "added": [
+          "bc-style-Lj7UrCc1z-default"
+        ],
+        "el": "html > head > style.bc-style-Lj7UrCc1z-default",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-waiting-for-autoplay",
+          "vjs-paused",
+          "vjs-controls-enabled",
+          "vjs-workinghover",
+          "vjs-v8",
+          "vjs-user-active",
+          "vjs-layout-large",
+          "bc-player-Lj7UrCc1z_default",
+          "bc-player-Lj7UrCc1z_default-index-0",
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-tech"
+        ],
+        "el": "div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay > video.vjs-tech",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-tech"
+        ],
+        "el": "div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay > video.vjs-tech",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-paused",
+          "vjs-controls-enabled",
+          "vjs-workinghover",
+          "vjs-v8",
+          "vjs-user-active",
+          "vjs-layout-large",
+          "bc-player-Lj7UrCc1z_default",
+          "bc-player-Lj7UrCc1z_default-index-0",
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-controls-enabled",
+          "vjs-workinghover",
+          "vjs-v8",
+          "vjs-user-active",
+          "vjs-layout-large",
+          "bc-player-Lj7UrCc1z_default",
+          "bc-player-Lj7UrCc1z_default-index-0",
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-controls-enabled",
+          "vjs-workinghover",
+          "vjs-v8",
+          "vjs-user-active",
+          "vjs-layout-large",
+          "bc-player-Lj7UrCc1z_default",
+          "bc-player-Lj7UrCc1z_default-index-0",
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-controls-enabled",
+          "vjs-workinghover",
+          "vjs-v8",
+          "vjs-user-active",
+          "vjs-layout-large",
+          "bc-player-Lj7UrCc1z_default",
+          "bc-player-Lj7UrCc1z_default-index-0",
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-controls-enabled",
+          "vjs-workinghover",
+          "vjs-v8",
+          "vjs-user-active",
+          "vjs-layout-large",
+          "bc-player-Lj7UrCc1z_default",
+          "bc-player-Lj7UrCc1z_default-index-0",
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-workinghover",
+          "vjs-v8",
+          "vjs-user-active",
+          "vjs-layout-large",
+          "bc-player-Lj7UrCc1z_default",
+          "bc-player-Lj7UrCc1z_default-index-0",
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-v8",
+          "vjs-user-active",
+          "vjs-layout-large",
+          "bc-player-Lj7UrCc1z_default",
+          "bc-player-Lj7UrCc1z_default-index-0",
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-user-active",
+          "vjs-layout-large",
+          "bc-player-Lj7UrCc1z_default",
+          "bc-player-Lj7UrCc1z_default-index-0",
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-user-active",
+          "vjs-layout-large",
+          "bc-player-Lj7UrCc1z_default",
+          "bc-player-Lj7UrCc1z_default-index-0",
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-layout-large",
+          "bc-player-Lj7UrCc1z_default",
+          "bc-player-Lj7UrCc1z_default-index-0",
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "bc-player-Lj7UrCc1z_default",
+          "bc-player-Lj7UrCc1z_default-index-0",
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "bc-player-Lj7UrCc1z_default-index-0",
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-mouse"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-plugins-ready"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-player-info"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-contextmenu-ui"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-viewability"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-errors"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-vol-3"
+        ],
+        "el": "div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay > div.vjs-control-bar > div.vjs-volume-panel.vjs-control.vjs-volume-panel-horizontal > button.vjs-mute-control.vjs-control.vjs-button",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-vol-3"
+        ],
+        "el": "div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay > div.vjs-control-bar > div.vjs-volume-panel.vjs-control.vjs-volume-panel-horizontal > button.vjs-mute-control.vjs-control.vjs-button",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-vol-3"
+        ],
+        "el": "div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay > div.vjs-control-bar > div.vjs-volume-panel.vjs-control.vjs-volume-panel-horizontal > button.vjs-mute-control.vjs-control.vjs-button",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-playing",
+          "vjs-has-started"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-playing",
+          "vjs-has-started"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-has-started"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-playing"
+        ],
+        "el": "div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay > div.vjs-control-bar > button.vjs-play-control.vjs-control.vjs-button",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-playing"
+        ],
+        "el": "div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay > div.vjs-control-bar > button.vjs-play-control.vjs-control.vjs-button",
+        "y": 2256
+      },
+      {
+        "added": [
+          "vjs-waiting"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-waiting-for-autoplay",
+        "y": 2256
+      },
+      {
+        "added": [
+          "hide-nav"
+        ],
+        "el": "html > body.appear.abbvie > header.header-wrapper.hide-nav",
+        "y": 2366
+      },
+      {
+        "added": [
+          "show-nav"
+        ],
+        "el": "html > body.appear.abbvie > header.header-wrapper.show-nav",
+        "y": 5185
+      },
+      {
+        "added": [
+          "hide-nav"
+        ],
+        "el": "html > body.appear.abbvie > header.header-wrapper.hide-nav",
+        "y": 1608
+      },
+      {
+        "added": [
+          "show-nav"
+        ],
+        "el": "html > body.appear.abbvie > header.header-wrapper.show-nav",
+        "y": 4281
+      },
+      {
+        "added": [
+          "hide-nav"
+        ],
+        "el": "html > body.appear.abbvie > header.header-wrapper.hide-nav",
+        "y": 3923
+      },
+      {
+        "added": [
+          "show-nav"
+        ],
+        "el": "html > body.appear.abbvie > header.header-wrapper.show-nav",
+        "y": 5416
+      },
+      {
+        "added": [
+          "vjs-user-inactive"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-controls-enabled",
+        "y": 5416
+      },
+      {
+        "added": [
+          "vjs-user-inactive"
+        ],
+        "el": "div.brightcove-video-wrapper > div.brightcove-video.block.bcvideo-player-single > div.bcvideo-main > div.bcvideo-container.bcvideo-playing > video-js.video-js.bcvideo-player.vjs-controls-enabled",
+        "y": 5416
+      }
+    ]
+  }
+}

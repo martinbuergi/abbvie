@@ -1,0 +1,199 @@
+{
+  "extensions": {
+    "breakpoints": {
+      "containerMaxWidth": "1440px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1440,
+          "via": "max-width",
+          "selector": "#main-content > div.section.abbvie-container",
+          "pages": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1330,
+          "via": "max-width",
+          "selector": "div.hero-container-wrapper > div.hero-container.height-tall > div.hero-container-item > div.hero-container-section-outer",
+          "pages": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1219,
+          "via": "fixed",
+          "selector": "div.hero-container.height-tall > div.hero-container-item > div.hero-container-section-outer > div.hero-container-section-overlay",
+          "pages": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1105,
+          "via": "fixed",
+          "selector": "#main-content > div.section.abbvie-container > div.grid-container-inner > div.section.abbvie-container",
+          "pages": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 921,
+          "via": "fixed",
+          "selector": "div.hero-container-section-outer > div.hero-container-section-overlay > div.hero-container-section-inner > div.hero-container-content-width.container-x-large",
+          "pages": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 880,
+          "via": "fixed",
+          "selector": "#main-content > div.section.abbvie-container > div.grid-container-inner > div.section.abbvie-container",
+          "pages": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 768,
+          "via": "fixed",
+          "selector": "div.quote-wrapper > div.quote.quote-standard > div.quote-innercontainer > blockquote",
+          "pages": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 720,
+          "via": "fixed",
+          "selector": "div.bcvideo-main > div.bcvideo-container > div.bcvideo-overlay > div.bcvideo-overlay-content",
+          "pages": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 655,
+          "via": "fixed",
+          "selector": "#main-content > div.section.abbvie-container > div.grid-container-inner > div.section.abbvie-container",
+          "pages": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 434,
+          "via": "fixed",
+          "selector": "div.bcvideo-container > div.bcvideo-overlay > div.bcvideo-overlay-content > div.bcvideo-overlay-title",
+          "pages": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 353,
+          "via": "fixed",
+          "selector": "div.bcvideo-container > div.bcvideo-overlay > div.bcvideo-overlay-content > div.bcvideo-overlay-desc",
+          "pages": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 313,
+          "via": "fixed",
+          "selector": "div.quote-innercontainer > blockquote > div.quote-attribution > div.quote-attribution-text",
+          "pages": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 273,
+          "via": "fixed",
+          "selector": "div > div > p.button-container > a.button",
+          "pages": [
+            "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+          "section": 0,
+          "selector": "#main-content > div.section.abbvie-container",
+          "px": 1440
+        },
+        {
+          "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+          "section": 1,
+          "selector": "#main-content > div.section.abbvie-container",
+          "px": 1440
+        },
+        {
+          "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+          "section": 2,
+          "selector": "#main-content > div.section.abbvie-container",
+          "px": 1440
+        },
+        {
+          "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+          "section": 3,
+          "selector": "#main-content > div.section.abbvie-container",
+          "px": 1440
+        },
+        {
+          "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+          "section": 4,
+          "selector": "#section-bg-9",
+          "px": 1440
+        },
+        {
+          "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+          "section": 5,
+          "selector": "#main-content > div.section.abbvie-container",
+          "px": 1440
+        },
+        {
+          "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+          "section": 6,
+          "selector": "#main-content > div.section.abbvie-container",
+          "px": 1440
+        },
+        {
+          "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+          "section": 7,
+          "selector": "#main-content > div.section.abbvie-container",
+          "px": 1440
+        },
+        {
+          "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+          "section": 8,
+          "selector": "#main-content > div.section.abbvie-container",
+          "px": 1440
+        },
+        {
+          "url": "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html",
+          "section": 9,
+          "selector": "#main-content > div.section.abbvie-container",
+          "px": null
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-26T13:50:36.790Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.abbvie.com/who-we-are/brand-partnerships/pga-tour.html"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "media/chrome/abbvie-logo.svg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/foundation/chrome-media/abbvie-logo.svg",
+    "size": 2892,
+    "sha256": "85482cb6b87d12eabcba19e54f4b10eb4beddb698d295c3a57e95a7f40333d8a",
+    "contentType": "image/svg+xml",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/4b3558cc/media/chrome/abbvie-logo.svg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-26T14:31:47.535Z"
+  }
+}
