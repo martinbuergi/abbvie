@@ -1,0 +1,32 @@
+{
+  "variantName": "story-cards",
+  "baseBlock": "story-cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "related-story cards: image beside date, category, title, optional description, CTA and reading time; the whole card is the link",
+    "layout": "two cards per row from 744px (image left, text right); in a narrow column (sidebar, under 480px wide) cards stack image above text",
+    "notes": "Date, category, description and reading time are optional fields."
+  },
+  "contentPattern": {
+    "structure": "<picture> | date p, category p, title heading, optional description p, story link p (its text is the CTA label), optional reading-time p",
+    "required": [
+      "picture",
+      "title heading",
+      "story link"
+    ],
+    "optional": [
+      "date p",
+      "category p",
+      "description p",
+      "reading time p"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Related Content bands (full-bleed mist) and single cards in article sidebars.",
+  "reuseGuidance": "Use for every list of cards linking to story / detail pages; omit fields the source card does not show.",
+  "sourceUrls": [
+    "https://www.abbvie.com/science/partner-with-us/abbvie-ventures.html",
+    "https://www.abbvie.com/who-we-are/our-stories/the-next-frontier-of-psychedelic-science.html"
+  ]
+}

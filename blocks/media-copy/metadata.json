@@ -1,0 +1,34 @@
+{
+  "variantName": "media-copy",
+  "baseBlock": "media-copy",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "image column beside a copy column in the 12-column grid (image leads on mobile)",
+    "layout": "4-1-6 grid by default; 5-1-6 with the wide-media option",
+    "notes": "Text authored in the image cell (e.g. a small heading above an infographic) stays in the image column, centered. In the copy, a short line right before a heading renders as an eyebrow; <hr> is a divider."
+  },
+  "contentPattern": {
+    "structure": "one row: image cell (<picture>, optionally with a small heading/text above or below) | copy cell (headings, paragraphs, eyebrow lines, <hr>, CTA links)",
+    "required": [
+      "picture"
+    ],
+    "optional": [
+      "media-cell heading",
+      "eyebrow p",
+      "hr",
+      "cta link"
+    ]
+  },
+  "options": [
+    {
+      "class": "wide-media",
+      "label": "Wide media column (5-1-6)"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Image beside heading + copy bands (PGA TOUR ambassador, New Graduates recruitment timeline).",
+  "reuseGuidance": "Add the wide-media option when the image column is 5 of 12 columns (5-1-6) as on the New Graduates page.",
+  "sourceUrls": [
+    "https://www.abbvie.com/join-us/student-and-new-graduates/new-graduates-and-entry-level-positions.html"
+  ]
+}

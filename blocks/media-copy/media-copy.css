@@ -23,12 +23,100 @@
   height: auto;
 }
 
+/* small heading / text authored in the media cell, above or below the picture */
+.media-copy .media-copy-media-text {
+  text-align: center;
+}
+
+/* source custom-title h5-size */
+.media-copy .media-copy-media-text :is(h2, h3, h4, h5, h6) {
+  margin-bottom: 16px;
+  font-family: var(--ff-head-book);
+  font-weight: var(--fw-book); /* source F37 Lineca Book: one face, its computed 650 renders as Book */
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* source eyebrow-text */
+.media-copy .copy .media-copy-eyebrow {
+  margin-bottom: 16px;
+  color: #000;
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+}
+
+/* source separator-height-16 + separator-divider + separator-height-24 */
+.media-copy .copy hr {
+  margin: 16px 0 24px;
+  border: 0;
+  border-top: 1px solid var(--gray-medium);
+}
+
+/*
+ * wide-media — source inner-grid cols-5-1-6 regular-padding mobile-reverse: the copy column
+ * is a flex column so the separator spacing adds up like the source's stacked blocks.
+ * Bottom padding + the section's 32px margin = the source inner-grid's 56px margin + 15px
+ * section row gap.
+ */
+.media-copy.wide-media .grid-pad-bottom {
+  row-gap: 15px;
+  padding-bottom: 39px;
+}
+
+.media-copy.wide-media .figure {
+  margin-bottom: 16px;
+}
+
+.media-copy.wide-media .copy {
+  display: flex;
+  flex-direction: column;
+}
+
+/* source custom-title h4-size */
+.media-copy.wide-media .copy :is(h2, h3) {
+  margin-bottom: 16px;
+  font-family: var(--ff-head-book);
+  font-weight: var(--fw-book); /* source F37 Lineca Book: one face, its computed 650 renders as Book */
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: normal;
+}
+
+.media-copy.wide-media .copy > p:not(.media-copy-eyebrow, .button-wrapper) {
+  margin-bottom: 16px;
+}
+
+.media-copy.wide-media .copy > p.button-wrapper {
+  margin: 24px 0 16px;
+}
+
+main .media-copy.wide-media a.button:any-link {
+  width: max-content;
+}
+
 @media (width < 744px) {
   .media-copy .m-order-1 {
     order: 1;
   }
 
   .media-copy .m-order-3 {
+    order: 3;
+  }
+
+  /* source mobile-reverse: copy, then the media column */
+  .media-copy.wide-media .copy {
+    order: 1;
+  }
+
+  .media-copy.wide-media .span-1 {
+    order: 2;
+  }
+
+  .media-copy.wide-media .span-5 {
     order: 3;
   }
 }
@@ -42,6 +130,10 @@
     grid-column: span 4;
   }
 
+  .media-copy .span-5 {
+    grid-column: span 5;
+  }
+
   .media-copy .span-6 {
     grid-column: span 6;
   }
@@ -49,11 +141,67 @@
   .media-copy .copy p {
     line-height: 22px;
   }
+
+  .media-copy .media-copy-media-text :is(h2, h3, h4, h5, h6) {
+    margin-bottom: 24px;
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .media-copy .copy .media-copy-eyebrow {
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.56px;
+  }
+
+  /* + the section's 80px margin = the source's 80px margin + 20px section row gap */
+  .media-copy.wide-media .grid-pad-bottom {
+    row-gap: 20px;
+    padding-bottom: 20px;
+  }
+
+  .media-copy.wide-media .figure {
+    margin-bottom: 24px;
+  }
+
+  .media-copy.wide-media .copy :is(h2, h3) {
+    margin-bottom: 24px;
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .media-copy.wide-media .copy > p.button-wrapper {
+    margin-bottom: 24px;
+  }
 }
 
 @media (width >= 1024px) {
+  /* the inner grid sits half a source section column in from the band (as sky-split) */
+  .media-copy.wide-media .grid-pad-bottom {
+    --mc-band: calc(min(100vw, var(--max-width)) - 2 * var(--band-x));
+
+    padding-bottom: 0;
+    padding-inline: calc((100% - var(--mc-band)) / 2 + (var(--mc-band) + 20px) / 24 + var(--gutter));
+  }
+
+  .media-copy .media-copy-media-text :is(h2, h3, h4, h5, h6) {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
   .media-copy .copy p {
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .media-copy.wide-media .copy :is(h2, h3) {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -0.8px;
+  }
+
+  .media-copy.wide-media .copy > p:not(.media-copy-eyebrow, .button-wrapper) {
+    margin-bottom: 24px;
   }
 }

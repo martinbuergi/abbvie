@@ -11,6 +11,12 @@
  *     → ambient player: autoplay, muted, loop, no controls; poster stays as the fallback
  *   - <ul> breadcrumb trail: linked ancestors, then the current page as a plain item
  *   - <h1> headline, then the lede <p>
+ *   - story-article variant of the same content (no option class — classified by content):
+ *     instead of the <ul> trail, a back link (<p> holding only an <a>, e.g. "All Stories"), and
+ *     meta <p>s before the headline: date, category, reading time ("9 Minute Read")
+ *   Image-only heroes simply omit the player URL row. Without a player or story meta the hero
+ *   gets the source's "height-default" layout (shorter image, short overlay card); option
+ *   classes `height-tall` / `height-default` override that inference.
  *
  * The mobile breadcrumb toggle repeats the current page's name as a presentational copy
  * (EW4: no editor index; the authored <ul> stays the editable source).
@@ -18,6 +24,8 @@
  */
 
 const PLAYER_URL = /players\.brightcove\.net\/(\d+)\/([\w-]+?)_default\/index\.html\?videoId=(\d+)/;
+const DATE = /^[A-Za-z]+\.? \d{1,2}, \d{4}$/;
+const READ_TIME = /\bmin(ute)?s?\b.*\bread\b/i;
 
 // the control bar stays (hidden by CSS, as on the source); dialogs and overlays go
 const UI_PARTS = [
@@ -111,7 +119,20 @@ export default async function decorate(block) {
     (p) => !p.querySelector('picture, img') && !(configLink && p.contains(configLink))
       && p.textContent.trim(),
   );
-  const lede = paragraphs.find((p) => !(trail && trail.contains(p)));
+  const outsideTrail = paragraphs.filter((p) => !(trail && trail.contains(p)));
+  // with a headline, paragraphs before it are back link / meta and those after it the lede;
+  // without one, the first paragraph is the lede (original behaviour)
+  const order = heading ? [...block.querySelectorAll('h1, h2, h3, p')] : [];
+  const follows = (p) => heading && order.indexOf(p) > order.indexOf(heading);
+  const ledes = heading ? outsideTrail.filter(follows) : outsideTrail.slice(0, 1);
+  const before = heading ? outsideTrail.filter((p) => !follows(p)) : [];
+  const isLinkOnly = (p) => {
+    const a = p.querySelector('a[href]');
+    return a && p.querySelectorAll('a[href]').length === 1
+      && a.textContent.trim() === p.textContent.trim();
+  };
+  const backP = before.find(isLinkOnly);
+  const metaPs = before.filter((p) => p !== backP);
 
   const mediaBox = el('div', 'hero-media');
   if (media) {
@@ -148,14 +169,37 @@ export default async function decorate(block) {
     crumb.append(nav);
     content.append(crumb);
   }
+  if (backP) {
+    const back = el('div', 'hero-back');
+    back.append(backP);
+    content.append(back);
+  }
+  if (metaPs.length) {
+    const meta = el('div', 'hero-meta');
+    const start = el('div', 'hero-meta-start');
+    metaPs.forEach((p) => {
+      const text = p.textContent.trim();
+      if (READ_TIME.test(text)) {
+        const time = el('div', 'hero-readtime');
+        time.append(p);
+        meta.append(time);
+      } else {
+        const field = el('div', DATE.test(text) ? 'hero-date' : 'hero-category');
+        field.append(p);
+        start.append(field);
+      }
+    });
+    if (start.children.length) meta.prepend(start);
+    content.append(meta);
+  }
   if (heading) {
     const headline = el('div', 'hero-headline');
     headline.append(heading);
     content.append(headline);
   }
-  if (lede) {
+  if (ledes.length) {
     const ledeBox = el('div', 'hero-lede');
-    ledeBox.append(lede);
+    ledeBox.append(...ledes);
     content.append(ledeBox);
   }
 
@@ -173,6 +217,16 @@ export default async function decorate(block) {
   }
 
   block.replaceChildren(mediaBox, outer);
+
+  // layout options, as on the source hero-container: the ambient-video and story-article heroes
+  // use the tall image (default CSS); a plain image hero uses the default image height with the
+  // short overlay card. Authors can force either with a `height-tall` / `height-default` class.
+  if (!ids) block.classList.add('is-image');
+  if (backP || metaPs.length) block.classList.add('is-story');
+  if (!block.classList.contains('height-tall') && !block.classList.contains('height-default')
+    && !ids && !backP && !metaPs.length) {
+    block.classList.add('height-default');
+  }
 
   if (ids) {
     const ambient = el('div', 'hero-ambient');

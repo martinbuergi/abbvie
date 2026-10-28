@@ -12,9 +12,16 @@
  * Fields are classified by content, not position: a date-shaped line before the title is the
  * date, other lines before it the category, link-free lines after it the reading time.
  * A single flattened cell holding several cards is segmented on the title headings.
+ * Date, category and reading time are all optional. Link-free lines between the title and the
+ * story link are the card's description (optional); a "… Minute Read" line is always the
+ * reading time. In a narrow column the card stacks image above text (container query); in a
+ * sidebar aside the block gets `side-panel` (source is-side-panel: stacked card at every width,
+ * no grid gutters, no spacer band) — classified by context, not an author option.
+ * Without a reading time the CTA label carries the source chevron (CSS).
  */
 
 const DATE = /^[A-Za-z]+\.? \d{1,2}, \d{4}$/;
+const READ_TIME = /\bmin(ute)?s?\b.*\bread\b/i;
 
 function el(tag, className, attrs = {}) {
   const node = document.createElement(tag);
@@ -84,6 +91,7 @@ function buildCard(nodes, titleTag) {
   let ctaP = null;
   let href = '';
   const before = [];
+  const desc = [];
   const after = [];
   nodes.forEach((n) => {
     if (!media && isMedia(n)) {
@@ -95,6 +103,8 @@ function buildCard(nodes, titleTag) {
       href = n.querySelector('a[href]').href;
     } else if (!heading) {
       before.push(n);
+    } else if (!ctaP && !READ_TIME.test(n.textContent.trim())) {
+      desc.push(n);
     } else {
       after.push(n);
     }
@@ -118,7 +128,16 @@ function buildCard(nodes, titleTag) {
     meta.append(field);
   });
   if (meta.children.length) body.append(meta);
-  if (heading) body.append(wrap(wrap(heading, 'story-card-title'), 'story-card-text'));
+  if (heading || desc.length) {
+    const text = el('div', 'story-card-text');
+    if (heading) text.append(wrap(heading, 'story-card-title'));
+    if (desc.length) {
+      const d = el('div', 'story-card-desc');
+      d.append(...desc);
+      text.append(d);
+    }
+    body.append(text);
+  }
 
   const foot = el('div', 'story-card-foot');
   if (ctaP) {
@@ -142,4 +161,5 @@ export default async function decorate(block) {
   const grid = el('div', 'grid grid-no-top grid-pad-bottom');
   groups.forEach((nodes) => grid.append(buildCard(nodes, titleTag)));
   block.replaceChildren(grid);
+  if (block.closest('.sidebar-aside')) block.classList.add('side-panel');
 }

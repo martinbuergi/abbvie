@@ -1,0 +1,327 @@
+/*
+ * columns-photo-bg — full-width photo with white cards side by side
+ * (source: section.abbvie-container.container-full-width.large-radius.no-bottom-margin holding
+ * inner-grid cols-4-8 first-col-padded + dashboard-card-link-list)
+ */
+
+/*
+ * The source band is edge-to-edge (container-full-width) and has no bottom margin, so the
+ * footer's negative top margin overlaps the photo rather than white space. The block's
+ * photo is the band, so its section must not inset or space it.
+ */
+main > .section.columns-photo-bg-container {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+/*
+ * Vertical rhythm = source section padding + its separators:
+ * top = section padding-top + 32px separator; bottom = inner-grid margin + 144px separator +
+ * section padding-bottom.
+ */
+.columns-photo-bg {
+  position: relative;
+  isolation: isolate;
+  padding: calc(var(--pad-top) + 32px) var(--gutter) calc(2 * var(--pad-bottom) + 144px);
+  border-top-left-radius: var(--radius-xl);
+  overflow: hidden;
+}
+
+.columns-photo-bg.columns-photo-bg-no-media {
+  background-color: var(--blue-very-light);
+}
+
+.columns-photo-bg .columns-photo-bg-media {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  line-height: 0;
+}
+
+.columns-photo-bg .columns-photo-bg-media picture,
+.columns-photo-bg .columns-photo-bg-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.columns-photo-bg .columns-photo-bg-media img {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* inner-grid-container */
+.columns-photo-bg .columns-photo-bg-cards {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 15px 0;
+  align-items: stretch;
+  min-height: 120px;
+}
+
+.columns-photo-bg .columns-photo-bg-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-color: var(--white);
+  color: var(--navy);
+}
+
+/* first-col-padded text card */
+.columns-photo-bg .columns-photo-bg-card:not(.columns-photo-bg-card-has-list) {
+  padding: var(--pad-top) var(--gutter) 0;
+}
+
+.columns-photo-bg .columns-photo-bg-card p {
+  margin: 0 0 16px;
+  font-family: var(--ff-body);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* eyebrow-text */
+.columns-photo-bg .columns-photo-bg-card p.columns-photo-bg-eyebrow {
+  margin: 0 0 16px;
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* cta.external-cta: a text link with the brand icon, no outline */
+.columns-photo-bg .columns-photo-bg-card p.button-wrapper {
+  margin: 0 0 16px;
+}
+
+main .columns-photo-bg a.button:any-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: max-content;
+  max-width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: var(--ff-bold);
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--accent);
+}
+
+main .columns-photo-bg a.button:any-link::after {
+  content: "\e901";
+  flex: none;
+  width: 12px;
+  margin-left: 12px;
+  font-family: var(--ff-icon);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+main .columns-photo-bg a.button.external:any-link::after {
+  content: "\e900";
+}
+
+/* dashboard-card-link-list */
+.columns-photo-bg .columns-photo-bg-card-has-list {
+  gap: 22px;
+  margin-top: 16px;
+  padding: 24px 32px;
+  align-self: start;
+}
+
+.columns-photo-bg .columns-photo-bg-card-has-list p.columns-photo-bg-eyebrow {
+  margin: 0;
+  letter-spacing: 0.96px;
+  color: var(--navy);
+}
+
+.columns-photo-bg .columns-photo-bg-card-content {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.columns-photo-bg .columns-photo-bg-card-has-list .columns-photo-bg-card-text > * {
+  margin: 0;
+}
+
+.columns-photo-bg .columns-photo-bg-card-has-list :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font-family: var(--ff-head-book);
+  font-weight: var(--fw-book);
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: normal;
+  color: var(--navy);
+  overflow-wrap: break-word;
+}
+
+.columns-photo-bg .columns-photo-bg-card-list {
+  display: block;
+}
+
+.columns-photo-bg .columns-photo-bg-card-list :is(ul, ol) {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.columns-photo-bg .columns-photo-bg-card-list li {
+  margin: 0;
+  border-bottom: 1px solid var(--gray-medium);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.columns-photo-bg .columns-photo-bg-card-list li a:any-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px 0;
+  font-family: var(--ff-body);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.columns-photo-bg .columns-photo-bg-card-list li:first-child a:any-link {
+  padding-top: 0;
+}
+
+.columns-photo-bg .columns-photo-bg-card-list li a:any-link:hover,
+.columns-photo-bg .columns-photo-bg-card-list li a:any-link:focus-visible {
+  font-weight: 700;
+}
+
+/* icon-abbvie-external-link: 16px glyph (3px lead) scaled to 0.8 */
+.columns-photo-bg .columns-photo-bg-card-list li a:any-link::after {
+  content: "\e900";
+  flex: 0 0 auto;
+  padding-left: 3px;
+  transform: scale(0.8);
+  font-family: var(--ff-icon);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: currentcolor;
+}
+
+@media (width >= 744px) {
+  .columns-photo-bg .columns-photo-bg-cards {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    gap: 20px;
+    min-height: 260px;
+  }
+
+  .columns-photo-bg .columns-photo-bg-cards > * {
+    grid-column: 1 / -1;
+  }
+
+  .columns-photo-bg .columns-photo-bg-2-cards > :first-child {
+    grid-column: span 4;
+  }
+
+  .columns-photo-bg .columns-photo-bg-2-cards > :last-child {
+    grid-column: span 8;
+  }
+
+  .columns-photo-bg .columns-photo-bg-card p {
+    line-height: 22px;
+  }
+
+  .columns-photo-bg .columns-photo-bg-card p.columns-photo-bg-eyebrow {
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.56px;
+  }
+
+  .columns-photo-bg .columns-photo-bg-card p.button-wrapper {
+    margin-bottom: 24px;
+  }
+
+  .columns-photo-bg .columns-photo-bg-card-has-list {
+    min-height: 254px;
+  }
+
+  .columns-photo-bg .columns-photo-bg-card-has-list p.columns-photo-bg-eyebrow {
+    margin: 0;
+    line-height: 20px;
+    letter-spacing: 0.84px;
+  }
+
+  .columns-photo-bg .columns-photo-bg-card-content {
+    align-items: flex-end;
+  }
+
+  .columns-photo-bg .columns-photo-bg-card-has-list :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .columns-photo-bg .columns-photo-bg-card-list li,
+  .columns-photo-bg .columns-photo-bg-card-list li a:any-link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (width >= 1024px) {
+  .columns-photo-bg .columns-photo-bg-cards {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    row-gap: 0;
+    min-height: 288px;
+  }
+
+  .columns-photo-bg .columns-photo-bg-cards > * {
+    grid-column: span 6;
+  }
+
+  .columns-photo-bg .columns-photo-bg-1-cards > * {
+    grid-column: 1 / -1;
+  }
+
+  .columns-photo-bg .columns-photo-bg-2-cards > :first-child {
+    grid-column: span 4;
+  }
+
+  .columns-photo-bg .columns-photo-bg-2-cards > :last-child {
+    grid-column: span 8;
+  }
+
+  .columns-photo-bg .columns-photo-bg-3-cards > * {
+    grid-column: span 4;
+  }
+
+  .columns-photo-bg .columns-photo-bg-card p {
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .columns-photo-bg .columns-photo-bg-card-has-list {
+    min-height: 270px;
+  }
+}
+
+@media (width >= 1440px) {
+  main > .section.columns-photo-bg-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -8,6 +8,8 @@
  *   - background: a row holding only a <picture> (editorial)
  *   - quote: the paragraph(s) of a row without an image
  *   - byline: a row holding the avatar <picture> plus the name <p> then the role <p>
+ * The background row is optional: without it the block gets `quote-plain` — an in-article pull
+ * quote, navy text on the page ground, no scrim (classified by content, not an author option).
  */
 
 function el(tag, className) {
@@ -54,6 +56,9 @@ export default async function decorate(block) {
     }
   });
 
+  if (!background) {
+    block.classList.add('quote-plain');
+  }
   const layer = el('div', 'quote-bg');
   if (background) layer.append(background);
 
@@ -85,5 +90,6 @@ export default async function decorate(block) {
     body.append(by);
   }
   inner.append(body);
-  block.replaceChildren(layer, inner);
+  if (background) block.replaceChildren(layer, inner);
+  else block.replaceChildren(inner);
 }

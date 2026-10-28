@@ -10,6 +10,9 @@ import {
   loadSections,
   loadCSS,
   buildBlock,
+  readBlockConfig,
+  toClassName,
+  toCamelCase,
 } from './aem.js';
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
@@ -143,6 +146,208 @@ function decorateButtons(main) {
 }
 
 /**
+ * Applies a `section-metadata` table left in the markup to its section. The aem.page pipeline
+ * already renders section metadata as classes on the section div (so in production this finds
+ * nothing); the local html-folder preview serves the raw table, which would otherwise load as a
+ * missing block and drop the section style.
+ * @param {Element} main The main element (before decorateSections)
+ */
+function decorateSectionMetadata(main) {
+  main.querySelectorAll(':scope > div > div.section-metadata').forEach((meta) => {
+    const section = meta.parentElement;
+    Object.entries(readBlockConfig(meta)).forEach(([key, value]) => {
+      const values = [value].flat().filter((v) => typeof v === 'string');
+      if (key === 'style') {
+        values.flatMap((v) => v.split(','))
+          .map((v) => toClassName(v.trim()))
+          .filter(Boolean)
+          .forEach((c) => section.classList.add(c));
+      } else if (key) {
+        section.dataset[toCamelCase(key)] = values.join(', ');
+      }
+    });
+    meta.remove();
+  });
+}
+
+const HEADINGS = 'h1, h2, h3, h4, h5, h6';
+const LABEL_MAX = 40;
+
+const isWrapper = (el) => el && el.classList.contains('default-content-wrapper');
+const isBlockWrapper = (el) => el && !isWrapper(el) && !!el.querySelector(':scope > .block');
+
+/** a short, single-line label paragraph: plain text or one <strong>, no sentence punctuation */
+function isLabel(p) {
+  if (!p || p.tagName !== 'P') return false;
+  const text = p.textContent.trim();
+  if (!text || text.length > LABEL_MAX || /[.!?:]$/.test(text)) return false;
+  const kids = [...p.children];
+  return kids.length === 0 || (kids.length === 1 && kids[0].tagName === 'STRONG'
+    && kids[0].textContent.trim() === text);
+}
+
+/** a paragraph holding only an image */
+const isMediaParagraph = (el) => el && el.tagName === 'P' && !!el.querySelector('picture, img')
+  && !el.textContent.trim();
+
+/** a paragraph holding exactly one link and nothing else */
+function isLinkParagraph(p) {
+  if (!p || p.tagName !== 'P') return false;
+  const links = p.querySelectorAll('a[href]');
+  return links.length === 1 && !links[0].querySelector('img')
+    && p.textContent.trim() === links[0].textContent.trim();
+}
+
+function isExternal(a) {
+  try {
+    const { hostname } = new URL(a.href, window.location.href);
+    return hostname !== window.location.hostname && !/^(www\.)?abbvie\.com$/.test(hostname);
+  } catch {
+    return false;
+  }
+}
+
+function newWrapper(className, nodes = []) {
+  const div = document.createElement('div');
+  div.className = className;
+  div.append(...nodes);
+  return div;
+}
+
+/**
+ * Small default-content roles the source styles distinctly:
+ * - `eyebrow`: a short label paragraph directly above a heading ("opportunities")
+ * - `block-heading`: a short label paragraph closing its group, directly before a block
+ *   ("programs", "details", "investment team")
+ * - `media` / `caption`: an image-only paragraph and the all-italic paragraph right after it
+ * @param {Element} section The section element
+ */
+function decorateDefaultContentRoles(section) {
+  section.querySelectorAll(':scope .default-content-wrapper > p').forEach((p) => {
+    const next = p.nextElementSibling;
+    if (isLabel(p) && next && next.matches(HEADINGS)) {
+      p.classList.add('eyebrow');
+    } else if (isLabel(p) && !next && isBlockWrapper(p.parentElement.nextElementSibling)) {
+      p.classList.add('block-heading');
+    } else if (isMediaParagraph(p)) {
+      p.classList.add('media');
+      const em = next && next.tagName === 'P' && next.children.length === 1 && next.querySelector(':scope > em');
+      if (em && em.textContent.trim() === next.textContent.trim()) next.classList.add('caption');
+    }
+  });
+}
+
+/**
+ * Unformatted link-only paragraphs closing a column read as the source's CTA row: the first
+ * one is the outlined button, any after it the text-link CTA (chevron). Authored (bold/italic)
+ * buttons are left as decorateButtons made them.
+ * @param {Element} column The column container
+ */
+function decorateTrailingCtas(column) {
+  const last = column.lastElementChild;
+  if (!isWrapper(last)) return;
+  const kids = [...last.children];
+  let first = kids.length;
+  while (first > 0 && isLinkParagraph(kids[first - 1])) first -= 1;
+  kids.slice(first).forEach((p, i) => {
+    const a = p.querySelector('a');
+    if (a.classList.contains('button')) return;
+    p.className = 'button-wrapper';
+    a.className = `button ${i === 0 ? 'primary' : 'link'}`;
+    a.title = a.title || a.textContent;
+  });
+  column.querySelectorAll('a.button').forEach((a) => {
+    if (isExternal(a)) a.classList.add('external');
+  });
+}
+
+/**
+ * `split` / `sky-split` / `sky-split-inset`: eyebrow + heading (+ the media right after it)
+ * form the start column, everything after it the end column.
+ * @param {Element} section The section element
+ */
+function decorateSplitSection(section) {
+  const wrappers = [...section.children];
+  const headingWrapper = wrappers.find((w) => isWrapper(w) && w.querySelector(`:scope > :is(${HEADINGS})`));
+  if (!headingWrapper) return;
+  const idx = wrappers.indexOf(headingWrapper);
+  const kids = [...headingWrapper.children];
+  let cut = kids.indexOf(headingWrapper.querySelector(`:scope > :is(${HEADINGS})`)) + 1;
+  while (cut < kids.length && isMediaParagraph(kids[cut])) cut += 1;
+
+  const start = newWrapper('split-start', wrappers.slice(0, idx + 1));
+  const rest = wrappers.slice(idx + 1);
+  if (cut < kids.length) {
+    rest.unshift(newWrapper('default-content-wrapper', kids.slice(cut)));
+  } else if (rest[0] && rest[0].querySelector(':scope > .video, :scope > .embed')) {
+    start.append(rest.shift());
+  }
+  const end = newWrapper('split-end', rest);
+  section.append(start, end);
+  decorateTrailingCtas(end);
+}
+
+/**
+ * `sidebar`: the closing default-content group (or a short label + the block after it) moves
+ * into the aside; the rest is the main column. Main columns carrying wide media (an image
+ * paragraph or a quote) get the wider article measure.
+ * @param {Element} section The section element
+ */
+function decorateSidebarSection(section) {
+  const wrappers = [...section.children];
+  if (wrappers.length < 2) return;
+  let asideCount = 0;
+  const last = wrappers[wrappers.length - 1];
+  const prev = wrappers[wrappers.length - 2];
+  if (isWrapper(last)) {
+    asideCount = 1;
+  } else if (isWrapper(prev) && prev.children.length === 1 && isLabel(prev.firstElementChild)
+    && wrappers.length > 2) {
+    asideCount = 2;
+  }
+  if (!asideCount) return;
+  const main = newWrapper('sidebar-main', wrappers.slice(0, -asideCount));
+  const aside = newWrapper('sidebar-aside', wrappers.slice(-asideCount));
+  const label = aside.querySelector(':scope > .default-content-wrapper:first-child > p:first-child');
+  if (isLabel(label)) {
+    label.classList.remove('block-heading');
+    label.classList.add('eyebrow');
+  }
+  aside.querySelectorAll(':scope .default-content-wrapper > p').forEach((p) => {
+    const text = p.textContent.trim();
+    const next = p.nextElementSibling;
+    if (isLabel(p) && !p.children.length && text === text.toUpperCase() && next && next.matches('ul, ol')) {
+      p.classList.add('eyebrow-mini');
+    } else if (isLinkParagraph(p) && !p.querySelector('a.button')) {
+      const a = p.querySelector('a');
+      a.classList.add('link-cta');
+      if (isExternal(a)) a.classList.add('external');
+    }
+  });
+  if (main.querySelector('.media, .quote')) section.classList.add('sidebar-article');
+  section.append(main, aside);
+}
+
+/**
+ * Layout decoration for section styles that need column containers. Runs after
+ * decorateBlocks: blocks are found by `.block` anywhere in the section, so nesting wrappers
+ * one level deeper keeps block loading intact.
+ * @param {Element} main The main element
+ */
+function decorateSectionLayouts(main) {
+  main.querySelectorAll(':scope > .section').forEach((section) => {
+    try {
+      decorateDefaultContentRoles(section);
+      if (section.matches('.split, .sky-split, .sky-split-inset')) decorateSplitSection(section);
+      else if (section.matches('.sidebar')) decorateSidebarSection(section);
+    } catch (error) {
+      // eslint-disable-next-line no-console
+      console.error('Section layout decoration failed', error);
+    }
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -150,9 +355,11 @@ function decorateButtons(main) {
 export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
+  decorateSectionMetadata(main);
   decorateSections(main);
   decorateBlocks(main);
   decorateButtons(main);
+  decorateSectionLayouts(main);
 }
 
 /**

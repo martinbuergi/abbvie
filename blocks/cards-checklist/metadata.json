@@ -1,0 +1,25 @@
+{
+  "variantName": "cards-checklist",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "stacked check-marked statements, each opening with a bold lead sentence",
+    "layout": "single column; small check icon left of the text"
+  },
+  "contentPattern": {
+    "structure": "icon <picture> (checkmark-in-circle SVG) | <p><strong>bold lead</strong> text</p>",
+    "required": [
+      "text p"
+    ],
+    "optional": [
+      "icon picture"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Key Takeaways panels on story articles.",
+  "reuseGuidance": "Use for stacked icon + statement lists; for a 2-column grid of short facts use cards-icon-features.",
+  "sourceUrls": [
+    "https://www.abbvie.com/who-we-are/our-stories/the-next-frontier-of-psychedelic-science.html"
+  ]
+}

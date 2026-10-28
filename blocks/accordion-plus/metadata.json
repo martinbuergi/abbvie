@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-plus",
+  "baseBlock": "accordion",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "expand/collapse items with plus/minus markers and divider rules; Expand All / Collapse All control when there is more than one item",
+    "layout": "full width of its column; large display-font labels; optional headshot above the panel text (5 grid columns wide)",
+    "notes": "The eyebrow label (\"programs\", \"investment team\") is default content right before the block; the block shows it in its heading row beside Expand All and hides the original. Items open independently."
+  },
+  "contentPattern": {
+    "structure": "title cell (item label) | content cell (paragraphs, sub-labels, lists, links, optional headshot <picture> first)",
+    "required": [
+      "title"
+    ],
+    "optional": [
+      "headshot picture",
+      "paragraphs",
+      "lists",
+      "links"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Program lists, FAQs, team bios (AbbVie Ventures) and article references.",
+  "reuseGuidance": "Use for any expandable list. Put the eyebrow label in default content right before the block. A single item gets no Expand All control.",
+  "sourceUrls": [
+    "https://www.abbvie.com/join-us/student-and-new-graduates/new-graduates-and-entry-level-positions.html",
+    "https://www.abbvie.com/science/partner-with-us/abbvie-ventures.html",
+    "https://www.abbvie.com/who-we-are/our-stories/the-next-frontier-of-psychedelic-science.html"
+  ]
+}
