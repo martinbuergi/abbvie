@@ -253,6 +253,15 @@
   padding-bottom: 0;
 }
 
+/* compact-bottom option: no grid bottom padding, a 144px spacer band (source separator-height-144) */
+.story-cards.compact-bottom {
+  padding-bottom: 144px;
+}
+
+.story-cards.compact-bottom .grid-pad-bottom {
+  padding-bottom: 0;
+}
+
 .story-cards.side-panel .grid {
   grid-template-columns: minmax(0, 1fr);
   padding: 0;

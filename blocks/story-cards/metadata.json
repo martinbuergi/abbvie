@@ -21,7 +21,12 @@
       "reading time p"
     ]
   },
-  "options": [],
+  "options": [
+    {
+      "class": "compact-bottom",
+      "label": "Shorter space below the cards (144px)"
+    }
+  ],
   "memberVariantIds": [],
   "usage": "Related Content bands (full-bleed mist) and single cards in article sidebars.",
   "reuseGuidance": "Use for every list of cards linking to story / detail pages; omit fields the source card does not show.",

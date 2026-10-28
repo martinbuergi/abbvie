@@ -12,6 +12,8 @@
  *      block renders as quote-plain)
  *   2. quote text <p>(s)
  *   3. byline: avatar <picture>, name <p>, role <p> (one cell)
+ * Option: `spacing-bottom` when the source follows the quote with an empty
+ * `text-container spacing-bottom` spacer (extra space below the quote).
  */
 
 function text(el) {
@@ -81,6 +83,18 @@ export default function parse(element, { document }) {
     if (byline.length) cells.push([byline]);
   }
 
-  const block = WebImporter.Blocks.createBlock(document, { name: 'quote', cells });
+  // an empty `text-container spacing-bottom` right after the quote is the source's spacer:
+  // author it as the quote's spacing-bottom option
+  const wrapper = element.closest('.quote-wrapper') || element;
+  const next = wrapper.nextElementSibling;
+  const spacer = next && (next.matches('.text-container.spacing-bottom')
+    ? next : next.querySelector(':scope > .text-container.spacing-bottom'));
+  const spacingBottom = !!spacer && !text(next).replace(/-/g, '') && !next.querySelector('img, picture, a');
+
+  const block = WebImporter.Blocks.createBlock(document, {
+    name: 'quote',
+    variants: spacingBottom ? ['spacing-bottom'] : [],
+    cells,
+  });
   element.replaceWith(block);
 }

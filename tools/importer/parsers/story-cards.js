@@ -16,6 +16,8 @@
  *     <p><a href>CTA label</a></p> (READ STORY / LEARN MORE / ...),
  *     optional reading-time <p> ]
  * Fields missing in the source card are omitted.
+ * Option: `compact-bottom` for a Related Content grid without the source's
+ * `padding-bottom` class (144px below the cards instead of padding + 112px).
  */
 
 function text(el) {
@@ -97,6 +99,15 @@ export default function parse(element, { document }) {
     if (row) cells.push(row);
   });
 
-  const block = WebImporter.Blocks.createBlock(document, { name: 'story-cards', cells });
+  // a Related Content grid without the source's `padding-bottom` class is followed by a
+  // shorter spacer (144px total instead of padding + 112px): the compact-bottom option
+  const container = element.matches('.story-card-wrapper') ? null : element.closest('.grid-container');
+  const compact = !!container && !container.classList.contains('padding-bottom');
+
+  const block = WebImporter.Blocks.createBlock(document, {
+    name: 'story-cards',
+    variants: compact ? ['compact-bottom'] : [],
+    cells,
+  });
   element.replaceWith(block);
 }

@@ -19,10 +19,15 @@
       "role p"
     ]
   },
-  "options": [],
+  "options": [
+    {
+      "class": "spacing-bottom",
+      "label": "Extra space below (in-article quote)"
+    }
+  ],
   "memberVariantIds": [],
   "usage": "Pull-quote bands (PGA TOUR) and in-article pull quotes (our-stories).",
-  "reuseGuidance": "Leave out the background row for an in-article quote on white.",
+  "reuseGuidance": "Leave out the background row for an in-article quote on white. Add the spacing-bottom option for the larger gap after the quote (+32px mobile, +80px from 744px).",
   "sourceUrls": [
     "https://www.abbvie.com/who-we-are/our-stories/the-next-frontier-of-psychedelic-science.html"
   ]

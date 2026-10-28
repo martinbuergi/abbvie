@@ -10,7 +10,7 @@ Single block table. Content: rows classified by content: optional background <pi
 
 ## Supported variations
 
-No variations.
+- `spacing-bottom` — extra space below an in-article (no background) quote: 112px below 744px, 160px from 744px.
 
 ## Universal Editor fields
 

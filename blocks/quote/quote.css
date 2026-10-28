@@ -210,9 +210,18 @@
   margin-bottom: 0;
 }
 
+/* spacing-bottom option: the source's empty spacing-bottom text block after the quote (+32 / +80) */
+.quote.quote-plain.spacing-bottom .quote-body {
+  margin-bottom: 112px;
+}
+
 @media (width >= 744px) {
   .quote.quote-plain .quote-body {
     margin-top: 80px;
+  }
+
+  .quote.quote-plain.spacing-bottom .quote-body {
+    margin-bottom: 160px;
   }
 
   .quote.quote-plain .quote-text p {

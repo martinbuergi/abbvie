@@ -10,7 +10,8 @@ Repeating rows — one row per item. Each item: <picture> | date p, category p, 
 
 ## Supported variations
 
-No variations.
+- `compact-bottom` — 144px below the cards (no grid bottom padding) instead of the default padding + 112px spacer band.
+- `side-panel` is set by the block when it sits in a sidebar column; it is not an author option.
 
 ## Universal Editor fields
 
