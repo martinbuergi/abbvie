@@ -1,0 +1,27 @@
+{
+  "variantName": "columns-photo-bg",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "full-width photograph with two white cards side by side over its lower part",
+    "layout": "large top-left radius; cards 4 + 8 of 12 columns on desktop, stacked on mobile; a card with a link list puts the list beside the text from 744px"
+  },
+  "contentPattern": {
+    "structure": "row 1: background <picture> (single cell); row 2: left card cell (eyebrow, text, CTA link) | right card cell (eyebrow, heading, <ul> of links)",
+    "required": [
+      "card cells"
+    ],
+    "optional": [
+      "background picture",
+      "eyebrow p",
+      "link list"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Closing \"stay in touch / join us\" band of the New Graduates page.",
+  "reuseGuidance": "Use for card pairs over a photo; the photo belongs to the block, so the section is not colored.",
+  "sourceUrls": [
+    "https://www.abbvie.com/join-us/student-and-new-graduates/new-graduates-and-entry-level-positions.html"
+  ]
+}

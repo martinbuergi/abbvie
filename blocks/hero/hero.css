@@ -3,6 +3,17 @@ main > .section.hero-container {
   margin: 0 0 80px;
 }
 
+/* image heroes: the source's section-bottom-margin (32px) plus the following grid-container's
+   20px top inset, which the migrated next sections do not carry */
+main > .section.hero-container:has(.hero.is-image) {
+  margin-bottom: 52px;
+}
+
+/* source "no-bottom-margin": the media-copy section that follows carries its own top inset */
+main > .section.hero-container:has(.hero.is-image):has(+ .section.media-copy-container) {
+  margin-bottom: 0;
+}
+
 .hero {
   min-height: 256px;
   border-top-left-radius: var(--radius-xl);
@@ -34,6 +45,12 @@ main > .section.hero-container {
   object-fit: cover;
   object-position: top;
 }
+
+/* image heroes crop from the centre (source hero-container-bg img: 50% 50%) */
+.hero.is-image .hero-poster img {
+  object-position: center;
+}
+
 
 .hero .hero-ambient {
   z-index: 0;
@@ -118,6 +135,20 @@ main > .section.hero-container {
 .hero .hero-inner {
   width: 100%;
   min-height: 120px;
+}
+
+/* height-default: image at --hero-image-container-height, short overlay card */
+.hero.height-default .hero-media {
+  height: 216px;
+}
+
+.hero.height-default .hero-card {
+  min-height: 120px;
+}
+
+/* source text-container bottom margin under the lede */
+.hero.height-default .hero-lede {
+  margin-bottom: 16px;
 }
 
 /* breadcrumb — below 744 the source shows a toggle naming the current page */
@@ -220,8 +251,122 @@ main > .section.hero-container {
   color: var(--navy);
 }
 
+/* story-article hero: back link + date / category / reading-time row in place of the trail;
+   back link = source cta.back-cta, p.button-container margin 16 / 24 (>= 744) */
+.hero .hero-back {
+  margin-bottom: 16px;
+}
+
+.hero .hero-back p {
+  margin: 0;
+}
+
+main .hero .hero-back a:any-link {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  font-family: var(--ff-bold);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+main .hero .hero-back a:any-link:hover,
+main .hero .hero-back a:any-link:focus-visible {
+  background: none;
+  color: var(--navy);
+}
+
+main .hero .hero-back a:any-link::before {
+  content: "\e903";
+  display: flex;
+  margin: 0 12px 0 3px;
+  font-family: var(--ff-icon);
+  font-size: 12px;
+  font-weight: 400;
+  color: inherit;
+  transform: scale(0.8);
+}
+
+/* source story-card.story-card-info: date / eyebrow / read time — stacked below 1024 */
+.hero .hero-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 24px;
+  padding: 36px 0 15px;
+}
+
+.hero .hero-meta-start {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.hero .hero-meta-start p {
+  margin: 0;
+  font-family: var(--ff-bold);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.hero .hero-date p {
+  letter-spacing: 0.04em;
+  color: var(--gray-dark);
+}
+
+.hero .hero-category p {
+  letter-spacing: 0.4px;
+  color: var(--navy);
+}
+
+.hero .hero-readtime {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--navy);
+}
+
+.hero .hero-readtime::before {
+  content: "\e904";
+  font-family: var(--ff-icon);
+  font-size: 14px;
+  line-height: 1;
+}
+
+.hero .hero-readtime p {
+  margin: 0;
+  font-family: var(--ff-body);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--navy);
+}
+
 .hero .hero-headline :is(h1, h2, h3) {
   margin-bottom: 16px;
+}
+
+/* story article title: source custom-title.h1-size (F37 Lineca Book) */
+.hero.is-story .hero-headline :is(h1, h2, h3) {
+  font-family: var(--ff-head-book);
+  font-weight: 400;
 }
 
 .hero .hero-lede p {
@@ -232,7 +377,19 @@ main > .section.hero-container {
   color: var(--navy);
 }
 
+.hero .hero-lede p + p {
+  margin-top: 16px;
+}
+
 @media (width >= 744px) {
+  main > .section.hero-container:has(.hero.is-image) {
+    margin-bottom: 80px;
+  }
+
+  main > .section.hero-container:has(.hero.is-image):has(+ .section.media-copy-container) {
+    margin-bottom: 0;
+  }
+
   .hero .hero-media {
     height: 416px;
   }
@@ -268,6 +425,22 @@ main > .section.hero-container {
   .hero .hero-lede p {
     font-size: 24px;
     line-height: 32px;
+  }
+
+  .hero.height-default .hero-media {
+    height: 368px;
+  }
+
+  .hero.height-default .hero-card {
+    min-height: 260px;
+  }
+
+  .hero .hero-back {
+    margin-bottom: 24px;
+  }
+
+  main .hero .hero-back a:any-link {
+    font-size: 14px;
   }
 }
 
@@ -312,6 +485,33 @@ main > .section.hero-container {
   .hero .hero-lede p {
     font-size: 32px;
     line-height: 40px;
+  }
+
+  .hero.height-default .hero-media {
+    height: 448px;
+  }
+
+  .hero.height-default .hero-card {
+    min-height: 288px;
+  }
+
+  .hero.height-default .hero-lede {
+    margin-bottom: 24px;
+  }
+
+  .hero .hero-meta,
+  .hero .hero-meta-start {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero .hero-meta-start p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .hero .hero-readtime {
+    margin-left: auto;
   }
 }
 

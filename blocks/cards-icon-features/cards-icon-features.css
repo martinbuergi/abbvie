@@ -1,0 +1,99 @@
+/*
+ * cards-icon-features — icon + short text items (source: inner-grid cols-6-6 pairs of
+ * custom-image logo + text-container). One column below 1024 (the two items of a source row
+ * sit var(--col-gap) apart, rows touch), two columns 20px apart from 1024.
+ */
+.cards-icon-features {
+  /* source: last text-container margin (16px) + inner-grid section-bottom-margin */
+  margin-bottom: calc(16px + var(--pad-bottom));
+  padding-inline: var(--gutter);
+}
+
+.cards-icon-features .cards-icon-features-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards-icon-features .cards-icon-features-item {
+  display: flex;
+  flex-direction: column;
+
+  /* source: 16px custom-image margin + 3.375px inline-block descender under the 50px icon */
+  gap: 19.375px;
+}
+
+.cards-icon-features .cards-icon-features-icon {
+  line-height: 0;
+}
+
+.cards-icon-features .cards-icon-features-icon p {
+  margin: 0;
+}
+
+.cards-icon-features .cards-icon-features-icon img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.cards-icon-features .cards-icon-features-body p {
+  margin: 0;
+  font-family: var(--ff-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--navy);
+}
+
+.cards-icon-features .cards-icon-features-body p + p {
+  margin-top: 16px;
+}
+
+/*
+ * below 1024 the source stacks each row's two items in reverse (second item first); the item
+ * shown first in a row gets the inner-grid row gap (15px mobile, 20px tablet)
+ */
+@media (width < 1024px) {
+  .cards-icon-features .cards-icon-features-item:nth-child(1) { order: 2; }
+  .cards-icon-features .cards-icon-features-item:nth-child(2) { order: 1; }
+  .cards-icon-features .cards-icon-features-item:nth-child(3) { order: 4; }
+  .cards-icon-features .cards-icon-features-item:nth-child(4) { order: 3; }
+  .cards-icon-features .cards-icon-features-item:nth-child(5) { order: 6; }
+  .cards-icon-features .cards-icon-features-item:nth-child(6) { order: 5; }
+  .cards-icon-features .cards-icon-features-item:nth-child(7) { order: 8; }
+  .cards-icon-features .cards-icon-features-item:nth-child(8) { order: 7; }
+
+  .cards-icon-features .cards-icon-features-item:nth-child(even) {
+    margin-bottom: var(--col-gap);
+  }
+}
+
+@media (width >= 744px) {
+  .cards-icon-features .cards-icon-features-body p {
+    line-height: 22px;
+  }
+}
+
+@media (width >= 1024px) {
+  .cards-icon-features {
+    margin-bottom: calc(24px + var(--pad-bottom));
+  }
+
+  .cards-icon-features .cards-icon-features-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 20px;
+  }
+
+  .cards-icon-features .cards-icon-features-body p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .cards-icon-features .cards-icon-features-body p + p {
+    margin-top: 24px;
+  }
+}

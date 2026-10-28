@@ -1,6 +1,7 @@
 /* story-cards — source story-card.css (lifted from the gated prototype) + the spacer band below */
 .story-cards {
   padding-bottom: 112px;
+  container-type: inline-size;
 }
 
 .story-cards .grid-no-top {
@@ -115,11 +116,28 @@
   -webkit-line-clamp: 2;
 }
 
+.story-cards .story-card-desc {
+  margin-bottom: 16px;
+}
+
+.story-cards .story-card-desc p {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* a description follows the title 8px below it (the text column's gap) */
+.story-cards .story-card-text:has(.story-card-desc) .story-card-title :is(h2, h3, h4, h5, h6) {
+  margin-bottom: 0;
+}
+
 .story-cards .story-card-foot {
   display: flex;
   align-items: center;
   gap: 8px;
-  height: 22px;
 }
 
 .story-cards .story-card-cta {
@@ -133,6 +151,18 @@
   letter-spacing: 0.96px;
   text-transform: uppercase;
   color: var(--accent);
+}
+
+/* no reading time: the CTA label carries the source chevron */
+.story-cards .story-card-foot:not(:has(.story-card-time)) .story-card-cta::after {
+  content: "";
+  flex: none;
+  box-sizing: border-box;
+  width: 7px;
+  height: 7px;
+  border-right: 2px solid currentcolor;
+  border-bottom: 2px solid currentcolor;
+  transform: rotate(-45deg);
 }
 
 .story-cards .story-card-time {
@@ -212,5 +242,121 @@
   .story-cards .story-card-time {
     font-size: 12px;
     line-height: 16px;
+  }
+}
+
+/*
+ * side panel (the block sits in a sidebar aside; source is-side-panel): one card per row, image
+ * stacked above the text at every width, no grid gutters and no spacer band below.
+ */
+.story-cards.side-panel {
+  padding-bottom: 0;
+}
+
+.story-cards.side-panel .grid {
+  grid-template-columns: minmax(0, 1fr);
+  padding: 0;
+}
+
+.story-cards.side-panel .story-card-meta {
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.story-cards.side-panel .story-card-date {
+  line-height: 16px;
+}
+
+.story-cards.side-panel .story-card-eyebrow {
+  margin-bottom: 0;
+}
+
+.story-cards.side-panel .story-card-text {
+  margin-top: 16px;
+}
+
+@media (width >= 744px) {
+  .story-cards.side-panel .span-6 {
+    grid-column: 1 / -1;
+  }
+
+  .story-cards.side-panel .story-card-link:any-link {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .story-cards.side-panel .story-card-media,
+  .story-cards.side-panel .story-card-body {
+    flex: none;
+    max-width: 100%;
+  }
+
+  .story-cards.side-panel .story-card-body {
+    justify-content: center;
+  }
+}
+
+@media (width >= 744px) and (width < 1024px) {
+  .story-cards.side-panel .story-card-title :is(h2, h3, h4, h5, h6) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+@media (width >= 1024px) {
+  .story-cards.side-panel .story-card-date {
+    letter-spacing: 0.56px;
+  }
+}
+
+/*
+ * any other narrow column (< 480px wide, from 744px up — below it every column is full width
+ * and the default mobile layout applies): the same stacked card
+ */
+@media (width >= 744px) {
+  @container (width < 480px) {
+    .story-cards .grid {
+      grid-template-columns: minmax(0, 1fr);
+      padding: 0;
+    }
+
+    .story-cards .span-6 {
+      grid-column: 1 / -1;
+    }
+
+    .story-cards .story-card-link:any-link {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .story-cards .story-card-media,
+    .story-cards .story-card-body {
+      flex: none;
+      max-width: 100%;
+    }
+
+    .story-cards .story-card-body {
+      justify-content: center;
+    }
+
+    .story-cards .story-card-meta {
+      flex-flow: row wrap;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .story-cards .story-card-text {
+      margin-top: 16px;
+    }
+  }
+}
+
+@media (width >= 744px) and (width < 1024px) {
+  @container (width < 480px) {
+    .story-cards .story-card-title :is(h2, h3, h4, h5, h6) {
+      font-size: 20px;
+      line-height: 26px;
+    }
   }
 }

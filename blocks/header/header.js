@@ -317,7 +317,9 @@ export default async function decorate(block) {
   backBtn.textContent = 'BACK';
   backLi.append(backBtn);
   sectionsList.append(backLi);
-  const here = window.location.pathname.split('/').filter(Boolean)[0] || '';
+  // the local html-folder preview serves pages under /content/; skip that prefix
+  const segs = window.location.pathname.split('/').filter(Boolean);
+  const here = (segs[0] === 'content' ? segs[1] : segs[0]) || '';
   const linksUl = linksSec && linksSec.querySelector('ul');
   if (linksUl) {
     [...linksUl.querySelectorAll(':scope > li')].forEach((src) => {

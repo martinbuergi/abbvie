@@ -1,0 +1,335 @@
+/*
+ * accordion-plus — source accordion (allowmultipleopen showexpandcollapseall accordion-icon-font).
+ * Values from the source computed styles at 390 / 744 / 1024+ (source breakpoints).
+ * Labels: F37 Lineca Book closed, F37 Lineca Medium when hovered, focused or open.
+ */
+.accordion-plus {
+  margin-bottom: 56px;
+}
+
+.accordion-plus.accordion-plus-after-copy {
+  margin-top: 50px;
+}
+
+/* heading row: eyebrow label + Expand All (stacked below 744, one row above) */
+.accordion-plus .accordion-plus-toolbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-plus .accordion-plus-heading {
+  margin: 0 0 10px;
+  color: var(--gray-dark);
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+.accordion-plus .accordion-plus-toggle-all {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.accordion-plus .accordion-plus-toggle-all:is(:hover, :focus) {
+  color: var(--navy);
+}
+
+.accordion-plus .accordion-plus-toggle-all-icon {
+  font-family: var(--ff-icon);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.accordion-plus .accordion-plus-toggle-all-icon::before {
+  content: "\e90c";
+  display: inline-block;
+  font-weight: 700;
+  transform: scale(0.8);
+}
+
+.accordion-plus .accordion-plus-toggle-all.expanded .accordion-plus-toggle-all-icon::before {
+  content: "\f143";
+}
+
+/* items */
+.accordion-plus .accordion-plus-item {
+  border-bottom: 1px solid var(--gray-medium);
+}
+
+.accordion-plus .accordion-plus-label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0;
+  overflow: auto;
+  list-style: none;
+  color: var(--navy);
+  font-family: var(--ff-icon);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.accordion-plus .accordion-plus-label::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-plus .accordion-plus-label-text {
+  display: block;
+  margin: 0;
+  color: var(--navy);
+  font-family: var(--ff-head-book);
+  font-weight: var(--fw-book);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.accordion-plus .accordion-plus-label:is(:hover, :focus) .accordion-plus-label-text,
+.accordion-plus .accordion-plus-item[open] > .accordion-plus-label .accordion-plus-label-text {
+  font-family: var(--ff-head);
+  font-weight: var(--fw-head);
+}
+
+/* plus / minus glyph (Abbvie Icon) */
+.accordion-plus .accordion-plus-label::after {
+  content: "\e906";
+  flex-shrink: 0;
+  order: 1;
+  margin-left: 12px;
+  font-family: var(--ff-icon);
+  font-weight: 800;
+  font-size: 20px;
+  transform: scale(0.75);
+}
+
+.accordion-plus .accordion-plus-item[open] > .accordion-plus-label::after {
+  content: "\e907";
+}
+
+/* open panel */
+.accordion-plus .accordion-plus-body {
+  padding: 16px 0;
+}
+
+.accordion-plus .accordion-plus-body :is(p, li) {
+  color: var(--navy);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.accordion-plus .accordion-plus-body > p {
+  margin: 0 0 30px;
+}
+
+.accordion-plus .accordion-plus-body :is(b, strong) {
+  font-family: var(--ff-bold);
+  font-weight: 700;
+}
+
+.accordion-plus .accordion-plus-body ul {
+  margin: 0 0 30px;
+  padding-left: 13px;
+  list-style: none;
+}
+
+.accordion-plus .accordion-plus-body ol {
+  margin: 0 0 30px;
+  padding-left: 30px;
+  list-style: decimal;
+}
+
+.accordion-plus .accordion-plus-body :is(p, ul, ol):last-child {
+  margin-bottom: 0;
+}
+
+.accordion-plus .accordion-plus-body ul li {
+  margin-left: 10px;
+  text-indent: -10px;
+}
+
+.accordion-plus .accordion-plus-body ul > li::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin-right: 6px;
+  border-radius: 1px;
+  background-color: var(--navy);
+  transform: translateY(-50%);
+}
+
+.accordion-plus .accordion-plus-body ol > li::marker {
+  font-family: var(--ff-bold);
+  font-weight: 700;
+}
+
+.accordion-plus .accordion-plus-body li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* links: 2px blue rule that fills the link on hover (source accordion-item-body a) */
+.accordion-plus .accordion-plus-body a:any-link {
+  margin: 0;
+  padding: 0 2px 3px;
+  border-radius: 0;
+  color: inherit;
+  text-decoration: none;
+  background-image: linear-gradient(180deg, var(--accent) 50%, var(--accent) 0);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  transition: background-size 0.1s, color 0.1s;
+}
+
+.accordion-plus .accordion-plus-body a:any-link:is(:hover, :focus) {
+  color: var(--white);
+  background-size: 100% 100%;
+}
+
+.accordion-plus .accordion-plus-body a.accordion-plus-external::after {
+  content: "\e900";
+  display: inline-block;
+  margin-left: 3px;
+  color: inherit;
+  font-family: var(--ff-icon);
+  text-indent: 3px;
+  transform: scale(0.8);
+  transition: color 0.1s;
+}
+
+/* headshot: 5 of 6 / 8 / 12 columns, above the text */
+.accordion-plus .accordion-plus-body > .accordion-plus-image {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0 15px;
+  margin-bottom: 46px;
+}
+
+.accordion-plus .accordion-plus-image picture {
+  display: block;
+  grid-column: 1 / span 5;
+}
+
+.accordion-plus .accordion-plus-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (width >= 744px) {
+  .accordion-plus .accordion-plus-toolbar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .accordion-plus .accordion-plus-heading {
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 0.84px;
+  }
+
+  .accordion-plus .accordion-plus-toggle-all {
+    margin-left: auto;
+    font-size: 14px;
+  }
+
+  .accordion-plus .accordion-plus-label-text {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .accordion-plus .accordion-plus-label::after {
+    font-size: 28px;
+  }
+
+  .accordion-plus .accordion-plus-body :is(p, li) {
+    line-height: 22px;
+  }
+
+  .accordion-plus .accordion-plus-body ul {
+    padding-left: 16px;
+  }
+
+  .accordion-plus .accordion-plus-body ol {
+    padding-left: 33px;
+  }
+
+  .accordion-plus .accordion-plus-body ul li {
+    margin-left: 13px;
+    text-indent: -13px;
+  }
+
+  .accordion-plus .accordion-plus-body ul > li::before {
+    width: 6px;
+    height: 6px;
+    margin-right: 7px;
+  }
+
+  .accordion-plus .accordion-plus-body li:not(:last-child) {
+    margin-bottom: 11px;
+  }
+
+  .accordion-plus .accordion-plus-body > .accordion-plus-image {
+    grid-template-columns: repeat(8, 1fr);
+    gap: 0 20px;
+  }
+}
+
+@media (width >= 1024px) {
+  .accordion-plus .accordion-plus-label-text {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .accordion-plus .accordion-plus-label::after {
+    font-size: 32px;
+  }
+
+  .accordion-plus .accordion-plus-body {
+    padding: 24px 0;
+  }
+
+  .accordion-plus .accordion-plus-body :is(p, li) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .accordion-plus .accordion-plus-body ul {
+    padding-left: 18px;
+  }
+
+  .accordion-plus .accordion-plus-body ol {
+    padding-left: 35px;
+  }
+
+  .accordion-plus .accordion-plus-body li:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  .accordion-plus .accordion-plus-body > .accordion-plus-image {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}

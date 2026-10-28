@@ -31,6 +31,11 @@
   display: none;
 }
 
+/* no player URL authored: the poster alone, no scrim */
+.video .video-stage.video-poster-only .video-overlay::before {
+  display: none;
+}
+
 .video .video-poster,
 .video .video-poster picture {
   position: absolute;
@@ -99,6 +104,11 @@
   overflow: hidden;
   color: var(--white);
   cursor: pointer;
+}
+
+/* no player URL: the label is shown as on the source but does nothing */
+.video .video-play.video-play-static {
+  cursor: default;
 }
 
 .video .video-play-icon {

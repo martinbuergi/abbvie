@@ -1,0 +1,33 @@
+{
+  "variantName": "hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "page-opening hero: full-width photo (optional ambient Brightcove video) with a white overlay card holding the breadcrumb or story back link + meta row, the H1 and the lede",
+    "layout": "photo band with large top-left radius; white card overlaps its bottom edge, content in a 10-of-12 column",
+    "notes": "Story-article pages replace the breadcrumb with an \"All Stories\" back link and add a date / category / reading-time row; classified by content, no option class."
+  },
+  "contentPattern": {
+    "structure": "rows classified by content: <picture> poster; optional Brightcove player URL paragraph; <ul> breadcrumb (linked ancestors, current page last) OR a back-link paragraph plus meta paragraphs (date, category, \"N Minute Read\"); <h1> then the lede paragraph(s)",
+    "required": [
+      "picture",
+      "h1"
+    ],
+    "optional": [
+      "brightcove player url",
+      "breadcrumb ul",
+      "back link p",
+      "meta p (date, category, read time)",
+      "lede p"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "First section of content and story pages.",
+  "reuseGuidance": "Use for every page-opening photo hero. Omit the player URL for image-only heroes; use the back-link + meta paragraphs for story articles instead of the breadcrumb.",
+  "sourceUrls": [
+    "https://www.abbvie.com/join-us/student-and-new-graduates/new-graduates-and-entry-level-positions.html",
+    "https://www.abbvie.com/science/partner-with-us/abbvie-ventures.html",
+    "https://www.abbvie.com/who-we-are/our-stories/the-next-frontier-of-psychedelic-science.html"
+  ]
+}

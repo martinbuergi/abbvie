@@ -7,7 +7,12 @@
  * Authoring rows (classified by content):
  *   - <picture> poster image (editorial)
  *   - text paragraphs in order: title, description (optional), play label (last, e.g. "Watch 0:30")
- *   - Brightcove player URL(s), each alone in its paragraph —
+ *     — title and description are optional: a "Watch …" / "m:ss" line is the play label wherever
+ *     it is, so a band authored with only the label renders poster + control
+ *     (a cell authored as bare text, without a <p>, counts as one text line)
+ *   - Brightcove player URL(s), each alone in its paragraph (optional: without one the band
+ *     shows the poster under the scrim with an inert play label, or the poster alone when no
+ *     label is authored) —
  *     https://players.brightcove.net/<account>/<player>_default/index.html?videoId=<id>
  *     the first is the band's player; a second is the fallback player used when the first
  *     cannot load (the source's band player is domain-restricted by Brightcove)
@@ -16,6 +21,7 @@
  */
 
 const PLAYER_URL = /players\.brightcove\.net\/(\d+)\/([\w-]+?)_default\/index\.html\?videoId=(\d+)/;
+const PLAY_LABEL = /^watch\b|\b\d{1,2}:\d{2}$/i;
 
 function el(tag, className, attrs = {}) {
   const node = document.createElement(tag);
@@ -85,12 +91,30 @@ export default async function decorate(block) {
     const [, account, player, videoId] = a.href.match(PLAYER_URL);
     return { account, player, videoId };
   });
+  // a cell authored as bare text (no <p>) is one text line: wrap it so it reads like the rest
+  block.querySelectorAll(':scope > div > div').forEach((cell) => {
+    if (!cell.children.length && cell.textContent.trim()) {
+      const p = el('p');
+      p.textContent = cell.textContent.trim();
+      cell.replaceChildren(p);
+    }
+  });
   const texts = [...block.querySelectorAll('p, h2, h3')].filter(
     (p) => !p.querySelector('picture, img, a') && p.textContent.trim(),
   );
-  const titleEl = texts.length ? texts[0] : null;
-  const playEl = texts.length > 1 ? texts[texts.length - 1] : null;
-  const descEls = texts.slice(1, texts.length > 1 ? -1 : undefined);
+  // the play label is the last "Watch …" / duration line; without one, the last of 2+ lines
+  const labelIdx = texts.map((t) => PLAY_LABEL.test(t.textContent.trim())).lastIndexOf(true);
+  let playEl = null;
+  let rest = texts;
+  if (labelIdx >= 0) {
+    playEl = texts[labelIdx];
+    rest = texts.filter((t, i) => i !== labelIdx);
+  } else if (texts.length > 1) {
+    playEl = texts[texts.length - 1];
+    rest = texts.slice(0, -1);
+  }
+  const titleEl = rest.length ? rest[0] : null;
+  const descEls = rest.slice(1);
 
   const stage = el('div', 'video-stage');
   const overlay = el('div', 'video-overlay');
@@ -110,7 +134,19 @@ export default async function decorate(block) {
     desc.append(...descEls);
     content.append(desc);
   }
-  const control = el('div', 'video-play', { role: 'button', tabindex: '0' });
+  if (!players.length && !playEl) {
+    // no player and no play label: poster only (plus any authored title / description)
+    stage.classList.add('video-poster-only');
+    if (content.children.length) overlay.append(content);
+    stage.append(overlay);
+    block.replaceChildren(stage);
+    return;
+  }
+
+  // without a player URL the "Watch m:ss" control is shown as on the source, but inert
+  const control = players.length
+    ? el('div', 'video-play', { role: 'button', tabindex: '0' })
+    : el('div', 'video-play video-play-static');
   if (!playEl) control.setAttribute('aria-label', 'Play video');
   const icon = el('span', 'video-play-icon', { 'aria-hidden': 'true' });
   const label = el('div', 'video-play-text');
@@ -120,8 +156,8 @@ export default async function decorate(block) {
   overlay.append(content);
   stage.append(overlay);
   block.replaceChildren(stage);
-
   if (!players.length) return;
+
   let started = false;
   const activate = () => {
     if (started) return;

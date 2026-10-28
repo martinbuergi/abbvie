@@ -9,3 +9,6 @@ sync-block-collection.sh
 stardust/
 DESIGN.json
 content/
+migration-work/
+tools/importer/
+blocks/*/metadata.json

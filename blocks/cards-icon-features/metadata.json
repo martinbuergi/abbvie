@@ -1,0 +1,25 @@
+{
+  "variantName": "cards-icon-features",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "short feature facts, each a small line icon above one line of text",
+    "layout": "2 columns from 744px (2x2 for four items), 1 column on mobile"
+  },
+  "contentPattern": {
+    "structure": "icon <picture> (small SVG) | short text paragraph",
+    "required": [
+      "text p"
+    ],
+    "optional": [
+      "icon picture"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Program / role highlight grids in the split sections of the New Graduates page.",
+  "reuseGuidance": "Use for icon + short-text facts without titles or links. For a stacked list of check-marked statements use cards-checklist.",
+  "sourceUrls": [
+    "https://www.abbvie.com/join-us/student-and-new-graduates/new-graduates-and-entry-level-positions.html"
+  ]
+}

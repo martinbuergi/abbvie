@@ -1,0 +1,29 @@
+{
+  "variantName": "quote",
+  "baseBlock": "quote",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "pull quote with quote mark, quote text and byline (avatar, name, role)",
+    "layout": "with a background row: photo band under a navy scrim, white text; without one (quote-plain, set by the block): navy text on the page ground inside an article column",
+    "notes": "quote-plain is derived from content (no background row), not an author option."
+  },
+  "contentPattern": {
+    "structure": "rows classified by content: optional background <picture> row; quote text paragraph(s); byline row (avatar <picture>, name p, role p)",
+    "required": [
+      "quote text"
+    ],
+    "optional": [
+      "background picture",
+      "avatar picture",
+      "name p",
+      "role p"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Pull-quote bands (PGA TOUR) and in-article pull quotes (our-stories).",
+  "reuseGuidance": "Leave out the background row for an in-article quote on white.",
+  "sourceUrls": [
+    "https://www.abbvie.com/who-we-are/our-stories/the-next-frontier-of-psychedelic-science.html"
+  ]
+}

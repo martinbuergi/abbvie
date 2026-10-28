@@ -1,0 +1,123 @@
+/*
+ * cards-checklist — stacked check icon + text rows (source: inner-grid cols-1-10-1 per item:
+ * custom-image logo | text-container | empty column, between a 16px and a 32px separator).
+ * Mobile: icon full width above the text (source 1fr grid). Tablet: 8-column grid, icon one
+ * column wide above the full-width text. Desktop: 12-column grid, icon in column 1, text in 2-11.
+ */
+.cards-checklist {
+  padding-top: 16px; /* source separator-height-16 under the heading (padding: no collapse) */
+
+  /* source: text margin 16px + row gap 15px + separator 32px, less the section's 56px padding */
+  margin-bottom: 7px;
+  padding-inline: var(--gutter);
+}
+
+.cards-checklist .cards-checklist-list {
+  display: flex;
+  flex-direction: column;
+  gap: 31px; /* text margin 16px + row gap 15px before the empty column */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards-checklist .cards-checklist-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 15px;
+}
+
+.cards-checklist .cards-checklist-icon {
+  line-height: 0;
+}
+
+.cards-checklist .cards-checklist-icon p {
+  margin: 0;
+}
+
+.cards-checklist .cards-checklist-icon img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  /* source: 16px custom-image margin + 3.375px inline-block descender */
+  margin-bottom: 19.375px;
+}
+
+.cards-checklist .cards-checklist-body p {
+  margin: 0;
+  font-family: var(--ff-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--navy);
+}
+
+.cards-checklist .cards-checklist-body p + p {
+  margin-top: 16px;
+}
+
+.cards-checklist .cards-checklist-body strong {
+  font-family: var(--ff-bold);
+  font-weight: 700;
+}
+
+.cards-checklist .cards-checklist-body sup {
+  line-height: inherit;
+}
+
+@media (width >= 744px) {
+  .cards-checklist {
+    margin-bottom: 12px; /* 16px + 20px row gap + 32px separator - 56px section padding */
+  }
+
+  .cards-checklist .cards-checklist-list {
+    gap: 36px;
+  }
+
+  /* source: 8-column grid; the span-10 text adds two implicit 0px tracks (icon = 1 of 8) */
+  .cards-checklist .cards-checklist-item {
+    grid-template-columns: repeat(8, minmax(0, 1fr)) 0 0;
+    gap: 20px;
+  }
+
+  .cards-checklist .cards-checklist-icon {
+    grid-column: 1 / span 1;
+  }
+
+  .cards-checklist .cards-checklist-body {
+    grid-column: 1 / -1;
+  }
+
+  .cards-checklist .cards-checklist-body p {
+    line-height: 22px;
+  }
+}
+
+@media (width >= 1024px) {
+  .cards-checklist {
+    margin-bottom: 0; /* 24px text margin + 32px separator = the section's 56px padding */
+  }
+
+  .cards-checklist .cards-checklist-list {
+    gap: 24px;
+  }
+
+  .cards-checklist .cards-checklist-item {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 0 20px;
+  }
+
+  .cards-checklist .cards-checklist-body {
+    grid-column: 2 / span 10;
+  }
+
+  .cards-checklist .cards-checklist-body p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .cards-checklist .cards-checklist-body p + p {
+    margin-top: 24px;
+  }
+}

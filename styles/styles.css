@@ -297,6 +297,7 @@ main sup {
   h5 {
     font-size: 28px;
     line-height: 32px;
+    margin-bottom: 24px;
   }
 
   main p,
@@ -332,7 +333,6 @@ main sup {
   h5 {
     font-size: 32px;
     line-height: 36px;
-    margin-bottom: 24px;
   }
 
   main p,
@@ -473,6 +473,14 @@ main > .section.bleed {
   margin-right: 0;
 }
 
+/* "Related Content" over story cards: the source's h5-size title, whatever the heading level */
+main > .section.mist-bleed:has(.story-cards) > .default-content-wrapper > :is(h2, h3, h4) {
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: normal;
+}
+
 main > .section.flush {
   margin-bottom: 0;
 }
@@ -490,11 +498,22 @@ main > .section.sky-radius {
   main > .section.mist-spaced {
     margin-bottom: 80px;
   }
+
+  main > .section.mist-bleed:has(.story-cards) > .default-content-wrapper > :is(h2, h3, h4) {
+    margin-bottom: 24px;
+    font-size: 28px;
+    line-height: 32px;
+  }
 }
 
 @media (width >= 1024px) {
   main > .section.sky-short {
     min-height: 288px;
+  }
+
+  main > .section.mist-bleed:has(.story-cards) > .default-content-wrapper > :is(h2, h3, h4) {
+    font-size: 32px;
+    line-height: 36px;
   }
 }
 
@@ -558,4 +577,718 @@ a .prosemirror-editor a:any-link {
 .prosemirror-editor p > a:any-link > :is(strong, em) {
   font-weight: inherit;
   font-style: inherit;
+}
+
+/*
+ * default-content roles (classes set by decorateSectionLayouts in scripts.js)
+ * eyebrow: source eyebrow-text; block-heading: source accordion-block-heading;
+ * eyebrow-mini: source eyebrow-text.mini; link-cta: source text button (external-link)
+ */
+main .default-content-wrapper p.eyebrow {
+  margin-bottom: 16px;
+  color: #000;
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+}
+
+main .default-content-wrapper p.eyebrow strong {
+  font-weight: inherit;
+}
+
+main .default-content-wrapper p.block-heading {
+  margin-bottom: 12px;
+  color: var(--gray-dark);
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.84px;
+  text-transform: uppercase;
+}
+
+main .default-content-wrapper p + p.block-heading {
+  margin-top: 50px;
+}
+
+main .default-content-wrapper p.eyebrow-mini {
+  margin-bottom: 16px;
+  color: var(--gray-dark);
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.48px;
+}
+
+main .default-content-wrapper p.media {
+  margin-bottom: 16px;
+}
+
+main .default-content-wrapper p.media img {
+  width: 100%;
+}
+
+main .default-content-wrapper p.caption em {
+  font-style: italic;
+}
+
+main a.link-cta:any-link {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--ff-bold);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* text-link CTA (source a.button without the outline) */
+main a.button.link:any-link {
+  padding: 0;
+  border: 0;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+main a.button.external::after,
+main a.link-cta.external::after,
+main a.button.link::after {
+  content: "\e900";
+  flex: none;
+  margin-left: 12px;
+  font-family: var(--ff-icon);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+main a.button.link:not(.external)::after {
+  content: "\e901";
+}
+
+@media (width >= 744px) {
+  main .default-content-wrapper p.eyebrow {
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.56px;
+  }
+
+  main .default-content-wrapper p.eyebrow-mini {
+    margin-bottom: 24px;
+  }
+
+  main .default-content-wrapper p.media {
+    margin-bottom: 24px;
+  }
+}
+
+/*
+ * narrow (source inner-grid cols-3-6-3): one centred 6-of-12 column, double inset. Below 1024
+ * the source's empty side columns stack as zero-height rows, adding one row gap above and below.
+ * Heading → block: the heading's own margin plus the source's 48px separator.
+ */
+main > .section.narrow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--col-gap);
+  padding: calc(2 * var(--pad-top) + var(--col-gap)) calc(2 * var(--gutter)) calc(var(--pad-bottom) + var(--col-gap));
+}
+
+main > .section.narrow > div {
+  grid-column: 1 / -1;
+}
+
+main > .section.narrow > .default-content-wrapper {
+  padding: 0;
+  margin-bottom: 64px;
+}
+
+main > .section.narrow > .default-content-wrapper > :last-child {
+  margin-bottom: 0;
+}
+
+main > .section.narrow > div > .block {
+  margin-inline: 0;
+  padding-inline: 0;
+}
+
+main > .section.narrow > .default-content-wrapper > h2 {
+  margin-bottom: 16px;
+  font-family: var(--ff-head-book);
+  font-weight: var(--fw-book);
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@media (width >= 744px) {
+  main > .section.narrow {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  main > .section.narrow > div {
+    grid-column: 1 / span 6;
+  }
+
+  main > .section.narrow > .default-content-wrapper {
+    margin-bottom: 72px;
+  }
+
+  main > .section.narrow > .default-content-wrapper > h2 {
+    margin-bottom: 24px;
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+
+@media (width >= 1024px) {
+  main > .section.narrow {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    padding-top: calc(2 * var(--pad-top));
+    padding-bottom: var(--pad-bottom);
+  }
+
+  main > .section.narrow > div {
+    grid-column: 4 / span 6;
+  }
+
+  main > .section.narrow > .default-content-wrapper > h2 {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -0.8px;
+  }
+}
+
+/*
+ * split / sky-split / sky-split-inset (source inner-grid cols-5-1-6): start column = eyebrow +
+ * heading + media (5 of 12), end column = copy, blocks, CTAs (6 of 12, one column offset). The
+ * inner grid sits half a section column in from the band (source inner-grid-wrapper span 11,
+ * centred). Below 744 the end column comes first (source mobile-reverse).
+ *
+ * Vertical rhythm follows the source's per-block bottom margins, which collapse with the gap
+ * rules below and are kept at the end of a column: copy 16 (24 from 1024), heading / image /
+ * CTA 16 (24 from 744), accordion 56 (80 from 744).
+ */
+main > .section:is(.split, .sky-split, .sky-split-inset) {
+  --split-inset: var(--gutter);
+
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 30px var(--col-gap);
+  align-items: start;
+  padding: var(--pad-top) var(--split-inset) 0;
+}
+
+main > .section.sky-split {
+  padding-bottom: var(--pad-bottom);
+  background-color: var(--blue-very-light);
+}
+
+main > .section:is(.split, .sky-split, .sky-split-inset) > .split-start {
+  order: 1;
+}
+
+main > .section:is(.split, .sky-split, .sky-split-inset) .default-content-wrapper > h2 {
+  margin-bottom: 16px;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+/* column contents: the section owns horizontal geometry and spacing between groups */
+main > .section :is(.split-start, .split-end, .sidebar-main, .sidebar-aside) > :where(div) {
+  margin: 0;
+  padding: 0;
+}
+
+main > .section :is(.split-start, .split-end, .sidebar-main, .sidebar-aside) > div > .block {
+  margin-inline: 0;
+  padding-inline: 0;
+}
+
+main > .section :is(.sidebar-main, .sidebar-aside) > .default-content-wrapper > :last-child {
+  margin-bottom: 0;
+}
+
+main > .section :is(.split-start, .split-end) > .default-content-wrapper > :last-child {
+  margin-bottom: 16px;
+}
+
+main > .section :is(.split-start, .split-end) > * + * {
+  margin-top: 16px;
+}
+
+main > .section :is(.split-start, .split-end) > :not(.default-content-wrapper) + .default-content-wrapper {
+  margin-top: 40px;
+}
+
+main > .section :is(.split-start, .split-end, .sidebar-main) > .default-content-wrapper:has(> .block-heading:last-child) > .block-heading {
+  margin-bottom: 12px;
+}
+
+/*
+ * a block label closing a copy group (accordion-plus lifts it into its heading row and hides
+ * it): the copy's own margin gives way to the block's gap above its heading row
+ */
+main > .section :is(.split-start, .split-end, .sidebar-main) > .default-content-wrapper > :has(+ .block-heading:last-child) {
+  margin-bottom: 0;
+}
+
+main > .section :is(.split-start, .split-end) > .default-content-wrapper:has(> .block-heading:last-child) + div {
+  margin-top: 0;
+}
+
+main > .section :is(.split-start, .split-end) .accordion-plus.accordion-plus-after-copy {
+  margin-top: 16px;
+}
+
+main > .section :is(.split-start, .split-end) .default-content-wrapper > p.button-wrapper:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+/* CTA after CTA: the previous CTA's margin plus the source's 16px separator (no collapse) */
+main > .section :is(.split-start, .split-end) .button-wrapper + .button-wrapper {
+  padding-top: 16px;
+}
+
+@media (width >= 744px) {
+  main > .section:is(.split, .sky-split, .sky-split-inset) {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    row-gap: 20px;
+  }
+
+  main > .section:is(.split, .sky-split, .sky-split-inset) > .split-start {
+    order: 0;
+    grid-column: 1 / span 5;
+  }
+
+  main > .section:is(.split, .sky-split, .sky-split-inset) > .split-end {
+    grid-column: 1 / span 6;
+  }
+
+  main > .section:is(.split, .sky-split, .sky-split-inset) .default-content-wrapper > h2 {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  main > .section :is(.split-start, .split-end) > .default-content-wrapper > :last-child:not(p),
+  main > .section :is(.split-start, .split-end) > .default-content-wrapper > p[class]:last-child {
+    margin-bottom: 24px;
+  }
+
+  main > .section :is(.split-start, .split-end) > :not(.default-content-wrapper) + .default-content-wrapper {
+    margin-top: 80px;
+  }
+
+  main > .section :is(.split-start, .split-end) .default-content-wrapper > p.button-wrapper:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  main > .section:is(.split, .sky-split, .sky-split-inset, .narrow) .accordion-plus {
+    margin-bottom: 80px;
+  }
+}
+
+@media (width >= 1024px) {
+  main > .section:is(.split, .sky-split, .sky-split-inset) {
+    --split-inset: calc(var(--gutter) + (min(100vw, var(--max-width)) - 2 * var(--band-x) + 20px) / 24);
+
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  main > .section:is(.split, .sky-split, .sky-split-inset) > .split-start {
+    grid-row: 1;
+  }
+
+  main > .section:is(.split, .sky-split, .sky-split-inset) > .split-end {
+    grid-row: 1;
+    grid-column: 7 / span 6;
+  }
+
+  main > .section:is(.split, .sky-split, .sky-split-inset) .default-content-wrapper > h2 {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.96px;
+  }
+
+  main > .section :is(.split-start, .split-end) > .default-content-wrapper > :last-child {
+    margin-bottom: 24px;
+  }
+
+  main > .section :is(.split-start, .split-end) > * + * {
+    margin-top: 24px;
+  }
+
+  main > .section :is(.split-start, .split-end) .accordion-plus.accordion-plus-after-copy {
+    margin-top: 24px;
+  }
+}
+
+/*
+ * sky-split-inset (source: the light-blue inner grid nested in a section below another inner
+ * grid, e.g. Development Programs under the media-copy): the panel is inset half a column from
+ * the band from 1024, pads 80px below at every width and keeps the nested grid's bottom margin
+ * plus the section's below (56 + 80, 80 + 80 from 744). The gap above it is the previous
+ * block's (media-copy carries the source's in-section row gap).
+ */
+main > .section.sky-split-inset {
+  margin-bottom: 136px;
+  padding-bottom: 80px;
+  background-color: var(--blue-very-light);
+}
+
+@media (width >= 744px) {
+  main > .section.sky-split-inset {
+    margin-bottom: 160px;
+  }
+}
+
+@media (width >= 1024px) {
+  main > .section.sky-split-inset {
+    --panel-inset: calc((min(100vw, var(--max-width)) - 2 * var(--band-x) + 20px) / 24);
+    --split-inset: var(--gutter);
+
+    margin-left: calc(var(--band-x) + var(--panel-inset));
+    margin-right: calc(var(--band-x) + var(--panel-inset));
+  }
+}
+
+/*
+ * sidebar (source grid-cols-1 | grid-cols-9 | grid-cols-2): main column + 2-of-12 aside.
+ * Copy runs at 3/4 of the main column, centred; wide media and quotes take the full column.
+ * sidebar-article (main carries an image or a quote; our-stories) uses the 8-col main at col 3
+ * and the article heading scale. Below 1024 the source stacks its three grid items with a
+ * 20px row gap: the empty spacer column leaves 20px above the main column, and from 744 the
+ * aside keeps its 2-column width (2 of 8) below the main column. After an image hero below 744
+ * the hero's own 52px margin already carries that 20px (hero.css).
+ */
+main > .section.sidebar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 20px var(--col-gap);
+  align-items: start;
+  padding-top: 20px;
+}
+
+@media (width < 744px) {
+  main > .section.hero-container:has(.hero.is-image) + .section.sidebar {
+    padding-top: 0;
+  }
+}
+
+/* sidebar-article (our-stories): section-bottom-margin, aside padding-bottom (source) */
+main > .section.sidebar-article {
+  margin-bottom: 56px;
+}
+
+main > .section.sidebar-article > .sidebar-aside {
+  padding-bottom: var(--pad-bottom);
+}
+
+/* the closing accordion (References) carries the source's padding-bottom variant */
+main > .section.sidebar-article .sidebar-main > .accordion-plus-wrapper:last-child > .accordion-plus {
+  margin-bottom: 56px;
+  padding-bottom: 56px;
+}
+
+main > .section.sidebar .default-content-wrapper > h2 {
+  margin-bottom: 16px;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+main > .section.sidebar-article .default-content-wrapper > h2 {
+  font-family: var(--ff-head-book);
+  font-weight: var(--fw-book);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+main > .section.sidebar-article .sidebar-main > .default-content-wrapper > h2:is(:has(+ :is(h2, h3)), .default-content-wrapper:first-child > :first-child) {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+main > .section .sidebar-main > * + * {
+  margin-top: 32px;
+}
+
+main > .section .sidebar-main > .default-content-wrapper:has(> .block-heading:last-child) + div {
+  margin-top: 0;
+}
+
+/* copy → labelled accordion: copy margin + the source's 32px separator */
+main > .section .sidebar-main .accordion-plus.accordion-plus-after-copy {
+  margin-top: 48px;
+}
+
+main > .section .sidebar-main .default-content-wrapper > p:has(+ :is(h2, h3, h4, h5, h6)) {
+  margin-bottom: 16px;
+}
+
+main > .section .sidebar-main .default-content-wrapper > p.media {
+  margin-bottom: 16px;
+}
+
+main > .section .sidebar-main .default-content-wrapper > p.caption {
+  margin-bottom: 32px;
+}
+
+/* aside: blue-rule label, image, copy, CTA, ruled topic list */
+main > .section .sidebar-aside > * + * {
+  margin-top: 24px;
+}
+
+@media (width < 744px) {
+  main > .section .sidebar-aside > .default-content-wrapper:has(> .eyebrow:only-child) + * {
+    margin-top: 16px;
+  }
+}
+
+main > .section .sidebar-aside .default-content-wrapper > p:not(.eyebrow) {
+  margin-bottom: 24px;
+}
+
+main > .section .sidebar-aside .default-content-wrapper > p.eyebrow:first-child {
+  padding-top: 16px;
+  border-top: 5px solid var(--accent);
+}
+
+main > .section .sidebar-aside .default-content-wrapper > p.eyebrow-mini {
+  padding-top: 16px;
+  border-top: 1px solid var(--gray-medium);
+}
+
+main > .section .sidebar-aside .default-content-wrapper > :has(+ p.eyebrow-mini) {
+  margin-bottom: 31px;
+}
+
+main > .section .sidebar-aside .default-content-wrapper > p.eyebrow-mini + :is(ul, ol) {
+  margin-bottom: 24px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--gray-medium);
+}
+
+/* below 1024 the source's aside copy keeps the 16px text-container margin */
+@media (width < 1024px) {
+  main > .section .sidebar-aside .default-content-wrapper > p:not([class], :has(> a.link-cta)) {
+    margin-bottom: 16px;
+  }
+}
+
+@media (width < 744px) {
+  main > .section .sidebar-aside .default-content-wrapper > p:not(.eyebrow) {
+    margin-bottom: 16px;
+  }
+
+  main > .section .sidebar-aside .default-content-wrapper > :has(+ p.eyebrow-mini) {
+    margin-bottom: 23px;
+  }
+
+  main > .section .sidebar-aside .default-content-wrapper > p.eyebrow-mini + :is(ul, ol) {
+    padding-bottom: 24px;
+  }
+}
+
+main > .section .sidebar-aside li a:any-link {
+  color: var(--navy);
+}
+
+main > .section .sidebar-aside .media img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* stacked accordions: the accordion's own 56px margin is the whole gap (source) */
+main > .section .sidebar-main > .accordion-plus-wrapper + * {
+  margin-top: 0;
+}
+
+/* copy → wide image: the source's spacing-bottom copy */
+main > .section .sidebar-main .default-content-wrapper > p:has(+ p.media) {
+  margin-bottom: 32px;
+}
+
+@media (width >= 744px) {
+  main > .section.sidebar {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  main > .section.sidebar > .sidebar-main {
+    grid-column: 1 / -1;
+  }
+
+  main > .section.sidebar > .sidebar-aside {
+    grid-column: 1 / span 2;
+  }
+
+  main > .section.sidebar-article {
+    margin-bottom: 80px;
+  }
+
+  main > .section.sidebar-article .sidebar-main > .accordion-plus-wrapper:last-child > .accordion-plus {
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+  }
+
+  main > .section .sidebar-main > .default-content-wrapper:not(:has(> .block-heading:last-child)) + .accordion-plus-wrapper {
+    margin-top: 80px;
+  }
+
+  main > .section .sidebar-main .default-content-wrapper > p:has(+ p.media) {
+    margin-bottom: 80px;
+  }
+
+  main > .section.sidebar .default-content-wrapper > h2 {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  main > .section.sidebar-article .default-content-wrapper > h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  main > .section.sidebar-article .sidebar-main > .default-content-wrapper > h2:is(:has(+ :is(h2, h3)), .default-content-wrapper:first-child > :first-child) {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  main > .section .sidebar-main > * + * {
+    margin-top: 56px;
+  }
+
+  main > .section .sidebar-main .default-content-wrapper > p.media {
+    margin-bottom: 24px;
+  }
+
+  main > .section .sidebar-main .default-content-wrapper > p.caption {
+    margin-bottom: 80px;
+  }
+}
+
+/* the source's 1 + 9 + 2 spans overflow the 8-col tablet grid into a zero-width 9th track */
+@media (width >= 744px) and (width < 1024px) {
+  main > .section.sidebar:not(.sidebar-article) {
+    grid-template-columns: repeat(8, minmax(0, 1fr)) 0;
+  }
+}
+
+@media (width >= 1024px) {
+  main > .section.sidebar {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    padding-top: 0;
+  }
+
+  main > .section .sidebar-main .accordion-plus.accordion-plus-after-copy {
+    margin-top: 56px;
+  }
+
+  main > .section .sidebar-main .default-content-wrapper > p:has(+ :is(h2, h3, h4, h5, h6)) {
+    margin-bottom: 24px;
+  }
+
+  main > .section.sidebar > .sidebar-main {
+    grid-row: 1;
+    grid-column: 2 / span 9;
+  }
+
+  main > .section.sidebar-article > .sidebar-main {
+    grid-column: 3 / span 8;
+  }
+
+  main > .section.sidebar > .sidebar-aside {
+    grid-row: 1;
+    grid-column: 11 / span 2;
+  }
+
+  main > .section .sidebar-main > * + * {
+    margin-top: 80px;
+  }
+
+  main > .section .sidebar-main > *,
+  main > .section .sidebar-main > .default-content-wrapper > * {
+    width: 75%;
+    margin-inline: auto;
+  }
+
+  main > .section .sidebar-main > .default-content-wrapper,
+  main > .section .sidebar-main > .quote-wrapper,
+  main > .section .sidebar-main > .default-content-wrapper > :is(.media, .caption) {
+    width: auto;
+  }
+
+  main > .section.sidebar .default-content-wrapper > h2 {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.96px;
+  }
+
+  main > .section.sidebar-article .default-content-wrapper > h2 {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.64px;
+  }
+
+  main > .section.sidebar-article .sidebar-main > .default-content-wrapper > h2:is(:has(+ :is(h2, h3)), .default-content-wrapper:first-child > :first-child) {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -0.8px;
+  }
+
+}
+
+/*
+ * sky-radius-narrow (source grid-cols-8 large-radius bg-f1f3ff): light-blue panel, large
+ * top-left radius, inset one gutter from the band; 8 of 12 columns centred from 1024.
+ */
+main > .section.sky-radius-narrow {
+  margin-left: calc(var(--band-x) + var(--gutter));
+  margin-right: calc(var(--band-x) + var(--gutter));
+  margin-bottom: 56px;
+  padding-bottom: 56px;
+  border-top-left-radius: var(--radius-xl);
+  background-color: var(--blue-very-light);
+}
+
+@media (width >= 744px) {
+  main > .section.sky-radius-narrow {
+    margin-bottom: 80px;
+  }
+}
+
+@media (width >= 1024px) {
+  main > .section.sky-radius-narrow {
+    --panel-grid: calc(min(100vw, var(--max-width)) - 2 * var(--band-x) - 2 * var(--gutter));
+
+    width: calc((var(--panel-grid) + 20px) * 2 / 3 - 20px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* the layout styles keep the band margin at 1440 (source abbvie-container: 0 55px) */
+@media (width >= 1440px) {
+  main > .section:is(.split, .sky-split, .narrow, .sidebar) {
+    max-width: calc(var(--max-width) - 2 * var(--band-x));
+  }
+
+  main > .section.sky-split-inset {
+    max-width: calc(var(--max-width) - 2 * var(--band-x) - 2 * var(--panel-inset));
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* inline copy links in the layout styles (source: navy text, 2px accent underline) */
+main > .section:is(.split, .sky-split, .sky-split-inset, .narrow, .sidebar) .default-content-wrapper p a:any-link:not(.button, .link-cta) {
+  padding-bottom: 3px;
+  color: var(--navy);
+  background-image: linear-gradient(var(--accent) 50%, var(--accent) 0);
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  background-size: 2px 2px;
 }

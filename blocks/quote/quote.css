@@ -169,3 +169,61 @@
     line-height: 24px;
   }
 }
+
+/*
+ * quote-plain: no background row authored — an in-article pull quote on the page ground
+ * (source quote-h4): navy h4-scale text, no scrim, no rules, flush to the article column;
+ * 80px below it (and above it from 744px), collapsing with the column's own spacing
+ */
+.quote.quote-plain {
+  display: block;
+  min-height: 0;
+  padding: 0 var(--gutter);
+  border-radius: 0;
+  overflow: visible;
+}
+
+.quote.quote-plain::after {
+  content: none;
+}
+
+.quote.quote-plain .quote-inner {
+  display: block;
+}
+
+.quote.quote-plain .quote-body {
+  margin: 0 0 80px;
+}
+
+.quote.quote-plain .quote-text p {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.quote.quote-plain .quote-text p,
+.quote.quote-plain .quote-name p,
+.quote.quote-plain .quote-role p {
+  color: var(--navy);
+}
+
+.quote.quote-plain .quote-text p:last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 744px) {
+  .quote.quote-plain .quote-body {
+    margin-top: 80px;
+  }
+
+  .quote.quote-plain .quote-text p {
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+
+@media (width >= 1024px) {
+  .quote.quote-plain .quote-text p {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

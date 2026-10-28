@@ -1,0 +1,29 @@
+{
+  "variantName": "video",
+  "baseBlock": "video",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Brightcove video poster under a navy scrim with optional title / description and a \"Watch m:ss\" control that loads the player in place",
+    "layout": "16:9 stage; content centered over the poster",
+    "notes": "Title and description are optional (label-only bands in split-section columns). Without a player URL the poster renders alone, with no scrim and no control."
+  },
+  "contentPattern": {
+    "structure": "rows classified by content: <picture> poster; text paragraphs (title, description - both optional - and the \"Watch m:ss\" play label); Brightcove player URL paragraph(s), first = player, second = fallback",
+    "required": [
+      "picture"
+    ],
+    "optional": [
+      "title p",
+      "description p",
+      "play label p",
+      "brightcove player url(s)"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Video bands and in-column video posters.",
+  "reuseGuidance": "Author the play label as \"Watch m:ss\"; leave title/description out for a compact in-column poster.",
+  "sourceUrls": [
+    "https://www.abbvie.com/join-us/student-and-new-graduates/new-graduates-and-entry-level-positions.html"
+  ]
+}
